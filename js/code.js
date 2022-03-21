@@ -1,4 +1,4 @@
-const url = "http://januszeal.eshost.com.ar/savemenu";
+const url = "https://ferrangarciac.github.io/savemenu";
 
 window.addEventListener('load', function() {
 	//CREATE CONSOLE MENU
