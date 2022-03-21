@@ -10,8 +10,8 @@ const GAMES = [{
 		gameId: "pkmespada",
 		crown: "gold",
 		platformId: "switch",
-		commentHTML: "<ul><li>Juego Base:<ul><li>PokÈdex de Galar completa.<li>Todas las formas alternativas.<li>Todas las recompensas de la Torre Batalla conseguidas.<li>Todos los objetos del juego base conseguidos.<li>Todos los PokÈmon especiales (Promoted) del ¡rea Salvaje conseguidos.<li>Todas las tarjetas de jugador del juego base conseguidas.<li>Toda la ropa del juego base conseguida.</ul><li>V.1.0<ul><li>Todo lo anterior.<li>Slowpoke de Galar cazado.</ul></ul>",
-		gameName: "pokÈmon ediciÛn espada"
+		commentHTML: "<ul><li>Juego Base:<ul><li>Pok√©dex de Galar completa.<li>Todas las formas alternativas.<li>Todas las recompensas de la Torre Batalla conseguidas.<li>Todos los objetos del juego base conseguidos.<li>Todos los Pok√©mon especiales (Promoted) del √Årea Salvaje conseguidos.<li>Todas las tarjetas de jugador del juego base conseguidas.<li>Toda la ropa del juego base conseguida.</ul><li>V.1.0<ul><li>Todo lo anterior.<li>Slowpoke de Galar cazado.</ul></ul>",
+		gameName: "pok√©mon edici√≥n espada"
 	},
 	{
 		gameId: "hmprojectmirai",
@@ -38,21 +38,21 @@ const GAMES = [{
 		gameId: "iego",
 		crown: "silver",
 		platformId: "3ds",
-		commentHTML: "<ul><li>VersiÛn PAL<li>Juego completado.</ul>",
+		commentHTML: "<ul><li>Versi√≥n PAL<li>Juego completado.</ul>",
 		gameName: "Inazuma Eleven GO: Luz"
 	},
 	{
 		gameId: "iego2",
 		crown: "silver",
 		platformId: "3ds",
-		commentHTML: "<ul><li>VersiÛn PAL<li>Juego completado.<li>Partida al ~80%.</ul>",
+		commentHTML: "<ul><li>Versi√≥n PAL<li>Juego completado.<li>Partida al ~80%.</ul>",
 		gameName: "Inazuma Eleven GO Chrono Stones: Llamarada"
 	},
 	{
 		gameId: "pw5",
 		crown: "gold",
 		platformId: "3ds",
-		commentHTML: "<ul><li>VersiÛn PAL (eShop)<li>Todos los capÌtulos desbloqueados y completados (excepto DLC).</ul>",
+		commentHTML: "<ul><li>Versi√≥n PAL (eShop)<li>Todos los cap√≠tulos desbloqueados y completados (excepto DLC).</ul>",
 		gameName: "Phoenix Wright: Ace Attorney - Dual Destinies"
 	},
 	{
@@ -108,7 +108,7 @@ const GAMES = [{
 		gameId: "spf2turbo",
 		crown: "gold",
 		platformId: "psone",
-		commentHTML: "<ul><li>VersiÛn USA.<li>Todos los desafios completados.<li>Modo Hard desbloqueado.<li>Todos los extras desbloqueados.<li>CanciÛn de Sakura desbloqueada.</ul>",
+		commentHTML: "<ul><li>Versi√≥n USA.<li>Todos los desafios completados.<li>Modo Hard desbloqueado.<li>Todos los extras desbloqueados.<li>Canci√≥n de Sakura desbloqueada.</ul>",
 		gameName: "Super Puzzle Fighter II Turbo"
 	},
 	{
@@ -122,14 +122,14 @@ const GAMES = [{
 		gameId: "ffdissidia",
 		crown: "silver",
 		platformId: "psp",
-		commentHTML: "<ul><li>Tiempo: 133:48.<li>Todos los personajes desbloqueados.<li>Todas las odiseas desbloquadas.<li>10 odiseas al 100%.<li>Todos los objetos del cat·logo comprados.<li>Armas finales de Zidane, Artemisa y Butz.</ul>",
+		commentHTML: "<ul><li>Tiempo: 133:48.<li>Todos los personajes desbloqueados.<li>Todas las odiseas desbloquadas.<li>10 odiseas al 100%.<li>Todos los objetos del cat√°logo comprados.<li>Armas finales de Zidane, Artemisa y Butz.</ul>",
 		gameName: "Dissidia: Final Fantasy"
 	},
 	{
 		gameId: "ffdissidia012",
 		crown: "silver",
 		platformId: "psp",
-		commentHTML: "<ul><li>Tiempo: 17:51:54<li>Modo Historia completado.<li>Yuna, Tifa, Butz, Terra, Zidane, Golbez, Artemisa, Shantoto y Prishe a nivel 100<li>Armas finales de Yuna, Tifa, Terra, Zidane, Artemisa y Squall.<li>Cat·logo PP al 75%</ul>",
+		commentHTML: "<ul><li>Tiempo: 17:51:54<li>Modo Historia completado.<li>Yuna, Tifa, Butz, Terra, Zidane, Golbez, Artemisa, Shantoto y Prishe a nivel 100<li>Armas finales de Yuna, Tifa, Terra, Zidane, Artemisa y Squall.<li>Cat√°logo PP al 75%</ul>",
 		gameName: "Dissidia 012 [duodecim]: Final Fantasy"
 	},
 	{
@@ -143,14 +143,14 @@ const GAMES = [{
 		gameId: "shinbudokai2",
 		crown: "gold",
 		platformId: "psp",
-		commentHTML: "<ul><li>VersiÛn USA.</ul>",
+		commentHTML: "<ul><li>Versi√≥n USA.</ul>",
 		gameName: "Dragon Ball Z: Shin Budokai 2"
 	},
 	{
 		gameId: "miku",
 		crown: "silver",
 		platformId: "psp",
-		commentHTML: "<ul><li>Todas las canciones desbloqueadas.<li>Modo Hard de todas las canciones desbloqueadas.<li>Todos los mÛdulos (skins) desbloqueados.<li>GalerÌa de im·genes al 94%.<li>Objetos de la habitacÌon al ~95%.</ul>",
+		commentHTML: "<ul><li>Todas las canciones desbloqueadas.<li>Modo Hard de todas las canciones desbloqueadas.<li>Todos los m√≥dulos (skins) desbloqueados.<li>Galer√≠a de im√°genes al 94%.<li>Objetos de la habitac√≠on al ~95%.</ul>",
 		gameName: "Hatsune Miku: Project Diva"
 	},
 	{
@@ -234,7 +234,7 @@ const GAMES = [{
 		gameId: "dmc4",
 		crown: "gold",
 		platformId: "xbox360",
-		commentHTML: "<ul><li>Todas las pantallas en rango S en todas las dificultades (menos f·cil)<li>Palacio Sangriento completado.<li>Todas las misiones secretas completadas.</ul>",
+		commentHTML: "<ul><li>Todas las pantallas en rango S en todas las dificultades (menos f√°cil)<li>Palacio Sangriento completado.<li>Todas las misiones secretas completadas.</ul>",
 		gameName: "Devil May Cry 4"
 	},
 	{
@@ -255,7 +255,7 @@ const GAMES = [{
 		gameId: "dbzbudokaihd",
 		crown: "gold",
 		platformId: "xbox360",
-		commentHTML: "<ul><li>Dragon Ball Budokai 1 a 1000G y al 100%.<li>Dragon Ball Budokai 3 a 1000G.<li>Todas las c·psulas del Budokai 3 menos las especiales de las voces.</ul>",
+		commentHTML: "<ul><li>Dragon Ball Budokai 1 a 1000G y al 100%.<li>Dragon Ball Budokai 3 a 1000G.<li>Todas las c√°psulas del Budokai 3 menos las especiales de las voces.</ul>",
 		gameName: "Dragon Ball Z Budokai HD Collection"
 	},
 	{
@@ -269,7 +269,7 @@ const GAMES = [{
 		gameId: "eternalsonata",
 		crown: "gold",
 		platformId: "xbox360",
-		commentHTML: "<ul><li>Detalles de la partida (ranura 1):<ul><li>Partida salvada para comenzar la segunda vuelta (encore mode) con todo conseguido en la primera.</ul><li>Detalles de la partida (ranura 2):<ul><li>Oro: 99999999.<li>Todos los personajes a nivel 99.<li>Todos los objetos, armas y partituras.<li>Aniquilador (enemigo final del UnÌsono Misterioso) por derrotar.</ul><li>Detalles de la partida (ranura 3):<ul><li>Oro: 99999999.<li>Todos los personajes a nivel 99.<li>Todos los objetos, armas y partituras.<li>Aniquilador (enemigo final del UnÌsono Misterioso) derrotado.</ul></ul>",
+		commentHTML: "<ul><li>Detalles de la partida (ranura 1):<ul><li>Partida salvada para comenzar la segunda vuelta (encore mode) con todo conseguido en la primera.</ul><li>Detalles de la partida (ranura 2):<ul><li>Oro: 99999999.<li>Todos los personajes a nivel 99.<li>Todos los objetos, armas y partituras.<li>Aniquilador (enemigo final del Un√≠sono Misterioso) por derrotar.</ul><li>Detalles de la partida (ranura 3):<ul><li>Oro: 99999999.<li>Todos los personajes a nivel 99.<li>Todos los objetos, armas y partituras.<li>Aniquilador (enemigo final del Un√≠sono Misterioso) derrotado.</ul></ul>",
 		gameName: "Eternal Sonata"
 	},
 	{
@@ -283,7 +283,7 @@ const GAMES = [{
 		gameId: "magnacarta2",
 		crown: "gold",
 		platformId: "xbox360",
-		commentHTML: "<ul><li>Partida al 100%.<li>SÛlo se puede utilizar si se tienen instaladas las DLCs.</ul>",
+		commentHTML: "<ul><li>Partida al 100%.<li>S√≥lo se puede utilizar si se tienen instaladas las DLCs.</ul>",
 		gameName: "Magna Carta 2"
 	},
 	{
@@ -416,14 +416,14 @@ const GAMES = [{
 		gameId: "tov",
 		crown: "silver",
 		platformId: "xbox360",
-		commentHTML: "<ul><li>Partida completada.<li>TambiÈn hay una partida salvada antes del combate final.</ul>",
+		commentHTML: "<ul><li>Partida completada.<li>Tambi√©n hay una partida salvada antes del combate final.</ul>",
 		gameName: "Tales of Vesperia"
 	},
 	{
 		gameId: "tekken6",
 		crown: "gold",
 		platformId: "xbox360",
-		commentHTML: "<ul><li>Efectos beta desbloqueados (mediante ediciÛn de la partida, ya que no se pueden conseguir de forma legal).</ul>",
+		commentHTML: "<ul><li>Efectos beta desbloqueados (mediante edici√≥n de la partida, ya que no se pueden conseguir de forma legal).</ul>",
 		gameName: "Tekken 6"
 	},
 	{
@@ -556,8 +556,8 @@ const GAMES = [{
 		gameId: "pkmplatino",
 		crown: "gold",
 		platformId: "nds",
-		commentHTML: "<ul><li>PokÈdex completa.<li>Todos los PokÈmon cazados.<li>Todas las formas de Unown cazadas.<li>Frente Batalla superado.<li>Todos los concursos superados.<li>Ficha de entrenador a 5 estrellas.</ul>",
-		gameName: "PokÈmon EdiciÛn Platino"
+		commentHTML: "<ul><li>Pok√©dex completa.<li>Todos los Pok√©mon cazados.<li>Todas las formas de Unown cazadas.<li>Frente Batalla superado.<li>Todos los concursos superados.<li>Ficha de entrenador a 5 estrellas.</ul>",
+		gameName: "Pok√©mon Edici√≥n Platino"
 	},
 	{
 		gameId: "re2",
@@ -591,21 +591,21 @@ const GAMES = [{
 		gameId: "ff10_pc",
 		crown: "gold",
 		platformId: "pc",
-		commentHTML: "<ul><li>Hay una partida guardada en cada punto del juego de 'continuaciÛn de historia'. Adem·s las 2 partidas m·s recientes son:<li>Antes de derrotar a los Eones Oscuros (con todos los par·metros al m·ximo y todo conseguido).<li>Destino de Verdugo final desbloqueado.</ul></ul>",
+		commentHTML: "<ul><li>Hay una partida guardada en cada punto del juego de 'continuaci√≥n de historia'. Adem√°s las 2 partidas m√°s recientes son:<li>Antes de derrotar a los Eones Oscuros (con todos los par√°metros al m√°ximo y todo conseguido).<li>Destino de Verdugo final desbloqueado.</ul></ul>",
 		gameName: "Final Fantasy X (Steam)"
 	},
 	{
 		gameId: "steinsgate_pc",
 		crown: "gold",
 		platformId: "pc",
-		commentHTML: "<ul><li>Para poder ejecutar las partidas hay que tener la misma versiÛn de la traducciÛn utilizada (incluida en el .rar) sobre la versiÛn japonesa de PC.<li>TambiÈn incluye el AppLocale. Necesario para ver los textos en espaÒol.<ul><li>Saves Ordenados:<li>No. 01 - CapÌtulo 1<li>No. 02 - CapÌtulo 2<li>No. 03 - CapÌtulo 3<li>No. 04 - CapÌtulo 4<li>No. 05 - CapÌtulo 5<li>No. 06 - CapÌtulo 6<li>No. 07 - CapÌtulo 6 - Final de Suzuha<li>No. 08 - CapÌtulo 7<li>No. 09 - CapÌtulo 7 - Final de Faris<li>No. 10 - CapÌtulo 8<li>No. 11 - CapÌtulo 8 - Final de Luka<li>No. 12 - CapÌtulo 9<li>No. 13 - CapÌtulo 10 - Final de Mayuri<li>No. 14 - CapÌtulo 10 - Final de Kurisu<li>No. 15 - CapÌtulo 11 - True Ending</ul></ul>",
+		commentHTML: "<ul><li>Para poder ejecutar las partidas hay que tener la misma versi√≥n de la traducci√≥n utilizada (incluida en el .rar) sobre la versi√≥n japonesa de PC.<li>Tambi√©n incluye el AppLocale. Necesario para ver los textos en espa√±ol.<ul><li>Saves Ordenados:<li>No. 01 - Cap√≠tulo 1<li>No. 02 - Cap√≠tulo 2<li>No. 03 - Cap√≠tulo 3<li>No. 04 - Cap√≠tulo 4<li>No. 05 - Cap√≠tulo 5<li>No. 06 - Cap√≠tulo 6<li>No. 07 - Cap√≠tulo 6 - Final de Suzuha<li>No. 08 - Cap√≠tulo 7<li>No. 09 - Cap√≠tulo 7 - Final de Faris<li>No. 10 - Cap√≠tulo 8<li>No. 11 - Cap√≠tulo 8 - Final de Luka<li>No. 12 - Cap√≠tulo 9<li>No. 13 - Cap√≠tulo 10 - Final de Mayuri<li>No. 14 - Cap√≠tulo 10 - Final de Kurisu<li>No. 15 - Cap√≠tulo 11 - True Ending</ul></ul>",
 		gameName: "Steins;Gate"
 	},
 	{
 		gameId: "steinsgate0",
 		crown: "silver",
 		platformId: "pc",
-		commentHTML: "<ul><li>Para poder ejecutar las partidas hay que tener la misma versiÛn de la traducciÛn utilizada (incluida en el .rar) sobre la versiÛn japonesa de PC.<ul><li>Saves Ordenados:<li>No. 01 - CapÌtulo 1<li>No. 02 - CapÌtulo 2<li>No. 03 - CapÌtulo 3<li>No. 04 - CapÌtulo 4<li>No. 05 - CapÌtulo 5</ul></ul>",
+		commentHTML: "<ul><li>Para poder ejecutar las partidas hay que tener la misma versi√≥n de la traducci√≥n utilizada (incluida en el .rar) sobre la versi√≥n japonesa de PC.<ul><li>Saves Ordenados:<li>No. 01 - Cap√≠tulo 1<li>No. 02 - Cap√≠tulo 2<li>No. 03 - Cap√≠tulo 3<li>No. 04 - Cap√≠tulo 4<li>No. 05 - Cap√≠tulo 5</ul></ul>",
 		gameName: "Steins;Gate 0"
 	},
 	{
@@ -654,7 +654,7 @@ const GAMES = [{
 		gameId: "onimusha1_pc",
 		crown: "gold",
 		platformId: "pc",
-		commentHTML: "<ul><li>Trajes alternativos desbloqueados.<li>Modo EspÌritus Oni desbloqueado.<li>Modo Ultimate desbloqueado.<li>Ranuras<ol type='1'><li>Modo Normal: Antes de entrar en la zona final. Sin usar objetos de cura, a falta del genbu 1 para todos los documentos, todas las joyas y sin subir niveles de arma, al entrar en las mejoras sube la ˙ltima mejora del brazalete.<li>Modo Normal: Como el anterior pero con las armas al m·ximo nivel y todas las fluoritas.<li>Modo Ultimate: Antes de entrar en la zona final. Preparado para completar partida con rango S.</ol></ul>",
+		commentHTML: "<ul><li>Trajes alternativos desbloqueados.<li>Modo Esp√≠ritus Oni desbloqueado.<li>Modo Ultimate desbloqueado.<li>Ranuras<ol type='1'><li>Modo Normal: Antes de entrar en la zona final. Sin usar objetos de cura, a falta del genbu 1 para todos los documentos, todas las joyas y sin subir niveles de arma, al entrar en las mejoras sube la √∫ltima mejora del brazalete.<li>Modo Normal: Como el anterior pero con las armas al m√°ximo nivel y todas las fluoritas.<li>Modo Ultimate: Antes de entrar en la zona final. Preparado para completar partida con rango S.</ol></ul>",
 		gameName: "Onimusha Warlords"
 	},
 	{
@@ -724,7 +724,7 @@ const GAMES = [{
 		gameId: "dbzb3ce",
 		crown: "gold",
 		platformId: "ps2",
-		commentHTML: "<ul><li>Todas las c·psulas conseguidas menos las de voces.<li>Desbloqueados los nuevos skins de la versiÛn CE.</ul>",
+		commentHTML: "<ul><li>Todas las c√°psulas conseguidas menos las de voces.<li>Desbloqueados los nuevos skins de la versi√≥n CE.</ul>",
 		gameName: "Dragon Ball Z Budokai 3 CE"
 	},
 	{
@@ -766,7 +766,7 @@ const GAMES = [{
 		gameId: "ff10",
 		crown: "gold",
 		platformId: "ps2",
-		commentHTML: "<ul><li>Tiempo: 158:08<li>Tablero de esferas avanzado.<li>Todas las Armas de los siete astros.<li>Accesorios para todos los personajes con 'ExpansiÛn de VIT', 'AutoPrisa', 'AutoCoraza', 'Cinta'.<li>Armas personalizadas para todos los personajes con 'ExpansiÛn de daÒo', 'PM=1', 'Turbo Triple', 'Evade y Ataca'.<li>Armas para todos los personajes con 'PH x 3', 'Turbo por PH', 'Turbo Triple'.<li>Par·metros a 255 con todos los personajes.<li>Eones Oscuros derrotados.<li>10 monstruos de cada cazados.<li>Verdugo final por derrotar.</ul>",
+		commentHTML: "<ul><li>Tiempo: 158:08<li>Tablero de esferas avanzado.<li>Todas las Armas de los siete astros.<li>Accesorios para todos los personajes con 'Expansi√≥n de VIT', 'AutoPrisa', 'AutoCoraza', 'Cinta'.<li>Armas personalizadas para todos los personajes con 'Expansi√≥n de da√±o', 'PM=1', 'Turbo Triple', 'Evade y Ataca'.<li>Armas para todos los personajes con 'PH x 3', 'Turbo por PH', 'Turbo Triple'.<li>Par√°metros a 255 con todos los personajes.<li>Eones Oscuros derrotados.<li>10 monstruos de cada cazados.<li>Verdugo final por derrotar.</ul>",
 		gameName: "Final Fantasy X"
 	},
 	{
@@ -822,7 +822,7 @@ const GAMES = [{
 		gameId: "pz1",
 		crown: "silver",
 		platformId: "ps2",
-		commentHTML: "<ul><li> Partida guardada en el ˙ltimo capÌtulo lista para completar el juego.</ul>",
+		commentHTML: "<ul><li> Partida guardada en el √∫ltimo cap√≠tulo lista para completar el juego.</ul>",
 		gameName: "Project Zero"
 	},
 	{
@@ -871,7 +871,7 @@ const GAMES = [{
 		gameId: "tenchufs",
 		crown: "silver",
 		platformId: "ps2",
-		commentHTML: "<ul><li>Juego completado en dificultad normal.<li>Varias misiones completadas en rango Asesino/Gran Maestro en varias dificultades y disposiciones.<li>Todos los trajes desbloqueados para Ayame y Rin.<li>Todas las tÈcnicas desbloqueadas para Ayame y Rin.<li>Todos los objetos conseguidos.</ul>",
+		commentHTML: "<ul><li>Juego completado en dificultad normal.<li>Varias misiones completadas en rango Asesino/Gran Maestro en varias dificultades y disposiciones.<li>Todos los trajes desbloqueados para Ayame y Rin.<li>Todas las t√©cnicas desbloqueadas para Ayame y Rin.<li>Todos los objetos conseguidos.</ul>",
 		gameName: "Tenchu - Fatal Shadows"
 	},
 	{
@@ -899,21 +899,21 @@ const GAMES = [{
 		gameId: "mikuf1jap",
 		crown: "gold",
 		platformId: "ps3",
-		commentHTML: "<ul><li> VersiÛn JAP.</ul>",
+		commentHTML: "<ul><li> Versi√≥n JAP.</ul>",
 		gameName: "Hatsune Miku: Project Diva F"
 	},
 	{
 		gameId: "mikuf1usa",
 		crown: "silver",
 		platformId: "ps3",
-		commentHTML: "<ul><li>VersiÛn USA.<li>Todos desbloqueado menos lo referente a la DIVA Room.</ul>",
+		commentHTML: "<ul><li>Versi√≥n USA.<li>Todos desbloqueado menos lo referente a la DIVA Room.</ul>",
 		gameName: "Hatsune Miku: Project Diva F"
 	},
 	{
 		gameId: "mikuf2jap",
 		crown: "silver",
 		platformId: "ps3",
-		commentHTML: "<ul><li>VersiÛn JAP.<li>Todo desbloqueado menos lo referente a la DIVA Room.</ul>",
+		commentHTML: "<ul><li>Versi√≥n JAP.<li>Todo desbloqueado menos lo referente a la DIVA Room.</ul>",
 		gameName: "Hatsune Miku: Project Diva F 2nd"
 	},
 	{
@@ -969,29 +969,29 @@ const GAMES = [{
 		gameId: "pkmamarillo",
 		crown: "gold",
 		platformId: "gb",
-		commentHTML: "<ul><li>Juego completado.<li>PokÈdex completa.<li>PokÈmon fÛsiles, pokÈmon de otras ediciones y Mew han sido cazados mediante el bug de Mew.<li>Magmar cazado mediante el bug del Magmar starter.<li>Venusaur, Nidoking y Gengar a nivel 100 cazados con el bug que permite alcanzar el nivel 100 en un encuentro.<li>MissingNo. capturado.<li>Ditto variocolor (aunque no se vea), cazado mediante el bug del Gyaradoss variocolor del Pokemon O/P/C.<li>Se han realizado varios clones, pero no hay nada hackeado mediante programas externos.</ul>",
-		gameName: "PokÈmon EdiciÛn Amarilla"
+		commentHTML: "<ul><li>Juego completado.<li>Pok√©dex completa.<li>Pok√©mon f√≥siles, pok√©mon de otras ediciones y Mew han sido cazados mediante el bug de Mew.<li>Magmar cazado mediante el bug del Magmar starter.<li>Venusaur, Nidoking y Gengar a nivel 100 cazados con el bug que permite alcanzar el nivel 100 en un encuentro.<li>MissingNo. capturado.<li>Ditto variocolor (aunque no se vea), cazado mediante el bug del Gyaradoss variocolor del Pokemon O/P/C.<li>Se han realizado varios clones, pero no hay nada hackeado mediante programas externos.</ul>",
+		gameName: "Pok√©mon Edici√≥n Amarilla"
 	},
 	{
 		gameId: "pkmplata",
 		crown: "gold",
 		platformId: "gb",
-		commentHTML: "<ul><li>Juego completado.<li>PokÈdex completa.<li>Celebi cazado mediante bug de Sneasel.<li>Celebi dipositado en la caja 'Trades' procedente del evento Celebi Tour.<li>Todos los variocolores legales (Ditto variocolor importado de PokÈmon Amarillo utilizando el bug del Gyaradoss variocolor).</ul>",
-		gameName: "PokÈmon EdiciÛn Plata"
+		commentHTML: "<ul><li>Juego completado.<li>Pok√©dex completa.<li>Celebi cazado mediante bug de Sneasel.<li>Celebi dipositado en la caja 'Trades' procedente del evento Celebi Tour.<li>Todos los variocolores legales (Ditto variocolor importado de Pok√©mon Amarillo utilizando el bug del Gyaradoss variocolor).</ul>",
+		gameName: "Pok√©mon Edici√≥n Plata"
 	},
 	{
 		gameId: "ff6_advance",
 		crown: "gold",
 		platformId: "gba",
-		commentHTML: "<ul><li>Tiempo: 86:04 h.<li>Todos los personajes a nivel 100.<li>Todos los personajes con todas las habilidades aprendidas (incluidas magias, cÛleras de Gau y Bagajes de Strago).<li>Bestiario al 100%.<li>DragÛn Keiser derrotado.<li>Templo de las almas superado (Corona de maestro conseguida).</ul>",
+		commentHTML: "<ul><li>Tiempo: 86:04 h.<li>Todos los personajes a nivel 100.<li>Todos los personajes con todas las habilidades aprendidas (incluidas magias, c√≥leras de Gau y Bagajes de Strago).<li>Bestiario al 100%.<li>Drag√≥n Keiser derrotado.<li>Templo de las almas superado (Corona de maestro conseguida).</ul>",
 		gameName: "Final Fantasy VI Advance"
 	},
 	{
 		gameId: "pokemon_vh",
 		crown: "silver",
 		platformId: "gba",
-		commentHTML: "<ul><li>Tiempo: 65:26 h.<li>Liga PokÈmon Completada.<li>PokÈdex completa.<li>Todos los PokÈmon ordenados en las cajas.<li>Unowns de la A a la Z.<ul><li>Se utilizÛ GameShark para activar los eventos que permiten cazar a MEW, DEOXYS, etc. ya que no se pudieron obtener en nuestros lares, pero los PokÈmon son cazados legales.<li>Se clonaron varios Ìtems en la versiÛn Esmeralda, como objetos de evoluciÛn, Master Balls, etc. Esto no implica a los PokÈmon. No hay ning˙n clon en las cajas, todos vienen del propio juego, son huevos, intercambiados de otros juegos o salvados de antiguas partidas.<li>CELEBI hackeado. Insertado de una partida americana, del evento JAA 10 ANIV ya que no hay ning˙n modo legal (ni semi-legal) para conseguirlo. DeberÌa ser legal.</ul></ul>",
-		gameName: "PokÈmon EdiciÛn Verde Hoja"
+		commentHTML: "<ul><li>Tiempo: 65:26 h.<li>Liga Pok√©mon Completada.<li>Pok√©dex completa.<li>Todos los Pok√©mon ordenados en las cajas.<li>Unowns de la A a la Z.<ul><li>Se utiliz√≥ GameShark para activar los eventos que permiten cazar a MEW, DEOXYS, etc. ya que no se pudieron obtener en nuestros lares, pero los Pok√©mon son cazados legales.<li>Se clonaron varios √≠tems en la versi√≥n Esmeralda, como objetos de evoluci√≥n, Master Balls, etc. Esto no implica a los Pok√©mon. No hay ning√∫n clon en las cajas, todos vienen del propio juego, son huevos, intercambiados de otros juegos o salvados de antiguas partidas.<li>CELEBI hackeado. Insertado de una partida americana, del evento JAA 10 ANIV ya que no hay ning√∫n modo legal (ni semi-legal) para conseguirlo. Deber√≠a ser legal.</ul></ul>",
+		gameName: "Pok√©mon Edici√≥n Verde Hoja"
 	},
 	{
 		gameId: "re2remake",
@@ -1060,13 +1060,20 @@ const GAMES = [{
 		gameId: "pkmazul",
 		crown: "gold",
 		platformId: "gb",
-		commentHTML: "<ul><li>Juego completado.<li>PokÈdex completa.<li>PokÈmon fÛsiles, pokÈmon de otras ediciones y Mew han sido cazados mediante el bug de Mew.<li>Mew de evento (Caja 12), conseguido a travÈs de la partida de distribuciÛn oficial.<li>La partida no ha pasado en ning˙n momento por editores de partidas.</ul>",
-		gameName: "PokÈmon EdiciÛn Azul"
+		commentHTML: "<ul><li>Juego completado.<li>Pok√©dex completa.<li>Pok√©mon f√≥siles, pok√©mon de otras ediciones y Mew han sido cazados mediante el bug de Mew.<li>Mew de evento (Caja 12), conseguido a trav√©s de la partida de distribuci√≥n oficial.<li>La partida no ha pasado en ning√∫n momento por editores de partidas.</ul>",
+		gameName: "Pok√©mon Edici√≥n Azul"
 	},
 	{
 		gameId: "dqI-II",
 		crown: "silver",
 		platformId: "snes",
-		commentHTML: "<ul><li>Partida salvada DQI: Nivel m·ximo, arma y armadura de Roto conseguidas.<li><li>Partida salvada DQII: Cueva Rotho recorrida (con las ˙ltimas armaduras y espadas de la zona).<li>state0: (DQI) Al rescatar la princesa.<li>state1: (DQI) Frente al Rey DragÛn (Jefe final).<li>state2: (DQI) Tras derrotar al jefe final.<li>state2: (DQII) Tras derrotar al jefe final.</ul>",
+		commentHTML: "<ul><li>Partida salvada DQI: Nivel m√°ximo, arma y armadura de Roto conseguidas.<li><li>Partida salvada DQII: Cueva Rotho recorrida (con las √∫ltimas armaduras y espadas de la zona).<li>state0: (DQI) Al rescatar la princesa.<li>state1: (DQI) Frente al Rey Drag√≥n (Jefe final).<li>state2: (DQI) Tras derrotar al jefe final.<li>state2: (DQII) Tras derrotar al jefe final.</ul>",
 		gameName: "Dragon Quest I & II"
+	},
+	{
+		gameId: "ffipr",
+		crown: "gold",
+		platformId: "pc",
+		commentHTML: "<ul>   <li>Partida salvada antes del cambio de trabajos.<li>Partida salvada antes del jefe final.<li>Partida salvada tras completar el juego.<li>Bestiario al 100%.<li>Todos los personajes al nivel 99.</ul>",
+		gameName: "Final Fantasy Pixel Remaster"
 	}]
