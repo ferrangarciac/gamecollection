@@ -3,6 +3,7 @@
 
 body{
 	background-image: url(../img/background.jpg);
+	background-attachment: fixed;
 	margin:0;
 	font:15px 'Open Sans',sans-serif;
 	cursor:default;
