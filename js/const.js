@@ -1076,4 +1076,11 @@ const GAMES = [{
 		platformId: "pc",
 		commentHTML: "<ul>   <li>Partida salvada antes del cambio de trabajos.<li>Partida salvada antes del jefe final.<li>Partida salvada tras completar el juego.<li>Bestiario al 100%.<li>Todos los personajes al nivel 99.</ul>",
 		gameName: "Final Fantasy Pixel Remaster"
+	},
+	{
+		gameId: "trianglestrategy",
+		crown: "silver",
+		platformId: "switch",
+		commentHTML: "<ul>   <li>Partida completada con el final de 'Una nueva era'.<li>Nueva Partida + desbloquada.</ul>",
+		gameName: "Triangle Strategy"
 	}]
