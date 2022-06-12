@@ -1083,4 +1083,11 @@ const GAMES = [{
 		platformId: "switch",
 		commentHTML: "<ul>   <li>Partida completada con el final de 'Una nueva era'.<li>Nueva Partida + desbloquada.</ul>",
 		gameName: "Triangle Strategy"
+	},
+	{
+		gameId: "pkrojo",
+		crown: "gold",
+		platformId: "gb",
+		commentHTML: "<ul><li>Pokédex completada.<li>Un Pokémon de cada ordenados, en las cajas.<li>Arbitrary Code Execution (ACE) preparado para usar.<li>Pokémon listos para ejecutar el ACE en CAJA 12.<li>Diferentes configuraciones de objetos para ejecutar el ACE en la bolsa y PC.<li>Todos los Pokémon conseguibles en una sola edición totalmente legales (incluidos evoluciones de intercambio) y sin glitches, excepto los Pokémon de regalo y alguna excepción.<li>Todos los intercambios in-game realizados, guardados en la CAJA 11 (regalos).<li>Iniciales conseguidos mediante el glitch de heredar partida (en caja de regalos, CAJA 11).<li>Pokémon de la edición azul conseguidos con el glitch de Mew.<li>Marowak cazado de la Torre Pokémon mediante glitch.<li>Voltorb y Electrode estáticos de la Central de Energía.<li>Pokémon de regalo que no se pueden encontrar salvajes en CAJA 11 (reglaos). Los que hay en su orden, en sus respectivas cajas, han sido cazados con el glitch de Mew.<li>Mew del evento Pokemon Tournament del año 2000 de Madrid (EO EUROPE), en la CAJA 11 (regalos) totalmente legal. Mews esclavos de MO y el que ocupa su puesto en las cajas han sido cazados con el glitch de Mew y con el ACE.<li>Missingno. cazado mediante el ACE.<li>Todos los objetos multiplicados, han sido duplicados mediante encuentros con Missingno.<li>Gengar Nv100 del equipo ha sido cazado con el glitch de 'Gengar Nv100 antes de Medalla Roca'.</ul>",
+		gameName: "Pokémon Edición Roja"
 	}]
