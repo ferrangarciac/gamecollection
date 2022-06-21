@@ -3,7 +3,7 @@
 }
 
 #slider figure{
-	position: relative;
+	position: absolute;
 	width: 500%;
 	margin: 0;
 	left: 0;
@@ -13,7 +13,7 @@
 #slider figure img{
 	width: 20%;
 	float: left;
-	opacity: 50%;
+	opacity: 30%;
 }
 
 @keyframes slider {
