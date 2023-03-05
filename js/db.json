@@ -5552,4 +5552,16 @@
 		"save": true,
 		"commentHTML": "<ul>   <li>Partida salvada tras completar el juego.<li>Bestiario al 100%.<li>Todos los personajes con todas las armas al máximo nivel.</ul>",
 		"gameName": "Final Fantasy II Pixel Remaster"
+	},
+	{
+		"gameId": "valkyriachronicles1pc",
+		"crown": "silver",
+		"platformId": "pc",
+		"region": "pal",
+		"box": false,
+		"manual": false,
+		"gameType": 2, 
+		"save": true,
+		"commentHTML": "<ul>   <li>Juego completado.</ul>",
+		"gameName": "Valkyria Chronicles"
 	}]
