@@ -7,7 +7,6 @@
 		<!--<link rel="shortcut icon" href="./favicon.png" type="image/png" sizes="16x16"/>
 		<link rel="shortcut icon" href="./logo192.png" type="image/png" sizes="192x192"/>-->
 		<link rel="stylesheet" type="text/css" href="css/style.css">
-		<link rel="stylesheet" type="text/css" href="css/slider.css">
 		<script type="text/javascript" src="./js/const.js"></script>
 		<script type="text/javascript" src="./js/code.js"></script>
 		
@@ -16,31 +15,39 @@
 	<body>
 	<!-- HEADER -->
 		<header id="header"></header>
-	
-	<div id="slider">
-		<figure>
-			<div>
-				<img src="img/pc/cover_ff10_pc.jpg">
-				<p>"huelo a caca"</p>
-			</div>
-			<div>
-				<img src="img/pc/cover_ff4_pc.jpg">
-			</div>
-			<div>
-				<img src="img/pc/cover_ff7_pc.jpg">
-			</div>
-			<div>
-				<img src="img/pc/cover_dmc5.jpg">
-			</div>
-			<div>
-				<img src="img/pc/cover_fft0.jpg">
-			</div>
-
-		</figure>
-	</div>
-	
+		
 	<!-- APP -->
 		<div id="wrapper">
+			<div class="optionMenu">
+				<div class="option">
+					<input type="checkbox" id="onlyOwnedChk" class="optionChk" value="">
+					<span>Sólo juegos en posesión</span>
+				</div>
+				<div class="option">
+					<input type="checkbox" id="onlySavesChk" class="optionChk" value="">
+					<span>Sólo juegos con partida salvada</span>
+				</div>
+			</div>
+			
+			<!-- STADISTICAS -->
+			<div id="statistics" class="optionMenu statistics">
+				<div class="std-title">
+					<span>ESTADÍSTICAS</span>
+				</div>
+				</br>
+				<div class="std-container">
+					<div class="std-chk">
+						<input type="checkbox" id="onlyPhisical" class="optionChk" value="">
+						<span>Sólo juegos físicos</span></br></br>
+					</div>
+					
+					<div id="std-list"></div>
+					
+					<div id="statisticsResults"></div>
+				</div>
+				
+			</div>
+		
 			<div class="consoleDiv links">
 				<div id="gameRow" class="row">
 				</div>
