@@ -5572,8 +5572,8 @@
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 2, 
-		"save": true,
+		"gameType": 1, 
+		"save": false,
 		"commentHTML": "",
 		"gameName": "Crisis Core - Final Fantasy VII - Reunion"
 	}]
