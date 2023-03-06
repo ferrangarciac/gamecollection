@@ -5564,4 +5564,16 @@
 		"save": true,
 		"commentHTML": "<ul>   <li>Juego completado.</ul>",
 		"gameName": "Valkyria Chronicles"
+	},
+	{
+		"gameId": "ff7ccps4",
+		"crown": "none",
+		"platformId": "ps4",
+		"region": "palesp",
+		"box": true,
+		"manual": true,
+		"gameType": 2, 
+		"save": true,
+		"commentHTML": "",
+		"gameName": "Crisis Core - Final Fantasy VII - Reunion"
 	}]
