@@ -5576,4 +5576,16 @@
 		"save": false,
 		"commentHTML": "",
 		"gameName": "Crisis Core - Final Fantasy VII - Reunion"
+	},
+	{
+		"gameId": "chocobogp",
+		"crown": "none",
+		"platformId": "switch",
+		"region": "palesp",
+		"box": true,
+		"manual": true,
+		"gameType": 1, 
+		"save": false,
+		"commentHTML": "",
+		"gameName": "Chocobo GP"
 	}]
