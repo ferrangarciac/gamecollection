@@ -5588,4 +5588,16 @@
 		"save": false,
 		"commentHTML": "",
 		"gameName": "Chocobo GP"
+	},
+	{
+		"gameId": "ff4psppal",
+		"crown": "none",
+		"platformId": "psp",
+		"region": "pal",
+		"box": true,
+		"manual": true,
+		"gameType": 1, 
+		"save": false,
+		"commentHTML": "",
+		"gameName": "Final Fantasy IV: The Complete Collection"
 	}]
