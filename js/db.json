@@ -5600,4 +5600,52 @@
 		"save": false,
 		"commentHTML": "",
 		"gameName": "Final Fantasy IV: The Complete Collection"
+	},
+	{
+		"gameId": "excelicaps2",
+		"crown": "none",
+		"platformId": "ps2",
+		"region": "jap",
+		"box": true,
+		"manual": true,
+		"gameType": 1, 
+		"save": false,
+		"commentHTML": "",
+		"gameName": "Triggerheart Exelica Enhanced"
+	},
+	{
+		"gameId": "mikufuturetonefisico",
+		"crown": "none",
+		"platformId": "ps4",
+		"region": "jap",
+		"box": true,
+		"manual": true,
+		"gameType": 1, 
+		"save": false,
+		"commentHTML": "",
+		"gameName": "Hatsune Miku: Project Diva Future Tone DX"
+	},
+	{
+		"gameId": "mikuswitch",
+		"crown": "none",
+		"platformId": "switch",
+		"region": "jap",
+		"box": true,
+		"manual": true,
+		"gameType": 1, 
+		"save": false,
+		"commentHTML": "",
+		"gameName": "Hatsune Miku: Project Diva Mega39's"
+	},
+	{
+		"gameId": "ffextracollection",
+		"crown": "none",
+		"platformId": "psone",
+		"region": "jap",
+		"box": true,
+		"manual": true,
+		"gameType": 1, 
+		"save": false,
+		"commentHTML": "",
+		"gameName": "Final Fantasy Extra Collection"
 	}]
