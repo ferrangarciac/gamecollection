@@ -5648,4 +5648,16 @@
 		"save": false,
 		"commentHTML": "",
 		"gameName": "Final Fantasy Extra Collection"
+	},
+	{
+		"gameId": "pkmverde",
+		"crown": "none",
+		"platformId": "psone",
+		"region": "jap",
+		"box": true,
+		"manual": true,
+		"gameType": 1, 
+		"save": false,
+		"commentHTML": "",
+		"gameName": "Pocket Monsters Midori"
 	}]
