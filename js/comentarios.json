@@ -6,7 +6,7 @@
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "<ul><li>Juego Base:<ul><li>Pokédex de Galar completa.<li>Todas las formas alternativas.<li>Todas las recompensas de la Torre Batalla conseguidas.<li>Todos los objetos del juego base conseguidos.<li>Todos los Pokémon especiales (Promoted) del Área Salvaje conseguidos.<li>Todas las tarjetas de jugador del juego base conseguidas.<li>Toda la ropa del juego base conseguida.</ul><li>V.1.0<ul><li>Todo lo anterior.<li>Slowpoke de Galar cazado.</ul></ul>",
 		"gameName": "pokémon edición espada"
@@ -18,7 +18,7 @@
 		"region": "pal",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "",
 		"gameName": "Hatsune Miku: Project Mirai DX"
@@ -30,7 +30,7 @@
 		"region": "palesp",
 		"box": false,
 		"manual": false,
-		"gameType": 2, 
+		"gameType": 2, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "<ul><li>Partida 1: 99% primera vuelta.<li>Partida 2: Inicio de la segunda vuelta.<ul><li>Todos los logros de steam conseguibles en la primera vuelta.</ul></ul>",
 		"gameName": "Final Fantasy IV (Steam)"
@@ -42,7 +42,7 @@
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "",
 		"gameName": "Inazuma Eleven 3: Fuego Explosivo"
@@ -54,7 +54,7 @@
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "<ul><li>Versión PAL<li>Juego completado.</ul>",
 		"gameName": "Inazuma Eleven GO: Luz"
@@ -66,7 +66,7 @@
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "<ul><li>Versión PAL<li>Juego completado.<li>Partida al ~80%.</ul>",
 		"gameName": "Inazuma Eleven GO Chrono Stones: Llamarada"
@@ -78,7 +78,7 @@
 		"region": "pal",
 		"box": false,
 		"manual": false,
-		"gameType": 0, 
+		"gameType": 0, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "<ul><li>Versión PAL (eShop)<li>Todos los capítulos desbloqueados y completados (excepto DLC).</ul>",
 		"gameName": "Phoenix Wright: Ace Attorney - Dual Destinies"
@@ -90,7 +90,7 @@
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "",
 		"gameName": "Professor Layton vs. Phoenix Wright: Ace Attorney"
@@ -102,7 +102,7 @@
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "",
 		"gameName": "Dragon Ball Fusions"
@@ -114,7 +114,7 @@
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "",
 		"gameName": "Project X Zone 2"
@@ -126,7 +126,7 @@
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "",
 		"gameName": "Residen Evil Mercenaries 3D"
@@ -138,7 +138,7 @@
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "",
 		"gameName": "Residen Evil Revelations"
@@ -150,7 +150,7 @@
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "",
 		"gameName": "Theatrhythm Final Fantasy: Curtain Call"
@@ -162,7 +162,7 @@
 		"region": "palesp",
 		"box": false,
 		"manual": false,
-		"gameType": 0, 
+		"gameType": 0, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "<ul><li>Modo Mei Ling Photo Shoot desbloqueado.<li>Modo Mystery Mode desbloqueado.<li>Modo NG Selection Mode desbloqueado.<li>Modo Ninja Mode desbloqueado.<li>Modo Picture of Metal Gear RAY desbloqueado.<li>Modo Puzzle Mode desbloqueado.<li>Modo Secret Pictures desbloqueado.</ul>",
 		"gameName": "Metal Gear Solid Special Missions"
@@ -174,7 +174,7 @@
 		"region": "usa",
 		"box": false,
 		"manual": false,
-		"gameType": 0, 
+		"gameType": 0, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "<ul><li>Todos los desafios completados.<li>Modo Hard desbloqueado.<li>Todos los extras desbloqueados.<li>Canción de Sakura desbloqueada.</ul>",
 		"gameName": "Super Puzzle Fighter II Turbo"
@@ -186,7 +186,7 @@
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "<ul><li>Todos los personajes desbloqueados.<li>Theatre Mode desbloqueado.<li>Tekken Ball Mode desbloqueado.<li>Trajes especiales de Anna, Jack, Jin y Xiaoyu desbloqueados.</ul>",
 		"gameName": "Tekken 3"
@@ -198,7 +198,7 @@
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "<ul><li>Tiempo: 133:48.<li>Todos los personajes desbloqueados.<li>Todas las odiseas desbloquadas.<li>10 odiseas al 100%.<li>Todos los objetos del catálogo comprados.<li>Armas finales de Zidane, Artemisa y Butz.</ul>",
 		"gameName": "Dissidia: Final Fantasy"
@@ -210,7 +210,7 @@
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "<ul><li>Tiempo: 17:51:54<li>Modo Historia completado.<li>Yuna, Tifa, Butz, Terra, Zidane, Golbez, Artemisa, Shantoto y Prishe a nivel 100<li>Armas finales de Yuna, Tifa, Terra, Zidane, Artemisa y Squall.<li>Catálogo PP al 75%</ul>",
 		"gameName": "Dissidia 012 [duodecim]: Final Fantasy"
@@ -223,7 +223,7 @@
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"gameName": "Dragon Ball Z: Shin Budokai"
 	},
@@ -234,7 +234,7 @@
 		"region": "palesp",
 		"box": false,
 		"manual": false,
-		"gameType": 0, 
+		"gameType": 0, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "<ul><li>Versión USA.</ul>",
 		"gameName": "Dragon Ball Z: Shin Budokai 2"
@@ -246,7 +246,7 @@
 		"region": "jap",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "<ul><li>Todas las canciones desbloqueadas.<li>Modo Hard de todas las canciones desbloqueadas.<li>Todos los módulos (skins) desbloqueados.<li>Galería de imágenes al 94%.<li>Objetos de la habitacíon al ~95%.</ul>",
 		"gameName": "Hatsune Miku: Project Diva"
@@ -258,7 +258,7 @@
 		"region": "jap",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "",
 		"gameName": "Hatsune Miku: Project Diva 2nd"
@@ -271,7 +271,7 @@
 		"region": "jap",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"gameName": "Hatsune Miku: Project Diva Extend"
 	},
@@ -282,7 +282,7 @@
 		"region": "palesp",
 		"box": false,
 		"manual": false,
-		"gameType": 0, 
+		"gameType": 0, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "<ul><li>Tiempo: 15:31.<li>Partida completada con Aqua.</ul>",
 		"gameName": "Kingdom Hearts: Birth by Sleep"
@@ -294,7 +294,7 @@
 		"region": "palesp",
 		"box": false,
 		"manual": false,
-		"gameType": 0, 
+		"gameType": 0, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "<ul><li>Todas las misiones completadas.<li>Todas las missiones exteriores realizadas.<li>Objetos y planos al ~90%</ul>",
 		"gameName": "Metal Gear Solid: Peace Walker"
@@ -306,7 +306,7 @@
 		"region": "palesp",
 		"box": false,
 		"manual": false,
-		"gameType": 0, 
+		"gameType": 0, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "<ul><li> Modo historia completado.</ul>",
 		"gameName": "Saint Seiya Omega: Ultimate Cosmo"
@@ -318,7 +318,7 @@
 		"region": "jap",
 		"box": false,
 		"manual": false,
-		"gameType": 0, 
+		"gameType": 0, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "<ul><li>Modo Oni desbloqueado.<li>Varios records (incluido DLCs).</ul>",
 		"gameName": "Taiko no Tatsujin Portable DX"
@@ -330,7 +330,7 @@
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "",
 		"gameName": "Another Code R: A Journey into Lost Memories"
@@ -342,7 +342,7 @@
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "<ul><li>Tiempo: 12:48:36.<li>Modo Normal completado.<li>Misiones X desbloqueadas y completadas.</ul>",
 		"gameName": "Trauma Center: Second Opinion"
@@ -350,11 +350,11 @@
 	{
 		"gameId": "alanwake",
 		"crown": "silver",
-		"platformId": "xbox360",
+		"platformId": "x"box"360",
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "",
 		"gameName": "Alan Wake"
@@ -362,11 +362,11 @@
 	{
 		"gameId": "batman1",
 		"crown": "silver",
-		"platformId": "xbox360",
+		"platformId": "x"box"360",
 		"region": "palesp",
 		"box": false,
 		"manual": false,
-		"gameType": 0, 
+		"gameType": 0, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "",
 		"gameName": "Batman: Arkham Asylum"
@@ -374,11 +374,11 @@
 	{
 		"gameId": "bluedragon",
 		"crown": "copper",
-		"platformId": "xbox360",
+		"platformId": "x"box"360",
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "<ul><li>Partida NO completada.<li>Partida guradada en cada disco.</ul>",
 		"gameName": "Blue Dragon"
@@ -386,11 +386,11 @@
 	{
 		"gameId": "dmc4",
 		"crown": "gold",
-		"platformId": "xbox360",
+		"platformId": "x"box"360",
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "<ul><li>Todas las pantallas en rango S en todas las dificultades (menos fácil)<li>Palacio Sangriento completado.<li>Todas las misiones secretas completadas.</ul>",
 		"gameName": "Devil May Cry 4"
@@ -398,11 +398,11 @@
 	{
 		"gameId": "dmchd",
 		"crown": "copper",
-		"platformId": "xbox360",
+		"platformId": "x"box"360",
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "<ul><li>Devil May Cry 1 completado.</ul>",
 		"gameName": "Devil May Cry HD Collection"
@@ -410,11 +410,11 @@
 	{
 		"gameId": "dmc360",
 		"crown": "gold",
-		"platformId": "xbox360",
+		"platformId": "x"box"360",
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "",
 		"gameName": "DmC: Devil May Cry"
@@ -422,11 +422,11 @@
 	{
 		"gameId": "dbzbudokaihd",
 		"crown": "gold",
-		"platformId": "xbox360",
+		"platformId": "x"box"360",
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "<ul><li>Dragon Ball Budokai 1 a 1000G y al 100%.<li>Dragon Ball Budokai 3 a 1000G.<li>Todas las cápsulas del Budokai 3 menos las especiales de las voces.</ul>",
 		"gameName": "Dragon Ball Z Budokai HD Collection"
@@ -434,11 +434,11 @@
 	{
 		"gameId": "dbzburstlimit",
 		"crown": "gold",
-		"platformId": "xbox360",
+		"platformId": "x"box"360",
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "",
 		"gameName": "Dragon Ball Z: Burst Limit"
@@ -446,11 +446,11 @@
 	{
 		"gameId": "eternalsonata",
 		"crown": "gold",
-		"platformId": "xbox360",
+		"platformId": "x"box"360",
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "<ul><li>Detalles de la partida (ranura 1):<ul><li>Partida salvada para comenzar la segunda vuelta (encore mode) con todo conseguido en la primera.</ul><li>Detalles de la partida (ranura 2):<ul><li>Oro: 99999999.<li>Todos los personajes a nivel 99.<li>Todos los objetos, armas y partituras.<li>Aniquilador (enemigo final del Unísono Misterioso) por derrotar.</ul><li>Detalles de la partida (ranura 3):<ul><li>Oro: 99999999.<li>Todos los personajes a nivel 99.<li>Todos los objetos, armas y partituras.<li>Aniquilador (enemigo final del Unísono Misterioso) derrotado.</ul></ul>",
 		"gameName": "Eternal Sonata"
@@ -458,11 +458,11 @@
 	{
 		"gameId": "galaga",
 		"crown": "gold",
-		"platformId": "xbox360",
+		"platformId": "x"box"360",
 		"region": "pal",
 		"box": false,
 		"manual": false,
-		"gameType": 0, 
+		"gameType": 0, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "",
 		"gameName": "Galaga"
@@ -470,11 +470,11 @@
 	{
 		"gameId": "magnacarta2",
 		"crown": "gold",
-		"platformId": "xbox360",
+		"platformId": "x"box"360",
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "<ul><li>Partida al 100%.<li>Sólo se puede utilizar si se tienen instaladas las DLCs.</ul>",
 		"gameName": "Magna Carta 2"
@@ -482,11 +482,11 @@
 	{
 		"gameId": "mgsrising",
 		"crown": "silver",
-		"platformId": "xbox360",
+		"platformId": "x"box"360",
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "",
 		"gameName": "Metal Gear Rising: Revengeance"
@@ -494,11 +494,11 @@
 	{
 		"gameId": "mgspw360",
 		"crown": "gold",
-		"platformId": "xbox360",
+		"platformId": "x"box"360",
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "",
 		"gameName": "Metal Gear Solid: Peace Walker HD"
@@ -506,11 +506,11 @@
 	{
 		"gameId": "mgsgz",
 		"crown": "silver",
-		"platformId": "xbox360",
+		"platformId": "x"box"360",
 		"region": "palesp",
 		"box": false,
 		"manual": false,
-		"gameType": 0, 
+		"gameType": 0, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "",
 		"gameName": "Metal Gear Solid V: Ground Zeroes"
@@ -518,11 +518,11 @@
 	{
 		"gameId": "nplus",
 		"crown": "copper",
-		"platformId": "xbox360",
+		"platformId": "x"box"360",
 		"region": "palesp",
 		"box": false,
 		"manual": false,
-		"gameType": 0, 
+		"gameType": 0, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "",
 		"gameName": "N+"
@@ -530,11 +530,11 @@
 	{
 		"gameId": "naruto2",
 		"crown": "gold",
-		"platformId": "xbox360",
+		"platformId": "x"box"360",
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "",
 		"gameName": "Naruto Shippuden: Ultimate Ninja Storm 2"
@@ -542,11 +542,11 @@
 	{
 		"gameId": "pacmancdx",
 		"crown": "gold",
-		"platformId": "xbox360",
+		"platformId": "x"box"360",
 		"region": "pal",
 		"box": false,
 		"manual": false,
-		"gameType": 0, 
+		"gameType": 0, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "",
 		"gameName": "Pac-Man Championship Edition DX"
@@ -554,11 +554,11 @@
 	{
 		"gameId": "re5",
 		"crown": "gold",
-		"platformId": "xbox360",
+		"platformId": "x"box"360",
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "",
 		"gameName": "Resident Evil 5"
@@ -566,11 +566,11 @@
 	{
 		"gameId": "recv",
 		"crown": "silver",
-		"platformId": "xbox360",
+		"platformId": "x"box"360",
 		"region": "palesp",
 		"box": false,
 		"manual": false,
-		"gameType": 0, 
+		"gameType": 0, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "",
 		"gameName": "Resident Evil Code: Veronica X HD"
@@ -578,11 +578,11 @@
 	{
 		"gameId": "rerevelations360",
 		"crown": "silver",
-		"platformId": "xbox360",
+		"platformId": "x"box"360",
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "<ul><li>Modo historia completado.<li>Todas las fases del modo Raid desbloqueadas.</ul>",
 		"gameName": "Resident Evil: Revelations"
@@ -590,11 +590,11 @@
 	{
 		"gameId": "rof",
 		"crown": "copper",
-		"platformId": "xbox360",
+		"platformId": "x"box"360",
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "<ul><li>Juego NO completado.</ul>",
 		"gameName": "Resonance of Fate"
@@ -602,11 +602,11 @@
 	{
 		"gameId": "sonicracing1",
 		"crown": "copper",
-		"platformId": "xbox360",
+		"platformId": "x"box"360",
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "<ul><li>Varios personajes y pistas desbloqueados.</ul>",
 		"gameName": "Sonic & Sega All-Stars Racing"
@@ -614,35 +614,35 @@
 	{
 		"gameId": "sonic1",
 		"crown": "gold",
-		"platformId": "xbox360",
+		"platformId": "x"box"360",
 		"region": "pal",
 		"box": false,
 		"manual": false,
-		"gameType": 0, 
+		"gameType": 0, //0: none, 1: phisical, 2: digital
 		"save": true,
-		"commentHTML": "<ul><li>Incluye save states con todas las esmeraldas del caos.</ul>",
+		"commentHTML": "<ul><li>Incluye "save" states con todas las esmeraldas del caos.</ul>",
 		"gameName": "Sonic the Hedgehog"
 	},
 	{
 		"gameId": "sonic2",
 		"crown": "gold",
-		"platformId": "xbox360",
+		"platformId": "x"box"360",
 		"region": "pal",
 		"box": false,
 		"manual": false,
-		"gameType": 0, 
+		"gameType": 0, //0: none, 1: phisical, 2: digital
 		"save": true,
-		"commentHTML": "<ul><li>Incluye save states con todas las esmeraldas del caos.</ul>",
+		"commentHTML": "<ul><li>Incluye "save" states con todas las esmeraldas del caos.</ul>",
 		"gameName": "Sonic the Hedgehog 2"
 	},
 	{
 		"gameId": "sc5-2",
 		"crown": "silver",
-		"platformId": "xbox360",
+		"platformId": "x"box"360",
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "<ul><li>Completado en la dificultad normal.<li>Algunos trajes y objetos desbloqueados.</ul>",
 		"gameName": "Space Channel 5 Part 2"
@@ -650,11 +650,11 @@
 	{
 		"gameId": "starocean4",
 		"crown": "silver",
-		"platformId": "xbox360",
+		"platformId": "x"box"360",
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "<ul><li>Partida completada.<li>Objetos de receta al 99%<li>Reina Etheria derrotada varias veces (pero no todas).</ul>",
 		"gameName": "Star Ocean: The Last Hope"
@@ -662,11 +662,11 @@
 	{
 		"gameId": "sf4",
 		"crown": "silver",
-		"platformId": "xbox360",
+		"platformId": "x"box"360",
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "",
 		"gameName": "Street Fighter IV"
@@ -674,11 +674,11 @@
 	{
 		"gameId": "ssf4ae",
 		"crown": "silver",
-		"platformId": "xbox360",
+		"platformId": "x"box"360",
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "",
 		"gameName": "Super Street Fighter IV: Arcade Edition"
@@ -686,23 +686,23 @@
 	{
 		"gameId": "svcsor",
 		"crown": "gold",
-		"platformId": "xbox360",
+		"platformId": "x"box"360",
 		"region": "pal",
 		"box": false,
 		"manual": false,
-		"gameType": 0, 
+		"gameType": 0, //0: none, 1: phisical, 2: digital
 		"save": true,
-		"commentHTML": "<ul><li>Los tres juegos completados.<li>Incluye replay y save states (para modo 2 players) en los tres juegos.</ul>",
+		"commentHTML": "<ul><li>Los tres juegos completados.<li>Incluye replay y "save" states (para modo 2 players) en los tres juegos.</ul>",
 		"gameName": "SVC: Street of Rage"
 	},
 	{
 		"gameId": "tov",
 		"crown": "silver",
-		"platformId": "xbox360",
+		"platformId": "x"box"360",
 		"region": "pal",
 		"box": false,
 		"manual": false,
-		"gameType": 0, 
+		"gameType": 0, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "<ul><li>Partida completada.<li>También hay una partida salvada antes del combate final.</ul>",
 		"gameName": "Tales of Vesperia"
@@ -710,11 +710,11 @@
 	{
 		"gameId": "tekken6",
 		"crown": "gold",
-		"platformId": "xbox360",
+		"platformId": "x"box"360",
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "<ul><li>Efectos beta desbloqueados (mediante edición de la partida, ya que no se pueden conseguir de forma legal).</ul>",
 		"gameName": "Tekken 6"
@@ -722,11 +722,11 @@
 	{
 		"gameId": "tenchuz",
 		"crown": "silver",
-		"platformId": "xbox360",
+		"platformId": "x"box"360",
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "",
 		"gameName": "Tenchu Z"
@@ -734,11 +734,11 @@
 	{
 		"gameId": "kof13",
 		"crown": "silver",
-		"platformId": "xbox360",
+		"platformId": "x"box"360",
 		"region": "pal",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "",
 		"gameName": "The King of Fighters XIII"
@@ -746,11 +746,11 @@
 	{
 		"gameId": "exelica",
 		"crown": "silver",
-		"platformId": "xbox360",
+		"platformId": "x"box"360",
 		"region": "pal",
 		"box": false,
 		"manual": false,
-		"gameType": 0, 
+		"gameType": 0, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "",
 		"gameName": "Triggerheart Exelica"
@@ -762,7 +762,7 @@
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "",
 		"gameName": "Ace Attorney 1: Phoenix Wright"
@@ -774,7 +774,7 @@
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "",
 		"gameName": "Ace Attorney 2: Justice For All"
@@ -786,7 +786,7 @@
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "",
 		"gameName": "Ace Attorney 3: Trials and Tribulations"
@@ -798,7 +798,7 @@
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "",
 		"gameName": "Ace Attorney 4: Apollo Justice"
@@ -810,7 +810,7 @@
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "",
 		"gameName": "Another Code: The Two Memories"
@@ -822,7 +822,7 @@
 		"region": "palesp",
 		"box": false,
 		"manual": false,
-		"gameType": 0, 
+		"gameType": 0, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "",
 		"gameName": "Ghost Trick: Detective Fantasma"
@@ -834,7 +834,7 @@
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "",
 		"gameName": "Trauma Center: Under the Knive"
@@ -846,7 +846,7 @@
 		"region": "jap",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "",
 		"gameName": "Osu! Tatakae! Ouendan!"
@@ -858,7 +858,7 @@
 		"region": "jap",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "",
 		"gameName": "Moero! Nekketsu Rhythm Damashii Osu! Tatakae! Ouendan 2"
@@ -870,7 +870,7 @@
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "",
 		"gameName": "Elite Beat Agents"
@@ -882,7 +882,7 @@
 		"region": "jap",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "",
 		"gameName": "Jump Superstars"
@@ -894,7 +894,7 @@
 		"region": "jap",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "",
 		"gameName": "Jump Ultimate Stars"
@@ -906,7 +906,7 @@
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "",
 		"gameName": "Mario Kart DS"
@@ -918,7 +918,7 @@
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "",
 		"gameName": "Project Rub"
@@ -930,7 +930,7 @@
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "",
 		"gameName": "Yoshi Touch & Go"
@@ -942,7 +942,7 @@
 		"region": "palesp",
 		"box": false,
 		"manual": false,
-		"gameType": 0, 
+		"gameType": 0, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "<ul><li>Pokédex completa.<li>Todos los Pokémon cazados.<li>Todas las formas de Unown cazadas.<li>Frente Batalla superado.<li>Todos los concursos superados.<li>Ficha de entrenador a 5 estrellas.</ul>",
 		"gameName": "Pokémon Edición Platino"
@@ -954,7 +954,7 @@
 		"region": "pal",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "",
 		"gameName": "Resident Evil 2"
@@ -966,7 +966,7 @@
 		"region": "pal",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "",
 		"gameName": "Resident Evil 3"
@@ -978,7 +978,7 @@
 		"region": "palesp",
 		"box": false,
 		"manual": false,
-		"gameType": 2, 
+		"gameType": 2, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "<ul><li>Partida 1: Al final del primer mundo.<li>Partida 2: Al final del segundo mundo.<li>Partida 3: Al final del juego.<li>Partida 4: Tras completar el juego.<ul><li>Juego al 100%<li>Todos los logros de steam desbloqueados.</ul></ul>",
 		"gameName": "Final Fantasy V (Steam)"
@@ -990,7 +990,7 @@
 		"region": "palesp",
 		"box": false,
 		"manual": false,
-		"gameType": 2, 
+		"gameType": 2, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "<ul><li>Todos los objetos conseguibles a 99 unidades (menos guia y los de Gold Saucer).<li>Niveles 99 con estados a 255.<li>Todas las materias a maestro (excepto submarina).<ul><li>Juego al 100%<li>Todos los logros de steam desbloqueados.</ul></ul>",
 		"gameName": "Final Fantasy VII (Steam)"
@@ -1002,7 +1002,7 @@
 		"region": "palesp",
 		"box": false,
 		"manual": false,
-		"gameType": 2, 
+		"gameType": 2, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "<ul><li>Hay una partida guardada en cada punto del juego de 'continuación de historia'. Además las 2 partidas más recientes son:<li>Antes de derrotar a los Eones Oscuros (con todos los parámetros al máximo y todo conseguido).<li>Destino de Verdugo final desbloqueado.</ul></ul>",
 		"gameName": "Final Fantasy X (Steam)"
@@ -1014,9 +1014,9 @@
 		"region": "jap",
 		"box": false,
 		"manual": false,
-		"gameType": 0, 
+		"gameType": 0, //0: none, 1: phisical, 2: digital
 		"save": true,
-		"commentHTML": "<ul><li>Para poder ejecutar las partidas hay que tener la misma versión de la traducción utilizada (incluida en el .rar) sobre la versión japonesa de PC.<li>También incluye el AppLocale. Necesario para ver los textos en español.<ul><li>saves Ordenados:<li>No. 01 - Capítulo 1<li>No. 02 - Capítulo 2<li>No. 03 - Capítulo 3<li>No. 04 - Capítulo 4<li>No. 05 - Capítulo 5<li>No. 06 - Capítulo 6<li>No. 07 - Capítulo 6 - Final de Suzuha<li>No. 08 - Capítulo 7<li>No. 09 - Capítulo 7 - Final de Faris<li>No. 10 - Capítulo 8<li>No. 11 - Capítulo 8 - Final de Luka<li>No. 12 - Capítulo 9<li>No. 13 - Capítulo 10 - Final de Mayuri<li>No. 14 - Capítulo 10 - Final de Kurisu<li>No. 15 - Capítulo 11 - True Ending</ul></ul>",
+		"commentHTML": "<ul><li>Para poder ejecutar las partidas hay que tener la misma versión de la traducción utilizada (incluida en el .rar) sobre la versión japonesa de PC.<li>También incluye el AppLocale. Necesario para ver los textos en español.<ul><li>"save"s Ordenados:<li>No. 01 - Capítulo 1<li>No. 02 - Capítulo 2<li>No. 03 - Capítulo 3<li>No. 04 - Capítulo 4<li>No. 05 - Capítulo 5<li>No. 06 - Capítulo 6<li>No. 07 - Capítulo 6 - Final de Suzuha<li>No. 08 - Capítulo 7<li>No. 09 - Capítulo 7 - Final de Faris<li>No. 10 - Capítulo 8<li>No. 11 - Capítulo 8 - Final de Luka<li>No. 12 - Capítulo 9<li>No. 13 - Capítulo 10 - Final de Mayuri<li>No. 14 - Capítulo 10 - Final de Kurisu<li>No. 15 - Capítulo 11 - True Ending</ul></ul>",
 		"gameName": "Steins;Gate"
 	},
 	{
@@ -1026,9 +1026,9 @@
 		"region": "jap",
 		"box": false,
 		"manual": false,
-		"gameType": 0, 
+		"gameType": 0, //0: none, 1: phisical, 2: digital
 		"save": true,
-		"commentHTML": "<ul><li>Para poder ejecutar las partidas hay que tener la misma versión de la traducción utilizada (incluida en el .rar) sobre la versión japonesa de PC.<ul><li>saves Ordenados:<li>No. 01 - Capítulo 1<li>No. 02 - Capítulo 2<li>No. 03 - Capítulo 3<li>No. 04 - Capítulo 4<li>No. 05 - Capítulo 5</ul></ul>",
+		"commentHTML": "<ul><li>Para poder ejecutar las partidas hay que tener la misma versión de la traducción utilizada (incluida en el .rar) sobre la versión japonesa de PC.<ul><li>"save"s Ordenados:<li>No. 01 - Capítulo 1<li>No. 02 - Capítulo 2<li>No. 03 - Capítulo 3<li>No. 04 - Capítulo 4<li>No. 05 - Capítulo 5</ul></ul>",
 		"gameName": "Steins;Gate 0"
 	},
 	{
@@ -1038,7 +1038,7 @@
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 2, 
+		"gameType": 2, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "",
 		"gameName": "Tekken 7"
@@ -1050,7 +1050,7 @@
 		"region": "pal",
 		"box": false,
 		"manual": false,
-		"gameType": 2, 
+		"gameType": 2, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "",
 		"gameName": "Danganronpa: Trigger Happy Havoc"
@@ -1062,7 +1062,7 @@
 		"region": "pal",
 		"box": false,
 		"manual": false,
-		"gameType": 2, 
+		"gameType": 2, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "",
 		"gameName": "Danganronpa 2: Goodbye Despair"
@@ -1074,7 +1074,7 @@
 		"region": "palesp",
 		"box": false,
 		"manual": false,
-		"gameType": 2, 
+		"gameType": 2, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "",
 		"gameName": "Devil May Cry V"
@@ -1086,7 +1086,7 @@
 		"region": "pal",
 		"box": false,
 		"manual": false,
-		"gameType": 2, 
+		"gameType": 2, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "",
 		"gameName": "Hyperdimension Neptunia Re;Birth1"
@@ -1098,7 +1098,7 @@
 		"region": "pal",
 		"box": false,
 		"manual": false,
-		"gameType": 2, 
+		"gameType": 2, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "",
 		"gameName": "Hyperdimension Neptunia Re;Birth2: Sisters Generation"
@@ -1110,7 +1110,7 @@
 		"region": "palesp",
 		"box": false,
 		"manual": false,
-		"gameType": 2, 
+		"gameType": 2, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "<ul><li>Trajes alternativos desbloqueados.<li>Modo Espíritus Oni desbloqueado.<li>Modo Ultimate desbloqueado.<li>Ranuras<ol type='1'><li>Modo Normal: Antes de entrar en la zona final. Sin usar objetos de cura, a falta del genbu 1 para todos los documentos, todas las joyas y sin subir niveles de arma, al entrar en las mejoras sube la última mejora del brazalete.<li>Modo Normal: Como el anterior pero con las armas al máximo nivel y todas las fluoritas.<li>Modo Ultimate: Antes de entrar en la zona final. Preparado para completar partida con rango S.</ol></ul>",
 		"gameName": "Onimusha Warlords"
@@ -1122,7 +1122,7 @@
 		"region": "palesp",
 		"box": false,
 		"manual": false,
-		"gameType": 2, 
+		"gameType": 2, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "",
 		"gameName": "Final Fantasy Type 0 Remastered"
@@ -1134,7 +1134,7 @@
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "",
 		"gameName": "Capcom VS. SNK 2"
@@ -1146,7 +1146,7 @@
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "<ul><li>Partida completada en dificultad normal.</ul>",
 		"gameName": "Devil May Cry 3"
@@ -1158,7 +1158,7 @@
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "",
 		"gameName": ".hack//INFECTION"
@@ -1170,7 +1170,7 @@
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "<ul><li>Partida completada.<li>Heredada de .hack//INFECTION.</ul>",
 		"gameName": ".hack//MUTATION"
@@ -1182,7 +1182,7 @@
 		"region": "jap",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "<ul><li>Varios personajes desbloqueados.<li>Todos los escenarios desbloqueados.<li>Modo esferas desbloqueado.</ul>",
 		"gameName": "DQ & FF in Itadaki Street Special"
@@ -1194,7 +1194,7 @@
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "",
 		"gameName": "Dragon Ball Z Budokai"
@@ -1206,7 +1206,7 @@
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "",
 		"gameName": "Dragon Ball Z Budokai 2"
@@ -1218,7 +1218,7 @@
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "",
 		"gameName": "Dragon Ball Z Budokai 3"
@@ -1230,7 +1230,7 @@
 		"region": "palesp",
 		"box": false,
 		"manual": false,
-		"gameType": 0, 
+		"gameType": 0, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "<ul><li>Todas las cápsulas conseguidas menos las de voces.<li>Desbloqueados los nuevos skins de la versión CE.</ul>",
 		"gameName": "Dragon Ball Z Budokai 3 CE"
@@ -1242,7 +1242,7 @@
 		"region": "palesp",
 		"box": false,
 		"manual": false,
-		"gameType": 0, 
+		"gameType": 0, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "",
 		"gameName": "Dragon Ball Z Budokai - Infinite World"
@@ -1275,7 +1275,7 @@
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "<ul><li>Todas las pruebas desbloqueadas.<li>Modo experto de la prueba de baile desbloqueado.<li>Todos los extras desbloqueados.<li>'Record Mundial' en todas las pruebas.</ul>",
 		"gameName": "ESPN International Track & Field"
@@ -1287,7 +1287,7 @@
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "<ul><li>Tiempo: 158:08<li>Tablero de esferas avanzado.<li>Todas las Armas de los siete astros.<li>Accesorios para todos los personajes con 'Expansión de VIT', 'AutoPrisa', 'AutoCoraza', 'Cinta'.<li>Armas personalizadas para todos los personajes con 'Expansión de daño', 'PM=1', 'Turbo Triple', 'Evade y Ataca'.<li>Armas para todos los personajes con 'PH x 3', 'Turbo por PH', 'Turbo Triple'.<li>Parámetros a 255 con todos los personajes.<li>Eones Oscuros derrotados.<li>10 monstruos de cada cazados.<li>Verdugo final por derrotar.</ul>",
 		"gameName": "Final Fantasy X"
@@ -1299,7 +1299,7 @@
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "<ul><li>Nivel 54<li>Tiempo: 35:20<li>Partida salvada en 'Almacen'.<li>Juego listo para completar.</ul>",
 		"gameName": "Kingdom Hearts"
@@ -1311,7 +1311,7 @@
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "<ul><li>Nivel 45<li>Tiempo: 38:31<li>Partida guardada en 'Altar del no ser' (justo antes del jefe final).</ul>",
 		"gameName": "Kingdom Hearts II"
@@ -1323,7 +1323,7 @@
 		"region": "palesp",
 		"box": false,
 		"manual": false,
-		"gameType": 0, 
+		"gameType": 0, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "",
 		"gameName": "Klonoa 2: Lunatea's Veil"
@@ -1335,7 +1335,7 @@
 		"region": "jap",
 		"box": false,
 		"manual": false,
-		"gameType": 0, 
+		"gameType": 0, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "",
 		"gameName": "Naruto Narutimate Hero"
@@ -1347,7 +1347,7 @@
 		"region": "jap",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "<ul><li>Partida al ~99%.</ul>",
 		"gameName": "Naruto Narutimate Hero 2"
@@ -1359,7 +1359,7 @@
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "",
 		"gameName": "Onimusha: Warlords"
@@ -1371,7 +1371,7 @@
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "<ul><li>Partida completada.<li>Funciones especiales desbloqueadas.<li>Tiempo: 9:00<li>Partida guardada antes del jefe final.</ul>",
 		"gameName": "Onimusha 2: Samurai's Destiny"
@@ -1383,7 +1383,7 @@
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "<ul><li> Partida guardada en el último capítulo lista para completar el juego.</ul>",
 		"gameName": "Project Zero"
@@ -1395,7 +1395,7 @@
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "<ul><li>Juego completado.<li>Partidas guardadas en varios momentos del juego, incluida una antes del jefe final.</ul>",
 		"gameName": "Project Zero 3: The Tormented"
@@ -1407,7 +1407,7 @@
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "<ul><li>Juego completado.<li>Partida al 89%</ul>",
 		"gameName": "Space Channel 5"
@@ -1419,7 +1419,7 @@
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "<ul><li>Completado en la dificultad normal.<li>Algunos trajes y objetos desbloqueados.</ul>",
 		"gameName": "Space Channel 5 Part 2"
@@ -1431,7 +1431,7 @@
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "",
 		"gameName": "Street Fighter EX3"
@@ -1443,7 +1443,7 @@
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "",
 		"gameName": "Tekken 4"
@@ -1455,7 +1455,7 @@
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "",
 		"gameName": "Tekken 5"
@@ -1467,7 +1467,7 @@
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "<ul><li>Juego completado en dificultad normal.<li>Varias misiones completadas en rango Asesino/Gran Maestro en varias dificultades y disposiciones.<li>Todos los trajes desbloqueados para Ayame y Rin.<li>Todas las técnicas desbloqueadas para Ayame y Rin.<li>Todos los objetos conseguidos.</ul>",
 		"gameName": "Tenchu - Fatal Shadows"
@@ -1479,7 +1479,7 @@
 		"region": "jap",
 		"box": false,
 		"manual": false,
-		"gameType": 0, 
+		"gameType": 0, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "",
 		"gameName": "Hatsune Miku: Project Diva - Dreamy Theater"
@@ -1491,7 +1491,7 @@
 		"region": "jap",
 		"box": false,
 		"manual": false,
-		"gameType": 0, 
+		"gameType": 0, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "",
 		"gameName": "Hatsune Miku: Project Diva - Dreamy Theater 2nd"
@@ -1503,7 +1503,7 @@
 		"region": "jap",
 		"box": false,
 		"manual": false,
-		"gameType": 0, 
+		"gameType": 0, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "",
 		"gameName": "Hatsune Miku: Project Diva - Dreamy Theater Extend"
@@ -1515,7 +1515,7 @@
 		"region": "jap",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "<ul><li> Versión JAP.</ul>",
 		"gameName": "Hatsune Miku: Project Diva F"
@@ -1527,7 +1527,7 @@
 		"region": "usa",
 		"box": false,
 		"manual": false,
-		"gameType": 0, 
+		"gameType": 0, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "<ul><li>Versión USA.<li>Todos desbloqueado menos lo referente a la DIVA Room.</ul>",
 		"gameName": "Hatsune Miku: Project Diva F"
@@ -1539,7 +1539,7 @@
 		"region": "jap",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "<ul><li>Versión JAP.<li>Todo desbloqueado menos lo referente a la DIVA Room.</ul>",
 		"gameName": "Hatsune Miku: Project Diva F 2nd"
@@ -1551,7 +1551,7 @@
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "<ul><li> ICO completado.</ul>",
 		"gameName": "ICO & Shadow of the Colossus HD"
@@ -1563,7 +1563,7 @@
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "",
 		"gameName": "Ni no Kuni: Wrath of the White Witch"
@@ -1575,7 +1575,7 @@
 		"region": "palesp",
 		"box": false,
 		"manual": false,
-		"gameType": 0, 
+		"gameType": 0, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "",
 		"gameName": "Saint Seiya: Sanctuary Battle"
@@ -1587,7 +1587,7 @@
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "<ul><li>Modo historia completado.<li>Todos los personajes desbloqueados.</ul>",
 		"gameName": "Saint Seiya: Brave Soldiers"
@@ -1599,7 +1599,7 @@
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "<ul><li>Partida completada.<li>Partida guardada antes del jefe final.</ul>",
 		"gameName": "Tales of Xillia"
@@ -1611,7 +1611,7 @@
 		"region": "pal",
 		"box": false,
 		"manual": false,
-		"gameType": 2, 
+		"gameType": 2, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "",
 		"gameName": "Hatsune Miku: Project Diva - Future Tone"
@@ -1623,7 +1623,7 @@
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "",
 		"gameName": "Hatsune Miku: Project Diva X"
@@ -1635,7 +1635,7 @@
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "<ul><li>Juego completado.<li>Pokédex completa.<li>Pokémon fósiles, pokémon de otras ediciones y Mew han sido cazados mediante el bug de Mew.<li>Magmar cazado mediante el bug del Magmar starter.<li>Venusaur, Nidoking y Gengar a nivel 100 cazados con el bug que permite alcanzar el nivel 100 en un encuentro.<li>MissingNo. capturado.<li>Ditto variocolor (aunque no se vea), cazado mediante el bug del Gyaradoss variocolor del Pokemon O/P/C.<li>Se han realizado varios clones, pero no hay nada hackeado mediante programas externos.</ul>",
 		"gameName": "Pokémon Edición Amarilla"
@@ -1647,7 +1647,7 @@
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "<ul><li>Juego completado.<li>Pokédex completa.<li>Celebi cazado mediante bug de Sneasel.<li>Celebi dipositado en la caja 'Trades' procedente del evento Celebi Tour.<li>Todos los variocolores legales (Ditto variocolor importado de Pokémon Amarillo utilizando el bug del Gyaradoss variocolor).</ul>",
 		"gameName": "Pokémon Edición Plata"
@@ -1659,7 +1659,7 @@
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "<ul><li>Tiempo: 86:04 h.<li>Todos los personajes a nivel 100.<li>Todos los personajes con todas las habilidades aprendidas (incluidas magias, cóleras de Gau y Bagajes de Strago).<li>Bestiario al 100%.<li>Dragón Keiser derrotado.<li>Templo de las almas superado (Corona de maestro conseguida).</ul>",
 		"gameName": "Final Fantasy VI Advance"
@@ -1671,7 +1671,7 @@
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "<ul><li>Tiempo: 65:26 h.<li>Liga Pokémon Completada.<li>Pokédex completa.<li>Todos los Pokémon ordenados en las cajas.<li>Unowns de la A a la Z.<ul><li>Se utilizó GameShark para activar los eventos que permiten cazar a MEW, DEOXYS, etc. ya que no se pudieron obtener en nuestros lares, pero los Pokémon son cazados legales.<li>Se clonaron varios ítems en la versión Esmeralda, como objetos de evolución, Master Balls, etc. Esto no implica a los Pokémon. No hay ningún clon en las cajas, todos vienen del propio juego, son huevos, intercambiados de otros juegos o salvados de antiguas partidas.<li>CELEBI hackeado. Insertado de una partida americana, del evento JAA 10 ANIV ya que no hay ningún modo legal (ni semi-legal) para conseguirlo. Debería ser legal.</ul></ul>",
 		"gameName": "Pokémon Edición Verde Hoja"
@@ -1683,7 +1683,7 @@
 		"region": "palesp",
 		"box": false,
 		"manual": false,
-		"gameType": 2, 
+		"gameType": 2, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "<ul><li>Completados los escenarios A y B de ambos personajes.<li>Completados los Modos Hunk y Tofu.</ul>",
 		"gameName": "Resident Evil 2 Remake"
@@ -1695,7 +1695,7 @@
 		"region": "palesp",
 		"box": false,
 		"manual": false,
-		"gameType": 2, 
+		"gameType": 2, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "",
 		"gameName": "Resident Evil 3 Remake"
@@ -1707,7 +1707,7 @@
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "",
 		"gameName": "Inazuma Eleven Strikers"
@@ -1719,7 +1719,7 @@
 		"region": "palesp",
 		"box": true,
 		"manual": false,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "<ul><li>Juego completado.<li>Una de las partidas salvadas es en el punto final del juego.</ul>",
 		"gameName": "Baten Kaitos: Eternal Wings and the Lost Ocean"
@@ -1731,7 +1731,7 @@
 		"region": "usa",
 		"box": false,
 		"manual": false,
-		"gameType": 0, 
+		"gameType": 0, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "<ul><li>Juego completado.</ul>",
 		"gameName": "Chrono Cross"
@@ -1743,7 +1743,7 @@
 		"region": "pal",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "",
 		"gameName": "Final Fantasy VI"
@@ -1752,13 +1752,13 @@
 		"gameId": "ff4psx",
 		"crown": "silver",
 		"platformId": "psone",
-		"region": "palesp",
+		"region": "pal",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "<ul><li>Juego completado.</ul>",
-		"gameName": "Final Fantasy Anthology"
+		"gameName": "Final Fantasy Anthology: European Edition(FFIV)"
 	},
 	{
 		"gameId": "lod",
@@ -1767,7 +1767,7 @@
 		"region": "palesp",
 		"box": false,
 		"manual": false,
-		"gameType": 0, 
+		"gameType": 0, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "<ul><li>Juego completado.</ul>",
 		"gameName": "The Legend of Dragoon"
@@ -1779,7 +1779,7 @@
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "<ul><li>Todo desbloqueado, incluido Devil Kazuya.</ul>",
 		"gameName": "Tekken"
@@ -1791,7 +1791,7 @@
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "<ul><li>Juego completado.<li>Pokédex completa.<li>Pokémon fósiles, pokémon de otras ediciones y Mew han sido cazados mediante el bug de Mew.<li>Mew de evento (Caja 12), conseguido a través de la partida de distribución oficial.<li>La partida no ha pasado en ningún momento por editores de partidas.</ul>",
 		"gameName": "Pokémon Edición Azul"
@@ -1803,7 +1803,7 @@
 		"region": "jap",
 		"box": false,
 		"manual": false,
-		"gameType": 0, 
+		"gameType": 0, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "<ul><li>Partida salvada DQI: Nivel máximo, arma y armadura de Roto conseguidas.<li><li>Partida salvada DQII: Cueva Rotho recorrida (con las últimas armaduras y espadas de la zona).<li>state0: (DQI) Al rescatar la princesa.<li>state1: (DQI) Frente al Rey Dragón (Jefe final).<li>state2: (DQI) Tras derrotar al jefe final.<li>state2: (DQII) Tras derrotar al jefe final.</ul>",
 		"gameName": "Dragon Quest I & II"
@@ -1815,7 +1815,7 @@
 		"region": "palesp",
 		"box": false,
 		"manual": false,
-		"gameType": 2, 
+		"gameType": 2, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "<ul>   <li>Partida salvada antes del cambio de trabajos.<li>Partida salvada antes del jefe final.<li>Partida salvada tras completar el juego.<li>Bestiario al 100%.<li>Todos los personajes al nivel 99.</ul>",
 		"gameName": "Final Fantasy Pixel Remaster"
@@ -1827,7 +1827,7 @@
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "<ul>   <li>Partida completada con el final de 'Una nueva era'.<li>Nueva Partida + desbloquada.</ul>",
 		"gameName": "Triangle Strategy"
@@ -1839,7 +1839,7 @@
 		"region": "palesp",
 		"box": false,
 		"manual": false,
-		"gameType": 0, 
+		"gameType": 0, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "<ul><li>Pokédex completada.<li>Un Pokémon de cada ordenados, en las cajas.<li>Arbitrary Code Execution (ACE) preparado para usar.<li>Pokémon listos para ejecutar el ACE en CAJA 12.<li>Diferentes configuraciones de objetos para ejecutar el ACE en la bolsa y PC.<li>Todos los Pokémon conseguibles en una sola edición totalmente legales (incluidos evoluciones de intercambio) y sin glitches, excepto los Pokémon de regalo y alguna excepción.<li>Todos los intercambios in-game realizados, guardados en la CAJA 11 (regalos).<li>Iniciales conseguidos mediante el glitch de heredar partida (en caja de regalos, CAJA 11).<li>Pokémon de la edición azul conseguidos con el glitch de Mew.<li>Marowak cazado de la Torre Pokémon mediante glitch.<li>Voltorb y Electrode estáticos de la Central de Energía.<li>Pokémon de regalo que no se pueden encontrar salvajes en CAJA 11 (reglaos). Los que hay en su orden, en sus respectivas cajas, han sido cazados con el glitch de Mew.<li>Mew del evento Pokemon Tournament del año 2000 de Madrid (EO EUROPE), en la CAJA 11 (regalos) totalmente legal. Mews esclavos de MO y el que ocupa su puesto en las cajas han sido cazados con el glitch de Mew y con el ACE.<li>Missingno. cazado mediante el ACE.<li>Todos los objetos multiplicados, han sido duplicados mediante encuentros con Missingno.<li>Gengar Nv100 del equipo ha sido cazado con el glitch de 'Gengar Nv100 antes de Medalla Roca'.</ul>",
 		"gameName": "Pokémon Edición Roja"
@@ -1851,7 +1851,7 @@
 		"region": "pal",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": false,
 		"commentHTML": "",
 		"gameName": "Megagames I"
@@ -1864,7 +1864,7 @@
 		"region": "pal",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": false,
 		"commentHTML": "",
 		"gameName": "Megagames 2"
@@ -1876,7 +1876,7 @@
 		"region": "pal",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": false,
 		"commentHTML": "",
 		"gameName": "Megagames 3"
@@ -1888,7 +1888,7 @@
 		"region": "pal",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": false,
 		"commentHTML": "",
 		"gameName": "Outrun"
@@ -1900,7 +1900,7 @@
 		"region": "pal",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": false,
 		"commentHTML": "",
 		"gameName": "Shadow Dancer"
@@ -1912,7 +1912,7 @@
 		"region": "pal",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": false,
 		"commentHTML": "",
 		"gameName": "Revenge of Shinobi"
@@ -1924,7 +1924,7 @@
 		"region": "pal",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": false,
 		"commentHTML": "",
 		"gameName": "World Cup Italia '90"
@@ -1936,7 +1936,7 @@
 		"region": "pal",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": false,
 		"commentHTML": "",
 		"gameName": "Street Fighter II - Special Champion Edition"
@@ -1948,7 +1948,7 @@
 		"region": "pal",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": false,
 		"commentHTML": "",
 		"gameName": "Jurassic Park"
@@ -1960,7 +1960,7 @@
 		"region": "pal",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": false,
 		"commentHTML": "",
 		"gameName": "Golden Axe 2"
@@ -1972,7 +1972,7 @@
 		"region": "pal",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": false,
 		"commentHTML": "",
 		"gameName": "Fatal Fury"
@@ -1984,7 +1984,7 @@
 		"region": "pal",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": false,
 		"commentHTML": "",
 		"gameName": "Gunship"
@@ -1996,7 +1996,7 @@
 		"region": "pal",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": false,
 		"commentHTML": "",
 		"gameName": "Mortal Kombat"
@@ -2008,7 +2008,7 @@
 		"region": "usa",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": false,
 		"commentHTML": "",
 		"gameName": "Two Crude Dudes"
@@ -2020,7 +2020,7 @@
 		"region": "jap",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": false,
 		"commentHTML": "",
 		"gameName": "Fire Mustang"
@@ -2032,7 +2032,7 @@
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": false,
 		"commentHTML": "",
 		"gameName": "El Rey León"
@@ -2044,7 +2044,7 @@
 		"region": "pal",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": false,
 		"commentHTML": "",
 		"gameName": "Power Rangers"
@@ -2056,7 +2056,7 @@
 		"region": "pal",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": false,
 		"commentHTML": "",
 		"gameName": "Samurai Shodown"
@@ -2068,7 +2068,7 @@
 		"region": "pal",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": false,
 		"commentHTML": "",
 		"gameName": "Sonic The Hedgehog"
@@ -2080,7 +2080,7 @@
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": false,
 		"commentHTML": "",
 		"gameName": "Sonic The Hedgehog 2"
@@ -2092,10 +2092,10 @@
 		"region": "pal",
 		"box": true,
 		"manual": false,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": false,
 		"commentHTML": "",
-		"gameName": "Knuckles The Echidna in Sonic The Hedgehog (Repro)"
+		"gameName": "Knuckles The Echidna in Sonic The Hedgehog"
 	},
 	{
 		"gameId": "sonic3_smd",
@@ -2104,7 +2104,7 @@
 		"region": "pal",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": false,
 		"commentHTML": "",
 		"gameName": "Sonic 3"
@@ -2116,7 +2116,7 @@
 		"region": "pal",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": false,
 		"commentHTML": "",
 		"gameName": "Sonic & Knuckles"
@@ -2128,7 +2128,7 @@
 		"region": "pal",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": false,
 		"commentHTML": "",
 		"gameName": "Sonic Compilation"
@@ -2140,7 +2140,7 @@
 		"region": "pal",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": false,
 		"commentHTML": "",
 		"gameName": "Sonic 3D Flickies' Island"
@@ -2152,7 +2152,7 @@
 		"region": "pal",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": false,
 		"commentHTML": "",
 		"gameName": "Sonic Spinball"
@@ -2164,7 +2164,7 @@
 		"region": "pal",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": false,
 		"commentHTML": "",
 		"gameName": "Sonic The Hedgehog"
@@ -2176,7 +2176,7 @@
 		"region": "pal",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": false,
 		"commentHTML": "",
 		"gameName": "Sonic The Hedgehog 2"
@@ -2188,7 +2188,7 @@
 		"region": "pal",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": false,
 		"commentHTML": "",
 		"gameName": "Sonic Chaos"
@@ -2200,7 +2200,7 @@
 		"region": "pal",
 		"box": false,
 		"manual": false,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": false,
 		"commentHTML": "",
 		"gameName": "Sonic Chaos"
@@ -2212,7 +2212,7 @@
 		"region": "pal",
 		"box": false,
 		"manual": false,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": false,
 		"commentHTML": "",
 		"gameName": "Columns"
@@ -2224,7 +2224,7 @@
 		"region": "pal",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": false,
 		"commentHTML": "",
 		"gameName": "Tetris Attack"
@@ -2236,7 +2236,7 @@
 		"region": "pal",
 		"box": false,
 		"manual": false,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": false,
 		"commentHTML": "",
 		"gameName": "NHLPA Hockey 93"
@@ -2248,7 +2248,7 @@
 		"region": "pal",
 		"box": false,
 		"manual": false,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": false,
 		"commentHTML": "",
 		"gameName": "Super Mario All Stars + Super Mario World"
@@ -2260,7 +2260,7 @@
 		"region": "pal",
 		"box": false,
 		"manual": false,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": false,
 		"commentHTML": "",
 		"gameName": "Lucky Luke"
@@ -2272,7 +2272,7 @@
 		"region": "pal",
 		"box": false,
 		"manual": false,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": false,
 		"commentHTML": "",
 		"gameName": "Dragon Ball Z - Super Butouden"
@@ -2284,7 +2284,7 @@
 		"region": "pal",
 		"box": false,
 		"manual": false,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": false,
 		"commentHTML": "",
 		"gameName": "Dragon Ball Z - Hyper Dimension"
@@ -2296,7 +2296,7 @@
 		"region": "jap",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": false,
 		"commentHTML": "",
 		"gameName": "Chrono Trigger"
@@ -2308,7 +2308,7 @@
 		"region": "jap",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": false,
 		"commentHTML": "",
 		"gameName": "Final Fantasy IV"
@@ -2320,7 +2320,7 @@
 		"region": "jap",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": false,
 		"commentHTML": "",
 		"gameName": "Final Fantasy IV - Easy Type"
@@ -2332,7 +2332,7 @@
 		"region": "jap",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": false,
 		"commentHTML": "",
 		"gameName": "Final Fantasy V"
@@ -2344,7 +2344,7 @@
 		"region": "jap",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": false,
 		"commentHTML": "",
 		"gameName": "Final Fantasy VI"
@@ -2356,7 +2356,7 @@
 		"region": "pal",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "<ul><li>Partida completada.</ul>",
 		"gameName": "Bayonetta 3 - Trinity Masquerade Edition"
@@ -2368,7 +2368,7 @@
 		"region": "pal",
 		"box": false,
 		"manual": false,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": false,
 		"commentHTML": "",
 		"gameName": "Super Mario Bros 3"
@@ -2380,7 +2380,7 @@
 		"region": "pal",
 		"box": false,
 		"manual": false,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": false,
 		"commentHTML": "",
 		"gameName": "Top Gun"
@@ -2392,7 +2392,7 @@
 		"region": "pal",
 		"box": false,
 		"manual": false,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": false,
 		"commentHTML": "",
 		"gameName": "Tiger-Heli"
@@ -2404,7 +2404,7 @@
 		"region": "jap",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": false,
 		"commentHTML": "",
 		"gameName": "Final Fantasy"
@@ -2416,7 +2416,7 @@
 		"region": "jap",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": false,
 		"commentHTML": "",
 		"gameName": "Final Fantasy II"
@@ -2428,7 +2428,7 @@
 		"region": "jap",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": false,
 		"commentHTML": "",
 		"gameName": "Final Fantasy III"
@@ -2440,7 +2440,7 @@
 		"region": "jap",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": false,
 		"commentHTML": "",
 		"gameName": "Final Fantasy I·II"
@@ -2452,7 +2452,7 @@
 		"region": "pal",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": false,
 		"commentHTML": "",
 		"gameName": "The Legend of Zelda: Collector's Edition"
@@ -2464,7 +2464,7 @@
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": false,
 		"commentHTML": "",
 		"gameName": "The Legend of Zelda: The Wind Waker"
@@ -2476,7 +2476,7 @@
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": false,
 		"commentHTML": "",
 		"gameName": "Resident Evil Zero"
@@ -2488,7 +2488,7 @@
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": false,
 		"commentHTML": "",
 		"gameName": "Final Fantasy Crystal Chronicles"
@@ -2500,7 +2500,7 @@
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": false,
 		"commentHTML": "",
 		"gameName": "Resident Evil"
@@ -2512,7 +2512,7 @@
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": false,
 		"commentHTML": "",
 		"gameName": "Resident Evil 4"
@@ -2524,7 +2524,7 @@
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": false,
 		"commentHTML": "",
 		"gameName": "Game Boy Player Start-Up Disc"
@@ -2536,7 +2536,7 @@
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": false,
 		"commentHTML": "",
 		"gameName": "Pokémon Colosseum"
@@ -2548,7 +2548,7 @@
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": false,
 		"commentHTML": "",
 		"gameName": "Star Wars Rouge Squadron III - Rebel Strike"
@@ -2560,7 +2560,7 @@
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": false,
 		"commentHTML": "",
 		"gameName": "Pokémon Stadium"
@@ -2572,7 +2572,7 @@
 		"region": "palesp",
 		"box": false,
 		"manual": false,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": false,
 		"commentHTML": "",
 		"gameName": "Pokémon Pinball"
@@ -2584,7 +2584,7 @@
 		"region": "palesp",
 		"box": false,
 		"manual": false,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": false,
 		"commentHTML": "",
 		"gameName": "Pokémon Puzzle Challenge"
@@ -2596,7 +2596,7 @@
 		"region": "pal",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": false,
 		"commentHTML": "",
 		"gameName": "Tales of Eternia"
@@ -2608,7 +2608,7 @@
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": false,
 		"commentHTML": "",
 		"gameName": "The World Ends with You: Final Remix"
@@ -2620,7 +2620,7 @@
 		"region": "pal",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": false,
 		"commentHTML": "",
 		"gameName": "Bravely Default II"
@@ -2632,7 +2632,7 @@
 		"region": "as",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": false,
 		"commentHTML": "",
 		"gameName": "Chrono Cross: The Radical Dreamers Edition"
@@ -2644,7 +2644,7 @@
 		"region": "as",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": false,
 		"commentHTML": "",
 		"gameName": "Dragon Quest 1+2+3 Collection"
@@ -2656,7 +2656,7 @@
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": false,
 		"commentHTML": "",
 		"gameName": "Octopath Traveler"
@@ -2664,11 +2664,11 @@
 	{
 		"gameId": "perfectdarkzero",
 		"crown": "none",
-		"platformId": "xbox360",
+		"platformId": "x"box"360",
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": false,
 		"commentHTML": "",
 		"gameName": "Perfect Dark Zero"
@@ -2676,11 +2676,11 @@
 	{
 		"gameId": "fable2",
 		"crown": "none",
-		"platformId": "xbox360",
+		"platformId": "x"box"360",
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": false,
 		"commentHTML": "",
 		"gameName": "Fable II"
@@ -2688,11 +2688,11 @@
 	{
 		"gameId": "lostodyssey",
 		"crown": "none",
-		"platformId": "xbox360",
+		"platformId": "x"box"360",
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": false,
 		"commentHTML": "",
 		"gameName": "Lost Odyssey"
@@ -2700,11 +2700,11 @@
 	{
 		"gameId": "shhd",
 		"crown": "none",
-		"platformId": "xbox360",
+		"platformId": "x"box"360",
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": false,
 		"commentHTML": "",
 		"gameName": "Silent Hill HD Collection"
@@ -2712,11 +2712,11 @@
 	{
 		"gameId": "monkeyislandcollection",
 		"crown": "none",
-		"platformId": "xbox360",
+		"platformId": "x"box"360",
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": false,
 		"commentHTML": "",
 		"gameName": "Monkey Island Special Edition Collection"
@@ -2724,11 +2724,11 @@
 	{
 		"gameId": "xenoverse",
 		"crown": "none",
-		"platformId": "xbox360",
+		"platformId": "x"box"360",
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": false,
 		"commentHTML": "",
 		"gameName": "Dragon Ball Xenoverse"
@@ -2736,11 +2736,11 @@
 	{
 		"gameId": "supersf4",
 		"crown": "none",
-		"platformId": "xbox360",
+		"platformId": "x"box"360",
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": false,
 		"commentHTML": "",
 		"gameName": "Super Street Fighter IV"
@@ -2748,11 +2748,11 @@
 	{
 		"gameId": "ttt2",
 		"crown": "none",
-		"platformId": "xbox360",
+		"platformId": "x"box"360",
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": false,
 		"commentHTML": "",
 		"gameName": "Tekken Tag Tournament 2"
@@ -2764,7 +2764,7 @@
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": false,
 		"commentHTML": "",
 		"gameName": "Project Zero - Maiden of Black Water"
@@ -2776,7 +2776,7 @@
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": false,
 		"commentHTML": "",
 		"gameName": "Super Smash Bros. for Wii U"
@@ -2788,7 +2788,7 @@
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": false,
 		"commentHTML": "",
 		"gameName": "Splatoon"
@@ -2800,7 +2800,7 @@
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": false,
 		"commentHTML": "",
 		"gameName": "Mario Kart 8"
@@ -2812,7 +2812,7 @@
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": false,
 		"commentHTML": "",
 		"gameName": "Pokkén Tournament"
@@ -2824,7 +2824,7 @@
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": false,
 		"commentHTML": "",
 		"gameName": "Robotics;Notes Double Pack"
@@ -2836,7 +2836,7 @@
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": false,
 		"commentHTML": "",
 		"gameName": "Taiko no Tatsujin - Drum'n Fun!"
@@ -2848,7 +2848,7 @@
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": false,
 		"commentHTML": "",
 		"gameName": "Bayonetta + Bayonetta 2"
@@ -2860,7 +2860,7 @@
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "<ul><li>No completado.</ul>",
 		"gameName": "Gravity Rush Remastered"
@@ -2872,7 +2872,7 @@
 		"region": "palesp",
 		"box": false,
 		"manual": false,
-		"gameType": 0, 
+		"gameType": 0, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "<ul><li>Juego completado.</ul>",
 		"gameName": "God of War III Remastered"
@@ -2884,7 +2884,7 @@
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "<ul><li>Juego completado.</ul>",
 		"gameName": "Final Fantasy VII Remake"
@@ -2896,7 +2896,7 @@
 		"region": "palesp",
 		"box": false,
 		"manual": false,
-		"gameType": 0, 
+		"gameType": 0, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "<ul><li>Juego completado.</ul>",
 		"gameName": "A Way Out"
@@ -2908,7 +2908,7 @@
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "<ul><li>Juego completado.</ul>",
 		"gameName": "Dragon Quest XI: Echoes of an Elusive Age (Edition of Light)"
@@ -2920,7 +2920,7 @@
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "<ul><li>No completado.</ul>",
 		"gameName": "Persona 5 Royal"
@@ -2932,7 +2932,7 @@
 		"region": "pal",
 		"box": false,
 		"manual": false,
-		"gameType": 2, 
+		"gameType": 2, //0: none, 1: phisical, 2: digital
 		"save": true,
 		"commentHTML": "",
 		"gameName": "Final Fantasy VII"
@@ -2944,7 +2944,7 @@
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": false,
 		"commentHTML": "",
 		"gameName": "Short Circuit"
@@ -2956,7 +2956,7 @@
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": false,
 		"commentHTML": "",
 		"gameName": "Fruit Machine"
@@ -2968,7 +2968,7 @@
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": false,
 		"commentHTML": "",
 		"gameName": "Animal, Vegetal, Mineral"
@@ -2980,7 +2980,7 @@
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": false,
 		"commentHTML": "",
 		"gameName": "Robocop"
@@ -2992,7 +2992,7 @@
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": false,
 		"commentHTML": "",
 		"gameName": "Bionic Comandos"
@@ -3004,7 +3004,7 @@
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": false,
 		"commentHTML": "",
 		"gameName": "Silent Shadow"
@@ -3016,2681 +3016,8 @@
 		"region": "palesp",
 		"box": true,
 		"manual": true,
-		"gameType": 1, 
+		"gameType": 1, //0: none, 1: phisical, 2: digital
 		"save": false,
 		"commentHTML": "",
 		"gameName": "Oh Mummy!"
-	},
-	{
-		"gameId": "desolator",
-		"crown": "none",
-		"platformId": "amstrad",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Desolator"
-	},
-	{
-		"gameId": "laberintosultan",
-		"crown": "none",
-		"platformId": "amstrad",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "El laberinto del sultan"
-	},
-	{
-		"gameId": "batmanamstrad",
-		"crown": "none",
-		"platformId": "amstrad",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Batman"
-	},
-	{
-		"gameId": "issamstrad",
-		"crown": "none",
-		"platformId": "amstrad",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "ISS - Incredible Shirnking Sphere"
-	},
-	{
-		"gameId": "pacmaniaamstrad",
-		"crown": "none",
-		"platformId": "amstrad",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Pacman"
-	},
-	{
-		"gameId": "phantis",
-		"crown": "none",
-		"platformId": "amstrad",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Phantis"
-	},
-	{
-		"gameId": "fmartin",
-		"crown": "none",
-		"platformId": "amstrad",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Fernando Martín Basket"
-	},
-	{
-		"gameId": "gameover",
-		"crown": "none",
-		"platformId": "amstrad",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Game Over"
-	},
-	{
-		"gameId": "turboboatsimulator",
-		"crown": "none",
-		"platformId": "amstrad",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Turbo Boat Simulator"
-	},
-	{
-		"gameId": "cazafantasmas2",
-		"crown": "none",
-		"platformId": "amstrad",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Cazafantasmas II"
-	},
-	{
-		"gameId": "turbogirl",
-		"crown": "none",
-		"platformId": "amstrad",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Turbo-Girl"
-	},
-	{
-		"gameId": "mortadeloyfilemon",
-		"crown": "none",
-		"platformId": "amstrad",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Mortadelo y Filemón"
-	},
-	{
-		"gameId": "aliens",
-		"crown": "none",
-		"platformId": "amstrad",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Aliens"
-	},
-	{
-		"gameId": "afterthewar",
-		"crown": "none",
-		"platformId": "amstrad",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "After the War"
-	},
-	{
-		"gameId": "plagagalactica",
-		"crown": "none",
-		"platformId": "amstrad",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Plaga Galáctica"
-	},
-	{
-		"gameId": "spaceballs",
-		"crown": "none",
-		"platformId": "amstrad",
-		"region": "palesp",
-		"box": false,
-		"manual": false,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "La Guerra de las Vajillas"
-	},
-	{
-		"gameId": "hoteldusk",
-		"crown": "none",
-		"platformId": "nds",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Hotel Dusk: Room 215"
-	},
-	{
-		"gameId": "reds",
-		"crown": "none",
-		"platformId": "nds",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Resident Evil Deadly Silence"
-	},
-	{
-		"gameId": "newsmb",
-		"crown": "none",
-		"platformId": "nds",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "New Super Mario Bros"
-	},
-	{
-		"gameId": "childrenofmana",
-		"crown": "none",
-		"platformId": "nds",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Children of Mana"
-	},
-	{
-		"gameId": "dq4nds",
-		"crown": "none",
-		"platformId": "nds",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Dragon Quest IV: Capítulos de los Elegidos"
-	},
-	{
-		"gameId": "dq9nds",
-		"crown": "none",
-		"platformId": "nds",
-		"region": "pal",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Dragon Quest IX: Sentinels of the Starry Skies"
-	},
-	{
-		"gameId": "metroidhuntersdemo",
-		"crown": "none",
-		"platformId": "nds",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Metroid Prime Hunters: First Hunt"
-	},
-	{
-		"gameId": "animalcrossingnds",
-		"crown": "none",
-		"platformId": "nds",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Animal Crossing: Wild World"
-	},
-	{
-		"gameId": "snkvscapcomcard",
-		"crown": "none",
-		"platformId": "nds",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Snk Vs Capcom Card Fighters DS"
-	},
-	{
-		"gameId": "tetrisds",
-		"crown": "none",
-		"platformId": "nds",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Tetris DS"
-	},
-	{
-		"gameId": "bluedragonnds",
-		"crown": "none",
-		"platformId": "nds",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Blue Dragon: Awakened Shadow"
-	},
-	{
-		"gameId": "rhythmparadise",
-		"crown": "none",
-		"platformId": "nds",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Rhythm Paradise"
-	},
-	{
-		"gameId": "inazuma1",
-		"crown": "none",
-		"platformId": "nds",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Inazuma Eleven"
-	},
-	{
-		"gameId": "inazuma2ventisca",
-		"crown": "none",
-		"platformId": "nds",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Inazuma Eleven 2: Ventisca Eterna"
-	},
-	{
-		"gameId": "pkmdiamante",
-		"crown": "none",
-		"platformId": "nds",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Pokémon Edición Diamante"
-	},
-	{
-		"gameId": "pkmblanco",
-		"crown": "none",
-		"platformId": "nds",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Pokémon Edición Blanca"
-	},
-	{
-		"gameId": "pkmnegro2",
-		"crown": "none",
-		"platformId": "nds",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Pokémon Edición Negra 2"
-	},
-	{
-		"gameId": "pkmplatands",
-		"crown": "none",
-		"platformId": "nds",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Pokémon Edición Plata Soulsilver"
-	},
-	{
-		"gameId": "chocobotales",
-		"crown": "none",
-		"platformId": "nds",
-		"region": "palesp",
-		"box": true,
-		"manual": false,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Final Fantasy Fables: Chocobo Tales"
-	},
-	{
-		"gameId": "ffccnds",
-		"crown": "none",
-		"platformId": "nds",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Final Fantasy Crystal Chronicles: Ring of Fates"
-	},
-	{
-		"gameId": "ff3nds",
-		"crown": "none",
-		"platformId": "nds",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Final Fantasy III"
-	},
-	{
-		"gameId": "ff4nds",
-		"crown": "none",
-		"platformId": "nds",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Final Fantasy IV"
-	},
-	{
-		"gameId": "pkmx",
-		"crown": "none",
-		"platformId": "3ds",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Pokémon X"
-	},
-	{
-		"gameId": "pkmzafiroalfa",
-		"crown": "none",
-		"platformId": "3ds",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Pokémon Zafiro Alfa"
-	},
-	{
-		"gameId": "pkmluna",
-		"crown": "none",
-		"platformId": "3ds",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Pokémon Luna"
-	},
-	{
-		"gameId": "pkmultraluna",
-		"crown": "none",
-		"platformId": "3ds",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Pokémon Ultraluna"
-	},
-	{
-		"gameId": "fftheatrhythm",
-		"crown": "none",
-		"platformId": "3ds",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Theatrhythm Final Fantasy"
-	},
-	{
-		"gameId": "dqtheathrhythm",
-		"crown": "none",
-		"platformId": "3ds",
-		"region": "jap",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Theatrhythm Dragon Quest"
-	},
-	{
-		"gameId": "bravelydefault",
-		"crown": "none",
-		"platformId": "3ds",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Bravely Default"
-	},
-	{
-		"gameId": "rhythmparadisemegamix",
-		"crown": "none",
-		"platformId": "3ds",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Rhythm Paradise Megamix"
-	},
-	{
-		"gameId": "everoasis",
-		"crown": "none",
-		"platformId": "3ds",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Ever Oasis"
-	},
-	{
-		"gameId": "dq73ds",
-		"crown": "none",
-		"platformId": "3ds",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Dragon Quest VII: Fragmentos de un Mundo Olvidado"
-	},
-	{
-		"gameId": "dq83ds",
-		"crown": "none",
-		"platformId": "3ds",
-		"region": "pal",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Dragon Quest VIII: Journey of the Cursed King"
-	},
-	{
-		"gameId": "tosps3",
-		"crown": "none",
-		"platformId": "ps3",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Tales of Symphonia Chronicles"
-	},
-	{
-		"gameId": "tekkenhybrid",
-		"crown": "none",
-		"platformId": "ps3",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Tekken Hybrid"
-	},
-	{
-		"gameId": "disgaeacollection",
-		"crown": "none",
-		"platformId": "ps3",
-		"region": "pal",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "The Disgaea Triple Play Collection"
-	},
-	{
-		"gameId": "neptuniacollection",
-		"crown": "none",
-		"platformId": "ps3",
-		"region": "pal",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Hyperdimension Neptunia Hypercollection"
-	},
-	{
-		"gameId": "mgs4",
-		"crown": "none",
-		"platformId": "ps3",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Metal Gear Solid 4: Guns of Patriots"
-	},
-	{
-		"gameId": "pro2platinum",
-		"crown": "none",
-		"platformId": "ps2",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Pro Evolution Soccer 2 (Platinum)"
-	},
-	{
-		"gameId": "pro4",
-		"crown": "none",
-		"platformId": "ps2",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Pro Evolution Soccer 4"
-	},
-	{
-		"gameId": "aoe2",
-		"crown": "none",
-		"platformId": "ps2",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Age of Empires II: The Age of King"
-	},
-	{
-		"gameId": "tekkentt",
-		"crown": "none",
-		"platformId": "ps2",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Tekken Tag Tournament"
-	},
-	{
-		"gameId": "starocean3",
-		"crown": "none",
-		"platformId": "ps2",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Star Ocean: Till the End of Time"
-	},
-	{
-		"gameId": "dq8ps2",
-		"crown": "none",
-		"platformId": "ps2",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Dragon Quest VIII - El Periplo del Rey Maldito"
-	},
-	{
-		"gameId": "ff10platinum",
-		"crown": "none",
-		"platformId": "ps2",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Final Fantasy X (Platinum)"
-	},
-	{
-		"gameId": "ff10bundle",
-		"crown": "none",
-		"platformId": "ps2",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Final Fantasy X (Bundle)"
-	},
-	{
-		"gameId": "clocktower3",
-		"crown": "none",
-		"platformId": "ps2",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Clock Tower 3"
-	},
-	{
-		"gameId": "recvps2",
-		"crown": "none",
-		"platformId": "ps2",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Resident Evil - Code Veronica"
-	},
-	{
-		"gameId": "sonicheroes",
-		"crown": "none",
-		"platformId": "ps2",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Sonic Heroes"
-	},
-	{
-		"gameId": "onimushablade",
-		"crown": "none",
-		"platformId": "ps2",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Onimucha Blade Warriors"
-	},
-	{
-		"gameId": "granturismo3",
-		"crown": "none",
-		"platformId": "ps2",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Gran Turismo 3 A-spec"
-	},
-	{
-		"gameId": "poparenasdeltiempo",
-		"crown": "none",
-		"platformId": "ps2",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Prince of Persia - The Sands of Time"
-	},
-	{
-		"gameId": "hack3",
-		"crown": "none",
-		"platformId": "ps2",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": ".hack//OUTBREAK"
-	},
-	{
-		"gameId": "1945-1-2ps2",
-		"crown": "none",
-		"platformId": "ps2",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "1945 I&II The Arcade Games"
-	},
-	{
-		"gameId": "slug3",
-		"crown": "none",
-		"platformId": "ps2",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Metal Slug 3"
-	},
-	{
-		"gameId": "kof2003ps2",
-		"crown": "none",
-		"platformId": "ps2",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "The King of Fighters 2003"
-	},
-	{
-		"gameId": "neogeobattlecoliseum",
-		"crown": "none",
-		"platformId": "ps2",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "NeoGeo Battle Coliseum"
-	},
-	{
-		"gameId": "kof2000-2001ps2",
-		"crown": "none",
-		"platformId": "ps2",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "The King of Fighters 2000-2001"
-	},
-	{
-		"gameId": "kof2002ps2",
-		"crown": "none",
-		"platformId": "ps2",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "The King of Fighters 2002"
-	},
-	{
-		"gameId": "dinastywarriors3",
-		"crown": "none",
-		"platformId": "ps2",
-		"region": "palesp",
-		"box": false,
-		"manual": false,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Dinasty Warriors 3"
-	},
-	{
-		"gameId": "swordofetheria",
-		"crown": "none",
-		"platformId": "ps2",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "The Sword of Etheria"
-	},
-	{
-		"gameId": "galerians2",
-		"crown": "none",
-		"platformId": "ps2",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Galerians: Ash"
-	},
-	{
-		"gameId": "zoeps2",
-		"crown": "none",
-		"platformId": "ps2",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "The Zone of Enders"
-	},
-	{
-		"gameId": "dmcps2",
-		"crown": "none",
-		"platformId": "ps2",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Devil May Cry"
-	},
-	{
-		"gameId": "jakanddaxter1",
-		"crown": "none",
-		"platformId": "ps2",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Jak and Daxter: El legado de los Precursores"
-	},
-	{
-		"gameId": "silenthill2",
-		"crown": "none",
-		"platformId": "ps2",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Silent Hill 2"
-	},
-	{
-		"gameId": "unlimitedsaga",
-		"crown": "none",
-		"platformId": "ps2",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Unlimited Saga"
-	},
-	{
-		"gameId": "shadowofthecolosus",
-		"crown": "none",
-		"platformId": "ps2",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Shadow of the Colossus"
-	},
-	{
-		"gameId": "taikops2",
-		"crown": "none",
-		"platformId": "ps2",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Taiko no Tatsujin - ???"
-	},
-	{
-		"gameId": "ff7doc",
-		"crown": "none",
-		"platformId": "ps2",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Dirge of Cerberus: Final Fantasy VII"
-	},
-	{
-		"gameId": "ff10japps2",
-		"crown": "none",
-		"platformId": "ps2",
-		"region": "jap",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Final Fantasy X"
-	},
-	{
-		"gameId": "ff10-2ps2",
-		"crown": "none",
-		"platformId": "ps2",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Final Fantasy X-2"
-	},
-	{
-		"gameId": "ff10ps3",
-		"crown": "none",
-		"platformId": "ps3",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Final Fantasy X / X-2 HD Remaster"
-	},
-	{
-		"gameId": "wiisports",
-		"crown": "none",
-		"platformId": "wii",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Wii Sports"
-	},
-	{
-		"gameId": "wiiplay",
-		"crown": "none",
-		"platformId": "wii",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Wii Play"
-	},
-	{
-		"gameId": "wiisportsresort",
-		"crown": "none",
-		"platformId": "wii",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Wii Sports Resort"
-	},
-	{
-		"gameId": "zeldatwilight",
-		"crown": "none",
-		"platformId": "wii",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "The Legend of Zelda: Twilight Princess"
-	},
-	{
-		"gameId": "mariogalaxy",
-		"crown": "none",
-		"platformId": "wii",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Super Mario Galaxy"
-	},
-	{
-		"gameId": "smashbrosbrawl",
-		"crown": "none",
-		"platformId": "wii",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Super Smash Bros. Brawl"
-	},
-	{
-		"gameId": "reumbrella",
-		"crown": "none",
-		"platformId": "wii",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Resident Evil - The Umbrella Chronicles"
-	},
-	{
-		"gameId": "redarkside",
-		"crown": "silver",
-		"platformId": "wii",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": true,
-		"commentHTML": "<ul><li>Juego completado.</ul>",
-		"gameName": "Resident Evil - The Darkside Chronicles"
-	},
-	{
-		"gameId": "pz2wii",
-		"crown": "none",
-		"platformId": "wii",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Project Zero 2: Wii Edition"
-	},
-	{
-		"gameId": "geometrywii",
-		"crown": "none",
-		"platformId": "wii",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Geometry Wars Galaxies"
-	},
-	{
-		"gameId": "klonoawii",
-		"crown": "none",
-		"platformId": "wii",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Klonoa"
-	},
-	{
-		"gameId": "laststory",
-		"crown": "none",
-		"platformId": "wii",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "The Last Story"
-	},
-	{
-		"gameId": "valkyria1ps4",
-		"crown": "none",
-		"platformId": "ps4",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Valkyria Chronicles"
-	},
-	{
-		"gameId": "sonicmaniaps4",
-		"crown": "none",
-		"platformId": "ps4",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Sonic Mania"
-	},
-	{
-		"gameId": "lastguardian",
-		"crown": "none",
-		"platformId": "ps4",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "The Last Guardian"
-	},
-	{
-		"gameId": "saintseiyasoldiersoul",
-		"crown": "none",
-		"platformId": "ps4",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Saint Seiya: Soldiers' Soul"
-	},
-	{
-		"gameId": "odinsphereps4",
-		"crown": "none",
-		"platformId": "ps4",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Odin Sphere Leifthrasir"
-	},
-	{
-		"gameId": "starocean5",
-		"crown": "none",
-		"platformId": "ps4",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Star Ocean: Integrity and Faithlessness"
-	},
-	{
-		"gameId": "tobps4",
-		"crown": "none",
-		"platformId": "ps4",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Tales of Berseria"
-	},
-	{
-		"gameId": "nierautomata",
-		"crown": "none",
-		"platformId": "ps4",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "NieR: Automata"
-	},
-	{
-		"gameId": "yslacrimosa",
-		"crown": "none",
-		"platformId": "ps4",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Ys VIII: Lacrimosa of DANA"
-	},
-	{
-		"gameId": "ninokuni2",
-		"crown": "none",
-		"platformId": "ps4",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Ni No Kuni II: El Renacer de un Reino"
-	},
-	{
-		"gameId": "tovps4",
-		"crown": "none",
-		"platformId": "ps4",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Tales of Vesperia - Definitive Edition"
-	},
-	{
-		"gameId": "ff12ps4",
-		"crown": "none",
-		"platformId": "ps4",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Final Fantasy XII The Zodiac Age"
-	},
-	{
-		"gameId": "tloups4",
-		"crown": "none",
-		"platformId": "ps4",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "The Last of Us - Remasterizado (Playstation Hits)"
-	},
-	{
-		"gameId": "gow4",
-		"crown": "none",
-		"platformId": "ps4",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "God of War (Playstation Hits)"
-	},
-	{
-		"gameId": "steinsgate0ps4",
-		"crown": "none",
-		"platformId": "ps4",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Steins;Gate 0"
-	},
-	{
-		"gameId": "re2ps4",
-		"crown": "none",
-		"platformId": "ps4",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Resident Evil 2"
-	},
-	{
-		"gameId": "shinmegamitensei3ps4",
-		"crown": "none",
-		"platformId": "ps4",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Shin Megami Tensei III Nocturne HD Remaster"
-	},
-	{
-		"gameId": "bayonettavanquishps4",
-		"crown": "none",
-		"platformId": "ps4",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Bayonetta/Vanquish - 10th Anniversary Bundle"
-	},
-	{
-		"gameId": "kh15-25",
-		"crown": "none",
-		"platformId": "ps4",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Kingdom Hearts HD 1.5 + 2.5 ReMIX"
-	},
-	{
-		"gameId": "kh28",
-		"crown": "none",
-		"platformId": "ps4",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Kingdom Hearts HD 2.8 - Final Chapter Prologe -"
-	},
-	{
-		"gameId": "kh3",
-		"crown": "none",
-		"platformId": "ps4",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Kingdom Hearts III"
-	},
-	{
-		"gameId": "sor4ps4",
-		"crown": "none",
-		"platformId": "ps4",
-		"region": "pal",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Streets of Rage 4"
-	},
-	{
-		"gameId": "fifa96megadrive",
-		"crown": "none",
-		"platformId": "megadrive",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "FIFA Soccer 96"
-	},
-	{
-		"gameId": "ohmummygenesis",
-		"crown": "none",
-		"platformId": "megadrive",
-		"region": "pal",
-		"box": true,
-		"manual": false,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Oh Mummy Genesis (Repro)"
-	},
-	{
-		"gameId": "comixzone",
-		"crown": "none",
-		"platformId": "megadrive",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Comix Zone"
-	},
-	{
-		"gameId": "miku2bargain",
-		"crown": "none",
-		"platformId": "psp",
-		"region": "jap",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Hatsune Miku: Project Diva 2nd - Bargain Edition Arcade Debut Pack"
-	},
-	{
-		"gameId": "powerstonepsp",
-		"crown": "none",
-		"platformId": "psp",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Power Stone Collection"
-	},
-	{
-		"gameId": "medievilpsp",
-		"crown": "none",
-		"platformId": "psp",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Medievil: Resurrection"
-	},
-	{
-		"gameId": "puyopuyotetrisswitch",
-		"crown": "none",
-		"platformId": "switch",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Puyo Puyo Tetris"
-	},
-	{
-		"gameId": "puyopuyotetris2switch",
-		"crown": "none",
-		"platformId": "switch",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Puyo Puyo Tetris 2"
-	},
-	{
-		"gameId": "pkmletsgopikachu",
-		"crown": "none",
-		"platformId": "switch",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Pokémon Let's Go, Pikachu"
-	},
-	{
-		"gameId": "pkmdiamantebrillante",
-		"crown": "none",
-		"platformId": "switch",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Pokémon Diamante Brillante"
-	},
-	{
-		"gameId": "livealive",
-		"crown": "none",
-		"platformId": "switch",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Live a Live"
-	},
-	{
-		"gameId": "starcraft2wol",
-		"crown": "none",
-		"platformId": "pc",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Starcarft II: Wings of Liberty"
-	},
-	{
-		"gameId": "starcraft2hots",
-		"crown": "none",
-		"platformId": "pc",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Starcraft II: Heart of the Swarm"
-	},
-	{
-		"gameId": "warcraft3exp",
-		"crown": "none",
-		"platformId": "pc",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Warcraft III + Expansión"
-	},
-	{
-		"gameId": "pcfutbol2005",
-		"crown": "none",
-		"platformId": "pc",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "PC Fútbol 2005"
-	},
-	{
-		"gameId": "pcfutbol60",
-		"crown": "none",
-		"platformId": "pc",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "PC Fútbol 6.0"
-	},
-	{
-		"gameId": "pcfutbol50",
-		"crown": "none",
-		"platformId": "pc",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "PC Fútbol 5.0"
-	},
-	{
-		"gameId": "megarace",
-		"crown": "none",
-		"platformId": "pc",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Megarace"
-	},
-	{
-		"gameId": "pkmcristal",
-		"crown": "none",
-		"platformId": "gb",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Pokémon Edición Cristal"
-	},
-	{
-		"gameId": "pkmesmeralda",
-		"crown": "none",
-		"platformId": "gba",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Pokémon Edición Esmeralda"
-	},
-	{
-		"gameId": "pkmtcg",
-		"crown": "none",
-		"platformId": "gb",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Pokémon Trading Card Game"
-	},
-	{
-		"gameId": "kurukurukururin",
-		"crown": "none",
-		"platformId": "gba",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Kuru Kuru Kururin"
-	},
-	{
-		"gameId": "goldensun",
-		"crown": "none",
-		"platformId": "gba",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Golden Sun"
-	},
-	{
-		"gameId": "sonicadvance",
-		"crown": "none",
-		"platformId": "gba",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Sonic Advance"
-	},
-	{
-		"gameId": "bobobobakutou",
-		"crown": "none",
-		"platformId": "gba",
-		"region": "jap",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Boboboubo Boubobo: Bakutou Hajike Taisen"
-	},
-	{
-		"gameId": "naruto2gba",
-		"crown": "none",
-		"platformId": "gba",
-		"region": "jap",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Naruto: Saikyou Ninja Daikesshu 2"
-	},
-	{
-		"gameId": "virtuatennis",
-		"crown": "none",
-		"platformId": "dc",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Virtua Tennis"
-	},
-	{
-		"gameId": "noirepsvita",
-		"crown": "none",
-		"platformId": "psvita",
-		"region": "pal",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Hyperdevotion Noire: Goddess Black Heart"
-	},
-	{
-		"gameId": "neptunia3psvita",
-		"crown": "none",
-		"platformId": "psvita",
-		"region": "pal",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Hyperdimension Neptunia Re;Birth3: V Generation"
-	},
-	{
-		"gameId": "neptuniapppsvita",
-		"crown": "none",
-		"platformId": "psvita",
-		"region": "pal",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Hyperdimension Neptunia PP: Producing Perfection"
-	},
-	{
-		"gameId": "miraclegirlsfestival",
-		"crown": "none",
-		"platformId": "psvita",
-		"region": "jap",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Miracle Girls Festival"
-	},
-	{
-		"gameId": "tekkenplatinum",
-		"crown": "none",
-		"platformId": "psone",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Tekken (Platinum)"
-	},
-	{
-		"gameId": "tekken2platinum",
-		"crown": "none",
-		"platformId": "psone",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Tekken 2 (Platinum)"
-	},
-	{
-		"gameId": "re2psone",
-		"crown": "none",
-		"platformId": "psone",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Resident Evil 2"
-	},
-	{
-		"gameId": "re2platinumpsone",
-		"crown": "none",
-		"platformId": "psone",
-		"region": "palesp",
-		"box": false,
-		"manual": false,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Resident Evil 2 (Platinum)"
-	},
-	{
-		"gameId": "re3psone",
-		"crown": "none",
-		"platformId": "psone",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Resident Evil 3 Nemesis"
-	},
-	{
-		"gameId": "pocketfighters",
-		"crown": "none",
-		"platformId": "psone",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Pocket Fighters"
-	},
-	{
-		"gameId": "ff710psone",
-		"crown": "none",
-		"platformId": "psone",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Final Fantasy VII (v1.0)"
-	},
-	{
-		"gameId": "ff711psone",
-		"crown": "none",
-		"platformId": "psone",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Final Fantasy VII (v1.1)"
-	},
-	{
-		"gameId": "ff7platinumpsone",
-		"crown": "none",
-		"platformId": "psone",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Final Fantasy VII (Platinum)"
-	},
-	{
-		"gameId": "ff8psone",
-		"crown": "none",
-		"platformId": "psone",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Final Fantasy VIII"
-	},
-	{
-		"gameId": "ff8platinumpsone",
-		"crown": "none",
-		"platformId": "psone",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Final Fantasy VIII (Platinum)"
-	},
-	{
-		"gameId": "ff9platinumpsone",
-		"crown": "none",
-		"platformId": "psone",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Final Fantasy IX (Platinum)"
-	},
-	{
-		"gameId": "mgs",
-		"crown": "none",
-		"platformId": "psone",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Metal Gear Solid"
-	},
-	{
-		"gameId": "vibribbon",
-		"crown": "none",
-		"platformId": "psone",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Vib-Ribbon"
-	},
-	{
-		"gameId": "toshinden4",
-		"crown": "none",
-		"platformId": "psone",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Toshinden 4 (Play It)"
-	},
-	{
-		"gameId": "tobal1",
-		"crown": "none",
-		"platformId": "psone",
-		"region": "jap",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "TOBAL No.1"
-	},
-	{
-		"gameId": "tobal2",
-		"crown": "none",
-		"platformId": "psone",
-		"region": "jap",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Tobal 2"
-	},
-	{
-		"gameId": "chronocrosspsone",
-		"crown": "none",
-		"platformId": "psone",
-		"region": "jap",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Chrono Cross"
-	},
-	{
-		"gameId": "fforigins",
-		"crown": "none",
-		"platformId": "psone",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Final Fantasy Origins"
-	},
-	{
-		"gameId": "ff1psp",
-		"crown": "none",
-		"platformId": "psp",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Final Fantasy"
-	},
-	{
-		"gameId": "ff2psp",
-		"crown": "none",
-		"platformId": "psp",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Final Fantasy II"
-	},
-	{
-		"gameId": "ff3psp",
-		"crown": "none",
-		"platformId": "psp",
-		"region": "jap",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Final Fantasy III"
-	},
-	{
-		"gameId": "ff4pspjap",
-		"crown": "none",
-		"platformId": "psp",
-		"region": "jap",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Final Fantasy IV: The Complete Collection"
-	},
-	{
-		"gameId": "ff7jorg",
-		"crown": "none",
-		"platformId": "psone",
-		"region": "jap",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Final Fantasy VII"
-	},
-	{
-		"gameId": "ff7jint",
-		"crown": "none",
-		"platformId": "psone",
-		"region": "jap",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Final Fantasy VII International"
-	},
-	{
-		"gameId": "ff7nes",
-		"crown": "none",
-		"platformId": "nes",
-		"region": "pal",
-		"box": false,
-		"manual": false,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Final Fantasy VII (Repro)"
-	},
-	{
-		"gameId": "ff7pc98",
-		"crown": "none",
-		"platformId": "pc",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Final Fantasy VII (1998)"
-	},
-	{
-		"gameId": "siggraph",
-		"crown": "none",
-		"platformId": "psone",
-		"region": "jap",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Square's Preview Extra - FF VII Sample & SIGGRAPH '95 Works"
-	},
-	{
-		"gameId": "ff7ccpsp",
-		"crown": "none",
-		"platformId": "psp",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Crisis Core: Final Fantasy VII"
-	},
-	{
-		"gameId": "ff8jappsone",
-		"crown": "none",
-		"platformId": "psone",
-		"region": "jap",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Final Fantasy VIII"
-	},
-	{
-		"gameId": "ff8pc2000",
-		"crown": "none",
-		"platformId": "pc",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Final Fantasy VIII (2000)"
-	},
-	{
-		"gameId": "ff8ps4",
-		"crown": "none",
-		"platformId": "ps4",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Final Fantasy VIII Remastered"
-	},
-	{
-		"gameId": "ff7-ff8packswitch",
-		"crown": "none",
-		"platformId": "switch",
-		"region": "as",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Final Fantasy VII / Final Fantasy VIII Remastered Twin Pack"
-	},
-	{
-		"gameId": "ff9psone",
-		"crown": "none",
-		"platformId": "psone",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Final Fantasy IX"
-	},
-	{
-		"gameId": "ff9jappsone",
-		"crown": "none",
-		"platformId": "psone",
-		"region": "jap",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Final Fantasy IX"
-	},
-	{
-		"gameId": "ffxpsvitajap",
-		"crown": "none",
-		"platformId": "psvita",
-		"region": "jap",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Final Fantasy X HD Remaster"
-	},
-	{
-		"gameId": "ffxint",
-		"crown": "none",
-		"platformId": "ps2",
-		"region": "jap",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Final Fantasy X International"
-	},
-	{
-		"gameId": "ffx-x2hdps3limited",
-		"crown": "none",
-		"platformId": "ps3",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Final Fantasy X / X-2 HD Remaster (Limited Edition)"
-	},
-	{
-		"gameId": "ffx-x2hdps4limited",
-		"crown": "none",
-		"platformId": "ps4",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Final Fantasy X / X-2 HD Remaster (Limited Edition)"
-	},
-	{
-		"gameId": "ffx-x2hdswitch",
-		"crown": "none",
-		"platformId": "switch",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Final Fantasy X / X-2 HD Remaster"
-	},
-	{
-		"gameId": "itadakipsp",
-		"crown": "none",
-		"platformId": "psp",
-		"region": "jap",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Dragon Quest & Final Fantasy in Itadaki Street Portable"
-	},
-	{
-		"gameId": "chocobocollection",
-		"crown": "none",
-		"platformId": "psone",
-		"region": "jap",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Chocobo Collection"
-	},
-	{
-		"gameId": "chocobodungeon1",
-		"crown": "none",
-		"platformId": "psone",
-		"region": "jap",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Chocobo no Fushigi na Dungeon"
-	},
-	{
-		"gameId": "chocobodungeon2",
-		"crown": "none",
-		"platformId": "psone",
-		"region": "jap",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Chocobo no Fushigi na Dungeon 2"
-	},
-	{
-		"gameId": "chocobodungeonws",
-		"crown": "none",
-		"platformId": "ws",
-		"region": "jap",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Chocobo no Fushigi Dungeon for WonderSwan"
-	},
-	{
-		"gameId": "ff1ws",
-		"crown": "none",
-		"platformId": "ws",
-		"region": "jap",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Final Fantasy"
-	},
-	{
-		"gameId": "ff2ws",
-		"crown": "none",
-		"platformId": "ws",
-		"region": "jap",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Final Fantasy II"
-	},
-	{
-		"gameId": "ff4ws",
-		"crown": "none",
-		"platformId": "ws",
-		"region": "jap",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Final Fantasy IV"
-	},
-	{
-		"gameId": "fftype0ps4",
-		"crown": "none",
-		"platformId": "ps4",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Final Fantasy Type-0 HD"
-	},
-	{
-		"gameId": "woffps4",
-		"crown": "none",
-		"platformId": "ps4",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "World of Final Fantasy"
-	},
-	{
-		"gameId": "dissidiantps4",
-		"crown": "none",
-		"platformId": "ps4",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Dissidia: Final Fantasy NT"
-	},
-	{
-		"gameId": "fftacticsjappsone",
-		"crown": "none",
-		"platformId": "psone",
-		"region": "jap",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Final Fantasy Tactics"
-	},
-	{
-		"gameId": "fftacticsadv",
-		"crown": "none",
-		"platformId": "gba",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Final Fantasy Tactics Advance"
-	},
-	{
-		"gameId": "ffdawnofsouls",
-		"crown": "none",
-		"platformId": "gba",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Final Fantasy I & II: Dawn of Souls"
-	},
-	{
-		"gameId": "ff5gba",
-		"crown": "none",
-		"platformId": "gba",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Final Fantasy V Advance"
-	},
-	{
-		"gameId": "ff4gba",
-		"crown": "none",
-		"platformId": "gba",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Final Fantasy IV Advance"
-	},
-	{
-		"gameId": "ff2pr",
-		"crown": "gold",
-		"platformId": "pc",
-		"region": "palesp",
-		"box": false,
-		"manual": false,
-		"gameType": 2, 
-		"save": true,
-		"commentHTML": "<ul>   <li>Partida salvada tras completar el juego.<li>Bestiario al 100%.<li>Todos los personajes con todas las armas al máximo nivel.</ul>",
-		"gameName": "Final Fantasy II Pixel Remaster"
-	},
-	{
-		"gameId": "valkyriachronicles1pc",
-		"crown": "silver",
-		"platformId": "pc",
-		"region": "pal",
-		"box": false,
-		"manual": false,
-		"gameType": 2, 
-		"save": true,
-		"commentHTML": "<ul>   <li>Juego completado.</ul>",
-		"gameName": "Valkyria Chronicles"
-	},
-	{
-		"gameId": "ff7ccps4",
-		"crown": "none",
-		"platformId": "ps4",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Crisis Core - Final Fantasy VII - Reunion"
-	},
-	{
-		"gameId": "chocobogp",
-		"crown": "none",
-		"platformId": "switch",
-		"region": "palesp",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Chocobo GP"
-	},
-	{
-		"gameId": "ff4psppal",
-		"crown": "none",
-		"platformId": "psp",
-		"region": "pal",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Final Fantasy IV: The Complete Collection",
-		"buyDate": "5/3/2023"
-	},
-	{
-		"gameId": "excelicaps2",
-		"crown": "none",
-		"platformId": "ps2",
-		"region": "jap",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Triggerheart Exelica Enhanced",
-		"buyDate": "3/04/2023"
-	},
-	{
-		"gameId": "mikufuturetonefisico",
-		"crown": "none",
-		"platformId": "ps4",
-		"region": "jap",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Hatsune Miku: Project Diva Future Tone DX",
-		"buyDate": "3/04/2023"
-	},
-	{
-		"gameId": "mikuswitch",
-		"crown": "none",
-		"platformId": "switch",
-		"region": "jap",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Hatsune Miku: Project Diva Mega39's",
-		"buyDate": "3/04/2023"
-	},
-	{
-		"gameId": "ffextracollection",
-		"crown": "none",
-		"platformId": "psone",
-		"region": "jap",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Final Fantasy Extra Collection",
-		"buyDate": "3/04/2023"
-	},
-	{
-		"gameId": "pkmverde",
-		"crown": "none",
-		"platformId": "gb",
-		"region": "jap",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Pocket Monsters Midori",
-		"buyDate": "3/04/2023"
-	},
-	{
-		"gameId": "ff9switch",
-		"crown": "none",
-		"platformId": "switch",
-		"region": "as",
-		"box": true,
-		"manual": true,
-		"gameType": 1, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Final Fantasy IX",
-		"buyDate": "28/3/2023"
-	},
-	{
-		"gameId": "re4remakepc",
-		"crown": "none",
-		"platformId": "pc",
-		"region": "palesp",
-		"box": false,
-		"manual": false,
-		"gameType": 2, 
-		"save": false,
-		"commentHTML": "",
-		"gameName": "Resident Evil 4 Remake",
-		"buyDate": "31/3/2023",
-		"startGame": "31/3/2023"
 	}]
