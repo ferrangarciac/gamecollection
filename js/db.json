@@ -5611,7 +5611,8 @@
 		"gameType": 1, 
 		"save": false,
 		"commentHTML": "",
-		"gameName": "Triggerheart Exelica Enhanced"
+		"gameName": "Triggerheart Exelica Enhanced",
+		"buydate": "03/04/2023"
 	},
 	{
 		"gameId": "mikufuturetonefisico",
@@ -5623,7 +5624,8 @@
 		"gameType": 1, 
 		"save": false,
 		"commentHTML": "",
-		"gameName": "Hatsune Miku: Project Diva Future Tone DX"
+		"gameName": "Hatsune Miku: Project Diva Future Tone DX",
+		"buydate": "03/04/2023"
 	},
 	{
 		"gameId": "mikuswitch",
@@ -5635,7 +5637,8 @@
 		"gameType": 1, 
 		"save": false,
 		"commentHTML": "",
-		"gameName": "Hatsune Miku: Project Diva Mega39's"
+		"gameName": "Hatsune Miku: Project Diva Mega39's",
+		"buydate": "03/04/2023"
 	},
 	{
 		"gameId": "ffextracollection",
@@ -5647,7 +5650,8 @@
 		"gameType": 1, 
 		"save": false,
 		"commentHTML": "",
-		"gameName": "Final Fantasy Extra Collection"
+		"gameName": "Final Fantasy Extra Collection",
+		"buydate": "03/04/2023"
 	},
 	{
 		"gameId": "pkmverde",
@@ -5659,5 +5663,19 @@
 		"gameType": 1, 
 		"save": false,
 		"commentHTML": "",
-		"gameName": "Pocket Monsters Midori"
+		"gameName": "Pocket Monsters Midori",
+		"buydate": "03/04/2023"
+	},
+	{
+		"gameId": "ff9switch",
+		"crown": "none",
+		"platformId": "switch",
+		"region": "as",
+		"box": true,
+		"manual": true,
+		"gameType": 1, 
+		"save": false,
+		"commentHTML": "",
+		"gameName": "Final Fantasy IX",
+		"buydate": ""
 	}]
