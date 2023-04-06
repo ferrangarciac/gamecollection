@@ -84,10 +84,48 @@ async function getJsonInfo(path) {
     var json = await response.json();
 	GAMES = json;
 	//ESTADISTICAS
-	countGames();	
+	countGames();
+	showTags();
+	showLastGames();
 } 
 
+function showTags(){
+	//TAGS
+	var tags = document.getElementById("tags");
+	
+	var tagsArray = lookForTags();
+	
+	//TITLE
+	var newTagDiv = document.createElement("div");
+	newTagDiv.className = "std-title";
+		
+	var newTagText = document.createElement("span");
+	newTagText.innerHTML = "COLECCIONES";
+	
+	newTagDiv.appendChild(newTagText);
+	tags.appendChild(newTagDiv);
+	
+	
+	//PRINT TAGS
+	for(i=0;i<tagsArray.length;i++){
+		var newTagDiv = document.createElement("div");
+		newTagDiv.className = "std-row"; 
+		
+		var newTagText = document.createElement("span");
+		newTagText.innerHTML = tagsArray[i];
+		
+		newTagText.tag = tagsArray[i];
+		newTagText.addEventListener('click', showGamesByTag, false);
+		
+		newTagDiv.appendChild(newTagText);
+		tags.appendChild(newTagDiv);
+	}
+}
+
 function countGames(evt){
+	
+	
+	
 	//ESTADISTICAS
 	var stadistics = document.getElementById("std-list");
 	
@@ -162,11 +200,90 @@ function countGames(evt){
 	stadistics.appendChild(currentPlatformDiv);	
 }
 
+function lookForTags(){
+	var tempArray = new Array();
+	
+	var count = 0;
+	
+	for (i=0;i<GAMES.length;i++){
+		for(x=0;x<GAMES[i].tags.length;x++){
+			tempArray[count] = GAMES[i].tags[x];
+			count++;
+		}
+	}
+	
+	var result = tempArray.filter(onlyUnique);
+	
+	return result;
+}
+
+function onlyUnique(value, index, array) {
+  return array.indexOf(value) === index;
+}
+
+
 function showGamesByPlatform(evt){
 	var gameRow = document.getElementById("gameRow");
 	gameRow.innerHTML = "";
 	
 	var currentArray = selectPlatform(this.platform);
+	
+	currentArray = currentArray.sort((a, b) => (a.gameName > b.gameName) ? 1 : -1);
+	
+	for(i=0;i<currentArray.length;i++){
+		genGame(currentArray[i].gameId, currentArray[i].crown, currentArray[i].platformId, currentArray[i].commentHTML, currentArray[i].gameName, currentArray[i].region, currentArray[i].box, currentArray[i].manual, currentArray[i].gameType, currentArray[i].save);
+	}
+}
+
+function showLastGames(){
+	var gameRow = document.getElementById("gameRow");
+	gameRow.innerHTML = "";
+	
+	var currentDate = new Date;
+	currentDate.setDate(currentDate.getMonth() - 1); 
+	
+	var cont = 0;
+	var currentArray = new Array();
+	
+	
+	for(i=0;i<GAMES.length;i++){
+		if(GAMES[i].buyDate > currentDate.toLocaleDateString()){
+			currentArray[cont] = GAMES[i];
+			cont++;
+		}
+	}
+		
+	for(i=0;i<currentArray.length;i++){
+		genGame(currentArray[i].gameId, currentArray[i].crown, currentArray[i].platformId, currentArray[i].commentHTML, currentArray[i].gameName, currentArray[i].region, currentArray[i].box, currentArray[i].manual, currentArray[i].gameType, currentArray[i].save);
+	}
+}
+
+function showGamesByTag(evt){
+	var gameRow = document.getElementById("gameRow");
+	gameRow.innerHTML = "";
+	
+	var cont = 0;
+	var currentArray = new Array();	
+	
+	for(i=0;i<GAMES.length;i++){
+		for(x=0;x<GAMES[i].tags.length;x++){
+			
+			if(onlyPhisical.checked){
+				if(GAMES[i].gameType == 1){
+					if(GAMES[i].tags[x] === this.tag){
+						currentArray[cont] = GAMES[i];
+						cont++;
+					}
+				}
+			}else{
+				if(GAMES[i].tags[x] === this.tag){
+					currentArray[cont] = GAMES[i];
+					cont++;
+				}
+			}
+		}
+	}
+	
 	
 	currentArray = currentArray.sort((a, b) => (a.gameName > b.gameName) ? 1 : -1);
 	
