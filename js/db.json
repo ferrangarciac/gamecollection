@@ -6137,7 +6137,7 @@
     "commentHTML": "",
     "gameName": "Pocket Monsters Midori",
     "buyDate": "3/04/2023",
-    "tags": []
+    "tags": ["Pokémon Franchise"]
   },
   {
     "gameId": "ff9switch",
@@ -6167,5 +6167,20 @@
     "buyDate": "31/3/2023",
     "startGame": "31/3/2023",
     "tags": ["Resident Evil Franchise"]
+  },
+  {
+    "gameId": "pkmsilverreforged",
+    "crown": "none",
+    "platformId": "gb",
+    "region": "eur",
+    "box": true,
+    "manual": false,
+    "gameType": 1,
+    "save": false,
+    "commentHTML": "",
+    "gameName": "Pokémon Silver '97 (Repro)",
+    "buyDate": "",
+    "startGame": "31/3/2023",
+    "tags": ["Pokémon Franchise"]
   }
 ]
