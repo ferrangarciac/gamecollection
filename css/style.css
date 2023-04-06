@@ -64,6 +64,10 @@
 		font-size: 60%;
 		text-align: center;
 	}
+	
+	.colorBlack{
+		color: black;
+	}
 
 	.links a:link, a:visited, a:hover, a:active{	text-decoration: none; color: white; }
 
