@@ -96,6 +96,10 @@
 	#tags{
 		top: 200px;
 	}
+	
+	#tags .std-row:hover{
+		background-color: rgba(255,255,255,.2);
+	}
 
 	.std-container{}
 
