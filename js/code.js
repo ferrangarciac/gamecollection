@@ -12,7 +12,7 @@ window.addEventListener('load', function() {
 	
 	//ARROW LEFT
 	var colorDiv = document.createElement("div");
-	colorDiv.className = "console " + PLATFORMS.COLOR[Math.floor(Math.random() * PLATFORMS.COLOR.length)];
+	colorDiv.className = "console " + PLATFORMS.COLOR[Math.floor(Math.random() * PLATFORMS.COLOR.length)] + " colorBlack";
 	
 	var platformIcon = document.createElement("img");
 	platformIcon.setAttribute("src", "./img/icons/platforms/arrowLeft.png");
@@ -51,7 +51,7 @@ window.addEventListener('load', function() {
 	
 	//ARROW RIGHT
 	var colorDiv = document.createElement("div");
-	colorDiv.className = "console " + PLATFORMS.COLOR[Math.floor(Math.random() * PLATFORMS.COLOR.length)];
+	colorDiv.className = "console " + PLATFORMS.COLOR[Math.floor(Math.random() * PLATFORMS.COLOR.length)] + " colorBlack";
 	
 	var platformIcon = document.createElement("img");
 	platformIcon.setAttribute("src", "./img/icons/platforms/arrowRight.png");
