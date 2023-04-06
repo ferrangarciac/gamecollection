@@ -6182,5 +6182,20 @@
     "buyDate": "",
     "startGame": "31/3/2023",
     "tags": ["Pokémon Franchise"]
+  },
+  {
+    "gameId": "sopfforigin",
+    "crown": "none",
+    "platformId": "ps4",
+    "region": "palesp",
+    "box": true,
+    "manual": true,
+    "gameType": 1,
+    "save": false,
+    "commentHTML": "",
+    "gameName": "Stranger of Paradise: Final Fantasy Origin",
+    "buyDate": "",
+    "startGame": "6/4/2023",
+    "tags": ["Final Fantasy Franchise"]
   }
 ]
