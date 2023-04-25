@@ -6197,5 +6197,20 @@
     "buyDate": "",
     "startGame": "6/4/2023",
     "tags": ["Final Fantasy Franchise"]
+  },
+  {
+    "gameId": "fftheatrhythmfinalbarline",
+    "crown": "none",
+    "platformId": "switch",
+    "region": "palesp",
+    "box": true,
+    "manual": true,
+    "gameType": 1,
+    "save": false,
+    "commentHTML": "",
+    "gameName": "Theatrhythm Final Bar Line",
+    "buyDate": "25/4/2023",
+    "startGame": "",
+    "tags": ["Final Fantasy Franchise"]
   }
 ]
