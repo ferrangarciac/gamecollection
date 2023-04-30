@@ -1101,7 +1101,7 @@
     "gameType": 0,
     "save": true,
     "commentHTML": "<ul><li>Para poder ejecutar las partidas hay que tener la misma versión de la traducción utilizada (incluida en el .rar) sobre la versión japonesa de PC.<li>También incluye el AppLocale. Necesario para ver los textos en español.<ul><li>saves Ordenados:<li>No. 01 - Capítulo 1<li>No. 02 - Capítulo 2<li>No. 03 - Capítulo 3<li>No. 04 - Capítulo 4<li>No. 05 - Capítulo 5<li>No. 06 - Capítulo 6<li>No. 07 - Capítulo 6 - Final de Suzuha<li>No. 08 - Capítulo 7<li>No. 09 - Capítulo 7 - Final de Faris<li>No. 10 - Capítulo 8<li>No. 11 - Capítulo 8 - Final de Luka<li>No. 12 - Capítulo 9<li>No. 13 - Capítulo 10 - Final de Mayuri<li>No. 14 - Capítulo 10 - Final de Kurisu<li>No. 15 - Capítulo 11 - True Ending</ul></ul>",
-    "gameName": "Steins;Gate",
+    "gameName": "Steins;Gate (JASP)",
     "tags": []
   },
   {
@@ -6212,5 +6212,35 @@
     "buyDate": "25/4/2023",
     "startGame": "",
     "tags": ["Final Fantasy Franchise"]
+  },
+  {
+    "gameId": "steinsgatesteam",
+    "crown": "none",
+    "platformId": "pc",
+    "region": "pal",
+    "box": false,
+    "manual": false,
+    "gameType": 2,
+    "save": false,
+    "commentHTML": "",
+    "gameName": "Steins;Gate (Steam)",
+    "buyDate": "29/4/2023",
+    "startGame": "",
+    "tags": []
+  },
+  {
+    "gameId": "steinsgate0steam",
+    "crown": "none",
+    "platformId": "pc",
+    "region": "pal",
+    "box": false,
+    "manual": false,
+    "gameType": 2,
+    "save": false,
+    "commentHTML": "",
+    "gameName": "Steins;Gate 0 (Steam)",
+    "buyDate": "29/4/2023",
+    "startGame": "",
+    "tags": []
   }
 ]
