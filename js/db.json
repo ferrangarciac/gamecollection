@@ -6242,5 +6242,35 @@
     "buyDate": "29/4/2023",
     "startGame": "",
     "tags": []
+  },
+  {
+    "gameId": "raystormhdswitch",
+    "crown": "none",
+    "platformId": "switch",
+    "region": "palesp",
+    "box": true,
+    "manual": true,
+    "gameType": 1,
+    "save": false,
+    "commentHTML": "",
+    "gameName": "RayStorm x RayCrisis HD Collection",
+    "buyDate": "28/7/2023",
+    "startGame": "",
+    "tags": []
+  },
+  {
+    "gameId": "ff7remakesteam",
+    "crown": "gold",
+    "platformId": "pc",
+    "region": "pal",
+    "box": false,
+    "manual": false,
+    "gameType": 2,
+    "save": true,
+    "commentHTML": "<ul><li>Juego completado al 100%. <li>Todos los logros conseguidos. <li>Excepto Integrade.</ul>",
+    "gameName": "Final Fantasy VII Remake (Steam)",
+    "buyDate": "14/6/2023",
+    "startGame": "15/6/2023",
+    "tags": ["Final Fantasy"]
   }
 ]
