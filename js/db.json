@@ -6272,5 +6272,20 @@
     "buyDate": "14/6/2023",
     "startGame": "15/6/2023",
     "tags": ["Final Fantasy"]
+  },
+  {
+    "gameId": "howartslegacy",
+    "crown": "none",
+    "platformId": "ps5",
+    "region": "pal",
+    "box": true,
+    "manual": true,
+    "gameType": 1,
+    "save": false,
+    "commentHTML": "",
+    "gameName": "Howarts Legacy",
+    "buyDate": "8/7/2023",
+    "startGame": "",
+    "tags": []
   }
 ]
