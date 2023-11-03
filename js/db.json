@@ -6287,5 +6287,20 @@
     "buyDate": "8/7/2023",
     "startGame": "",
     "tags": []
+  },
+  {
+    "gameId": "staroceansecondr",
+    "crown": "none",
+    "platformId": "switch",
+    "region": "palesp",
+    "box": true,
+    "manual": true,
+    "gameType": 1,
+    "save": false,
+    "commentHTML": "",
+    "gameName": "Star Ocean The Second Story R",
+    "buyDate": "3/11/2023",
+    "startGame": "",
+    "tags": []
   }
 ]
