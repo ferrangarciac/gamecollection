@@ -3063,7 +3063,7 @@
     "save": false,
     "commentHTML": "",
     "gameName": "Robotics;Notes Double Pack",
-    "tags": []
+    "tags": ["Science Adventure Franchise"]
   },
   {
     "gameId": "taikoswitch1",
@@ -6226,7 +6226,7 @@
     "gameName": "Steins;Gate (Steam)",
     "buyDate": "29/4/2023",
     "startGame": "",
-    "tags": []
+    "tags": ["Science Adventure Franchise"]
   },
   {
     "gameId": "steinsgate0steam",
@@ -6241,7 +6241,7 @@
     "gameName": "Steins;Gate 0 (Steam)",
     "buyDate": "29/4/2023",
     "startGame": "",
-    "tags": []
+    "tags": ["Science Adventure Franchise"]
   },
   {
     "gameId": "raystormhdswitch",
@@ -6268,10 +6268,10 @@
     "gameType": 2,
     "save": true,
     "commentHTML": "<ul><li>Juego completado al 100%. <li>Todos los logros conseguidos. <li>Excepto Integrade.</ul>",
-    "gameName": "Final Fantasy VII Remake (Steam)",
+    "gameName": "Final Fantasy VII Remake Integrade (Steam)",
     "buyDate": "14/6/2023",
     "startGame": "15/6/2023",
-    "tags": ["Final Fantasy"]
+    "tags": ["Final Fantasy Franchise"]
   },
   {
     "gameId": "howartslegacy",
@@ -6316,7 +6316,7 @@
     "gameName": "Star Ocean The Second Story R",
     "buyDate": "3/11/2023",
     "startGame": "4/11/2023",
-	  "endGame": "30/11/2023",
+	"endGame": "30/11/2023",
     "tags": []
   },
   {
