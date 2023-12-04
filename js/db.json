@@ -6289,6 +6289,21 @@
     "tags": []
   },
   {
+    "gameId": "anonymouscode",
+    "crown": "none",
+    "platformId": "switch",
+    "region": "palesp",
+    "box": true,
+    "manual": true,
+    "gameType": 1,
+    "save": false,
+    "commentHTML": "",
+    "gameName": "Anonymous;Code",
+    "buyDate": "4/12/2023",
+    "startGame": "",
+    "tags": ["Science Adventure Franchise"]
+  },
+  {
     "gameId": "staroceansecondr",
     "crown": "none",
     "platformId": "switch",
@@ -6300,7 +6315,23 @@
     "commentHTML": "",
     "gameName": "Star Ocean The Second Story R",
     "buyDate": "3/11/2023",
-    "startGame": "",
+    "startGame": "4/11/2023",
+	  "endGame": "30/11/2023",
     "tags": []
+  },
+  {
+    "gameId": "chaosheadnoahchaoschild",
+    "crown": "none",
+    "platformId": "switch",
+    "region": "palesp",
+    "box": true,
+    "manual": true,
+    "gameType": 1,
+    "save": false,
+    "commentHTML": "",
+    "gameName": "Chaos;Head Noah / Chaos;Child Double Pack",
+    "buyDate": "",
+    "startGame": "",
+    "tags": ["Science Adventure Franchise"]
   }
 ]
