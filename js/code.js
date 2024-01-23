@@ -248,6 +248,7 @@ function showLastGames(){
 	
 	for(i=0;i<GAMES.length;i++){
 		if(GAMES[i].buyDate > currentDate.toLocaleDateString()){
+			console.log(GAMES[i].buyDate + " - " + currentDate.toLocaleDateString());
 			currentArray[cont] = GAMES[i];
 			cont++;
 		}
