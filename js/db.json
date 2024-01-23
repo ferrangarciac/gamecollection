@@ -6348,5 +6348,53 @@
     "buyDate": "",
     "startGame": "",
     "tags": ["Science Adventure Franchise"]
+  },
+  {
+    "gameId": "narutostorm5",
+    "crown": "none",
+    "platformId": "ps5",
+    "region": "palesp",
+    "box": true,
+    "manual": true,
+    "gameType": 1,
+    "save": false,
+    "commentHTML": "",
+    "gameName": "Naruto x Boruto: Ultimate Ninja Storm Connections",
+    "buyDate": "12/1/2024",
+    "startGame": "12/1/2024",
+	"endGame": "20/1/2024",
+    "tags": []
+  },
+  {
+    "gameId": "narutostormtrilogy",
+    "crown": "none",
+    "platformId": "ps4",
+    "region": "palesp",
+    "box": true,
+    "manual": true,
+    "gameType": 1,
+    "save": false,
+    "commentHTML": "",
+    "gameName": "Naruto Shippuden: Ultimate Ninja Storm Trilogy",
+    "buyDate": "23/1/2024",
+    "startGame": "",
+	"endGame": "",
+    "tags": []
+  },
+  {
+    "gameId": "narutostorm4",
+    "crown": "none",
+    "platformId": "ps4",
+    "region": "palesp",
+    "box": true,
+    "manual": true,
+    "gameType": 1,
+    "save": false,
+    "commentHTML": "",
+    "gameName": "Naruto Shippuden: Ultimate Ninja Storm 4 - Road to Boruto",
+    "buyDate": "23/1/2024",
+    "startGame": "",
+	"endGame": "",
+    "tags": []
   }
 ]
