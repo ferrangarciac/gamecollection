@@ -6396,5 +6396,21 @@
     "startGame": "",
 	"endGame": "",
     "tags": []
+  },
+  {
+    "gameId": "anothercoderecollection",
+    "crown": "none",
+    "platformId": "switch",
+    "region": "palesp",
+    "box": true,
+    "manual": true,
+    "gameType": 1,
+    "save": false,
+    "commentHTML": "",
+    "gameName": "Another Code: Recollection",
+    "buyDate": "",
+    "startGame": "19/1/2024",
+	"endGame": "",
+    "tags": []
   }
 ]
