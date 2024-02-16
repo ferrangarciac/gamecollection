@@ -251,12 +251,13 @@
     "crown": "gold",
     "platformId": "psp",
     "region": "palesp",
-    "box": false,
-    "manual": false,
-    "gameType": 0,
+    "box": true,
+    "manual": true,
+    "gameType": 1,
     "save": true,
     "commentHTML": "<ul><li>Versión USA.</ul>",
     "gameName": "Dragon Ball Z: Shin Budokai 2",
+	"buyDate": "16/02/2024",
     "tags": []
   },
   {
@@ -6412,5 +6413,37 @@
     "startGame": "19/1/2024",
 	"endGame": "",
     "tags": []
+  },
+  {
+    "gameId": "tenkaichitagteam",
+    "crown": "none",
+    "platformId": "psp",
+    "region": "palesp",
+    "box": true,
+    "manual": true,
+    "gameType": 1,
+    "save": false,
+    "commentHTML": "",
+    "gameName": "Dragon Ball Z: Tenkaichi Tag Team",
+    "buyDate": "16/02/2024",
+    "startGame": "",
+	"endGame": "",
+    "tags": []
+  },
+  {
+    "gameId": "tekkenpsp",
+    "crown": "none",
+    "platformId": "psp",
+    "region": "palesp",
+    "box": true,
+    "manual": true,
+    "gameType": 1,
+    "save": false,
+    "commentHTML": "",
+    "gameName": "Tekken: Dark Resurrection",
+    "buyDate": "16/02/2024",
+    "startGame": "",
+	"endGame": "",
+    "tags": [Tekken Franchise]
   }
 ]
