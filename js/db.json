@@ -4780,7 +4780,7 @@
     "save": false,
     "commentHTML": "",
     "gameName": "Steins;Gate 0",
-    "tags": []
+    "tags": ["Science Adventure Franchise"]
   },
   {
     "gameId": "re2ps4",
@@ -6409,7 +6409,7 @@
     "save": false,
     "commentHTML": "",
     "gameName": "Another Code: Recollection",
-    "buyDate": "",
+    "buyDate": "18/01/2024",
     "startGame": "19/1/2024",
 	"endGame": "",
     "tags": []
@@ -6442,6 +6442,22 @@
     "commentHTML": "",
     "gameName": "Tekken: Dark Resurrection",
     "buyDate": "16/02/2024",
+    "startGame": "",
+	"endGame": "",
+    "tags": ["Tekken Franchise"]
+  },
+  {
+    "gameId": "tekken7ps4",
+    "crown": "none",
+    "platformId": "ps4",
+    "region": "palesp",
+    "box": true,
+    "manual": true,
+    "gameType": 1,
+    "save": false,
+    "commentHTML": "",
+    "gameName": "Tekken 7",
+    "buyDate": "02/10/2023",
     "startGame": "",
 	"endGame": "",
     "tags": ["Tekken Franchise"]
