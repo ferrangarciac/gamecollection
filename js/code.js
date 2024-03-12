@@ -174,6 +174,8 @@ function fillGameDetails(evt){
 		
 		tags.appendChild(newTag);
 	}
+
+	generateBox(this.id);
 	
 }
 
