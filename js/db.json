@@ -377,10 +377,10 @@
     "gameId": "tekken3",
     "crown": "gold",
     "platformId": "psone",
-    "code": "",
-    "year": "",
-    "developer": "",
-    "genre": "",
+    "code": "SCES-01237",
+    "year": "1998",
+    "developer": "Namco",
+    "genre": "Lucha",
     "region": "palesp",
     "edition": "standart",
     "box": true,
@@ -393,6 +393,7 @@
     "startGame": "",
     "endGame": "",
     "price": 0,
+	"boxSize": [142,129,16],
     "tags": [
       "Tekken Franchise"
     ]
@@ -402,12 +403,12 @@
     "gameId": "ffdissidia",
     "crown": "silver",
     "platformId": "psp",
-    "code": "",
-    "year": "",
-    "developer": "",
-    "genre": "",
+    "code": "ULES-01270",
+    "year": "2009",
+    "developer": "Square-Enix",
+    "genre": "Lucha",
     "region": "palesp",
-    "edition": "standart",
+    "edition": "coleccionista",
     "box": true,
     "manual": true,
     "gameType": 1,
@@ -418,6 +419,7 @@
     "startGame": "",
     "endGame": "",
     "price": 0,
+	"boxSize": [115,185,35],
     "tags": [
       "Final Fantasy Franchise"
     ]

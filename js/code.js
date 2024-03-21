@@ -240,7 +240,7 @@ function generateBox(gameId){
 	right.style.height = GAMES[gameId].boxSize[1] + "px";
 	right.style.transform = "translateZ(" + (GAMES[gameId].boxSize[0])/2 + "px) translateX(" + (GAMES[gameId].boxSize[0])/2 + "px)";
 	
-	if(GAMES[gameId].edition != "standart" || GAMES[gameId].platformId == "nes"){
+	if(GAMES[gameId].edition != "standart" || GAMES[gameId].platformId == "nes" || GAMES[gameId].platformId == "psone"){
 		right.style.backgroundImage = "url(./img/box-images/" + GAMES[gameId].gameId + "-" + GAMES[gameId].platformId + "-" + GAMES[gameId].edition + "-right.png)"; 
 	}else{
 		right.style.backgroundImage = "url(./img/box-images/" + GAMES[gameId].platformId + "-standart-right.png)"; 
