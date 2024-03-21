@@ -165,4 +165,9 @@ body{
 	.nav-platform-input:checked + .nav-platform-menu{		
 		clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);		
 	}
+	
+	.skip-icon{
+		filter: invert(100%);
+		width: 50px;
+	}
 }

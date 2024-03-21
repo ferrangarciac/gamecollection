@@ -45,6 +45,17 @@
 
 .info-header{
     background: #d0d0d0;
+    font-weight: 600;
+}
+
+.game-info-text{
+    font-weight: 400;
+    font-size: 1.5em;
+}
+
+#game-developer:hover{
+    text-decoration: underline  #000;
+    cursor: pointer;
 }
 
 .game-info-cont-col2{
@@ -87,6 +98,28 @@
     border-radius: 5px;
 }
 
+#game-save .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+#game-save:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
 .info-tags{
     padding: 10px;
     width: 240px;
@@ -102,16 +135,17 @@
     padding: 5px;
     font-size: 0.8em;
     font-weight: 600;
-    background: #f00;
+	background: #f00;
     color: white;
     text-transform: uppercase;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .skip-game-box{
     width: 100%;
     height: 100%;
-    position: absolute;
+    position: fixed;
     left: 0;
     top: 0;
     background: rgba(255,255,255,0.5);
