@@ -60,5 +60,8 @@ const platforms = {
 /*const standartBoxSize{
 	PS4: [135,170,15],
 	SWITCH: [105,170,12],
-	NES: [126,177,23]
+	NES: [126,177,23],
+	NDS: [135,122,20],
+	3DS: [135,122,12],
+	PC: [135,203,0]
 }*/

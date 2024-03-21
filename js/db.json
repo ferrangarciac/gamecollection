@@ -4,10 +4,10 @@
     "gameId": "pkmespada",
     "crown": "gold",
     "platformId": "switch",
-    "code": "",
-    "year": "",
-    "developer": "",
-    "genre": "",
+    "code": "LA-H-ALZAA-EUR",
+    "year": "2019",
+    "developer": "Game Freak",
+    "genre": "JRPG",
     "region": "palesp",
     "edition": "standart",
     "box": true,
@@ -42,10 +42,11 @@
     "save": true,
     "commentHTML": "",
     "gameName": "Hatsune Miku: Project Mirai DX",
-    "buyDate": "",
+    "buyDate": "10/9/2015",
     "startGame": "",
     "endGame": "",
-    "price": 0,
+    "price": 32,
+	"boxSize": [135,122,12],
     "tags": [
       "Project Diva Franchise"
     ]
@@ -66,11 +67,12 @@
     "gameType": 2,
     "save": true,
     "commentHTML": "<ul><li>Partida 1: 99% primera vuelta.<li>Partida 2: Inicio de la segunda vuelta.<ul><li>Todos los logros de steam conseguibles en la primera vuelta.</ul></ul>",
-    "gameName": "Final Fantasy IV (Steam)",
+    "gameName": "Final Fantasy IV 3D Remake (Steam)",
     "buyDate": "",
     "startGame": "",
     "endGame": "",
     "price": 0,
+	"boxSize": [135,203,1],
     "tags": [
       "Final Fantasy Franchise"
     ]
@@ -80,10 +82,10 @@
     "gameId": "ie3",
     "crown": "silver",
     "platformId": "3ds",
-    "code": "",
-    "year": "",
-    "developer": "",
-    "genre": "",
+    "code": "CTR-AXBP-EUR",
+    "year": "2013",
+    "developer": "Level 5",
+    "genre": "JRPG",
     "region": "palesp",
     "edition": "standart",
     "box": true,
@@ -96,6 +98,7 @@
     "startGame": "",
     "endGame": "",
     "price": 0,
+	"boxSize": [135,122,12],
     "tags": []
   },
   {
@@ -103,10 +106,10 @@
     "gameId": "iego",
     "crown": "silver",
     "platformId": "3ds",
-    "code": "",
-    "year": "",
-    "developer": "",
-    "genre": "",
+    "code": "CTR-AE4P-EUR",
+    "year": "2014",
+    "developer": "Level 5",
+    "genre": "JRPG",
     "region": "palesp",
     "edition": "standart",
     "box": true,
@@ -119,6 +122,7 @@
     "startGame": "",
     "endGame": "",
     "price": 0,
+	"boxSize": [135,122,12],
     "tags": []
   },
   {
@@ -126,10 +130,10 @@
     "gameId": "iego2",
     "crown": "silver",
     "platformId": "3ds",
-    "code": "",
-    "year": "",
-    "developer": "",
-    "genre": "",
+    "code": "CTR-ANPP-EUR",
+    "year": "2015",
+    "developer": "Level 5",
+    "genre": "JRPG",
     "region": "palesp",
     "edition": "standart",
     "box": true,
@@ -138,10 +142,11 @@
     "save": true,
     "commentHTML": "<ul><li>Versión PAL<li>Juego completado.<li>Partida al ~80%.</ul>",
     "gameName": "Inazuma Eleven GO Chrono Stones: Llamarada",
-    "buyDate": "",
+    "buyDate": "03/24/2015",
     "startGame": "",
     "endGame": "",
-    "price": 0,
+    "price": 32.29,
+	"boxSize": [135,122,12],
     "tags": []
   },
   {
@@ -165,6 +170,7 @@
     "startGame": "",
     "endGame": "",
     "price": 0,
+	"boxSize": [135,122,12],
     "tags": []
   },
   {
@@ -172,10 +178,10 @@
     "gameId": "laytonpw",
     "crown": "gold",
     "platformId": "3ds",
-    "code": "",
-    "year": "",
-    "developer": "",
-    "genre": "",
+    "code": "CTR-AVSZ-EUR",
+    "year": "2014",
+    "developer": "Level 5",
+    "genre": "Puzle",
     "region": "palesp",
     "edition": "standart",
     "box": true,
@@ -188,6 +194,7 @@
     "startGame": "",
     "endGame": "",
     "price": 0,
+	"boxSize": [135,122,12],
     "tags": []
   },
   {
@@ -195,10 +202,10 @@
     "gameId": "dragonballfusions",
     "crown": "silver",
     "platformId": "3ds",
-    "code": "",
-    "year": "",
-    "developer": "",
-    "genre": "",
+    "code": "CTR-BDLP-EUR",
+    "year": "2017",
+    "developer": "Ganbarion",
+    "genre": "JRPG",
     "region": "palesp",
     "edition": "standart",
     "box": true,
@@ -211,17 +218,18 @@
     "startGame": "",
     "endGame": "",
     "price": 0,
-    "tags": []
+	"boxSize": [135,122,12],
+    "tags": ["Anime"]
   },
   {
     "id": 9,
     "gameId": "projectxzone2",
     "crown": "silver",
     "platformId": "3ds",
-    "code": "",
-    "year": "",
-    "developer": "",
-    "genre": "",
+    "code": "CTR-BX2P-EUR",
+    "year": "2016",
+    "developer": "Monolith Soft",
+    "genre": "Táctico",
     "region": "palesp",
     "edition": "standart",
     "box": true,
@@ -234,8 +242,10 @@
     "startGame": "",
     "endGame": "",
     "price": 0,
+	"boxSize": [135,122,12],
     "tags": [
-      "Resident Evil Franchise"
+      "Resident Evil Franchise",
+	  "Tekken Franchise"
     ]
   },
   {
@@ -243,10 +253,10 @@
     "gameId": "remercenaries",
     "crown": "silver",
     "platformId": "3ds",
-    "code": "",
-    "year": "",
-    "developer": "",
-    "genre": "",
+    "code": "CTR-ABMP-EUR",
+    "year": "2011",
+    "developer": "Capcom",
+    "genre": "Shooter",
     "region": "palesp",
     "edition": "standart",
     "box": true,
@@ -259,6 +269,7 @@
     "startGame": "",
     "endGame": "",
     "price": 0,
+	"boxSize": [135,122,12],
     "tags": [
       "Resident Evil Franchise"
     ]
@@ -268,10 +279,10 @@
     "gameId": "rerevelations",
     "crown": "silver",
     "platformId": "3ds",
-    "code": "",
-    "year": "",
-    "developer": "",
-    "genre": "",
+    "code": "CTR-ABRP-EUR",
+    "year": "2012",
+    "developer": "Capcom",
+    "genre": "Shooter",
     "region": "palesp",
     "edition": "standart",
     "box": true,
@@ -284,6 +295,7 @@
     "startGame": "",
     "endGame": "",
     "price": 0,
+	"boxSize": [135,122,12],
     "tags": [
       "Resident Evil Franchise"
     ]
@@ -293,12 +305,12 @@
     "gameId": "tffcc",
     "crown": "silver",
     "platformId": "3ds",
-    "code": "",
-    "year": "",
-    "developer": "",
-    "genre": "",
-    "region": "palesp",
-    "edition": "standart",
+    "code": "CTR-BTHP-EUR",
+    "year": "2014",
+    "developer": "indieszero",
+    "genre": "Rítmico",
+    "region": "pal",
+    "edition": "Coleccionista",
     "box": true,
     "manual": true,
     "gameType": 1,
@@ -309,6 +321,7 @@
     "startGame": "",
     "endGame": "",
     "price": 0,
+	"boxSize": [191,263,40],
     "tags": [
       "Final Fantasy Franchise"
     ]
@@ -467,17 +480,17 @@
     "developer": "",
     "genre": "",
     "region": "palesp",
-    "edition": "standart",
+    "edition": "PSP Essentials",
     "box": true,
     "manual": true,
     "gameType": 1,
     "save": true,
     "commentHTML": "<ul><li>Versión USA.</ul>",
     "gameName": "Dragon Ball Z: Shin Budokai 2",
-    "buyDate": "",
+    "buyDate": "16/02/2024",
     "startGame": "",
     "endGame": "",
-    "price": 0,
+    "price": 4.95,
     "tags": []
   },
   {
@@ -852,7 +865,7 @@
     "startGame": "",
     "endGame": "",
     "price": 0,
-    "tags": []
+    "tags": ["Anime"]
   },
   {
     "id": 36,
@@ -875,7 +888,7 @@
     "startGame": "",
     "endGame": "",
     "price": 0,
-    "tags": []
+    "tags": ["Anime"]
   },
   {
     "id": 37,
@@ -2356,7 +2369,7 @@
     "startGame": "",
     "endGame": "",
     "price": 0,
-    "tags": []
+    "tags": ["Anime"]
   },
   {
     "id": 100,
@@ -2379,7 +2392,7 @@
     "startGame": "",
     "endGame": "",
     "price": 0,
-    "tags": []
+    "tags": ["Anime"]
   },
   {
     "id": 101,
@@ -2402,7 +2415,7 @@
     "startGame": "",
     "endGame": "",
     "price": 0,
-    "tags": []
+    "tags": ["Anime"]
   },
   {
     "id": 102,
@@ -2425,7 +2438,7 @@
     "startGame": "",
     "endGame": "",
     "price": 0,
-    "tags": []
+    "tags": ["Anime"]
   },
   {
     "id": 103,
@@ -2471,7 +2484,7 @@
     "startGame": "",
     "endGame": "",
     "price": 0,
-    "tags": []
+    "tags": ["Anime"]
   },
   {
     "id": 105,
@@ -2494,7 +2507,7 @@
     "startGame": "",
     "endGame": "",
     "price": 0,
-    "tags": []
+    "tags": ["Anime"]
   },
   {
     "id": 106,
@@ -2517,7 +2530,7 @@
     "startGame": "",
     "endGame": "",
     "price": 0,
-    "tags": []
+    "tags": ["Anime"]
   },
   {
     "id": 107,
@@ -4517,7 +4530,7 @@
     "startGame": "",
     "endGame": "",
     "price": 0,
-    "tags": []
+    "tags": ["Anime"]
   },
   {
     "id": 191,
@@ -4540,7 +4553,7 @@
     "startGame": "",
     "endGame": "",
     "price": 0,
-    "tags": []
+    "tags": ["Anime"]
   },
   {
     "id": 192,
@@ -11594,11 +11607,11 @@
     "save": false,
     "commentHTML": "",
     "gameName": "Naruto x Boruto: Ultimate Ninja Storm Connections",
-    "buyDate": "",
+    "buyDate": "01/11/2024",
     "startGame": "",
     "endGame": "",
     "price": 0,
-    "tags": []
+    "tags": ["Anime"]
   },
   {
     "id": 488,
@@ -11617,11 +11630,11 @@
     "save": false,
     "commentHTML": "",
     "gameName": "Naruto Shippuden: Ultimate Ninja Storm Trilogy",
-    "buyDate": "",
+    "buyDate": "01/22/2024",
     "startGame": "",
     "endGame": "",
-    "price": 0,
-    "tags": []
+    "price": 10,
+    "tags": ["Anime"]
   },
   {
     "id": 489,
@@ -11640,11 +11653,11 @@
     "save": false,
     "commentHTML": "",
     "gameName": "Naruto Shippuden: Ultimate Ninja Storm 4 - Road to Boruto",
-    "buyDate": "",
+    "buyDate": "01/22/2024",
     "startGame": "",
     "endGame": "",
-    "price": 0,
-    "tags": []
+    "price": 15,
+    "tags": ["Anime"]
   },
   {
     "id": 490,
@@ -11663,10 +11676,10 @@
     "save": false,
     "commentHTML": "",
     "gameName": "Another Code: Recollection",
-    "buyDate": "",
+    "buyDate": "01/19/2024",
     "startGame": "",
     "endGame": "",
-    "price": 0,
+    "price": 44,
     "tags": []
   },
   {
@@ -11679,18 +11692,18 @@
     "developer": "",
     "genre": "",
     "region": "palesp",
-    "edition": "standart",
+    "edition": "PSP Essentials",
     "box": true,
     "manual": true,
     "gameType": 1,
     "save": false,
     "commentHTML": "",
     "gameName": "Dragon Ball Z: Tenkaichi Tag Team",
-    "buyDate": "",
+    "buyDate": "02/16/2024",
     "startGame": "",
     "endGame": "",
-    "price": 0,
-    "tags": []
+    "price": 4.95,
+    "tags": ["Anime"]
   },
   {
     "id": 492,
@@ -11702,17 +11715,17 @@
     "developer": "",
     "genre": "",
     "region": "palesp",
-    "edition": "standart",
+    "edition": "PSP Essentials",
     "box": true,
     "manual": true,
     "gameType": 1,
     "save": false,
     "commentHTML": "",
     "gameName": "Tekken: Dark Resurrection",
-    "buyDate": "",
+    "buyDate": "02/16/2024",
     "startGame": "",
     "endGame": "",
-    "price": 0,
+    "price": 2.95,
     "tags": [
       "Tekken Franchise"
     ]
