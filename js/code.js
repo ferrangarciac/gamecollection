@@ -56,6 +56,20 @@ function selectByDev(evt){
 	fillGameList(resultArray);
 }
 
+function selectByGenre(evt){
+	var resultArray = new Array();
+	var cont = 0;
+	
+	for(i=0;i<GAMES.length;i++){
+		if(GAMES[i].genre === this.genre){
+			resultArray[cont] = GAMES[i];
+			cont++;
+		}
+	}	
+	skipGameInfo();
+	fillGameList(resultArray);
+}
+
 function selectByTag(evt){
 	var resultArray = new Array();
 	var cont = 0;
@@ -171,6 +185,9 @@ function fillGameDetails(evt){
 	gameDeveloper.addEventListener('click', selectByDev, false);
 	
 	gameGenre.innerHTML = GAMES[this.id].genre;
+	
+	gameDeveloper.genre = GAMES[this.id].genre;
+	gameDeveloper.addEventListener('click', selectByGenre, false);
 	
 	var gameRegion = document.getElementById("game-region");
 	var gameDisk = document.getElementById("game-owned");
