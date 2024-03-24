@@ -186,8 +186,8 @@ function fillGameDetails(evt){
 	
 	gameGenre.innerHTML = GAMES[this.id].genre;
 	
-	gameDeveloper.genre = GAMES[this.id].genre;
-	gameDeveloper.addEventListener('click', selectByGenre, false);
+	gameGenre.genre = GAMES[this.id].genre;
+	gameGenre.addEventListener('click', selectByGenre, false);
 	
 	var gameRegion = document.getElementById("game-region");
 	var gameDisk = document.getElementById("game-owned");
