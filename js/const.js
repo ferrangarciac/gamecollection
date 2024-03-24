@@ -65,5 +65,6 @@ const platforms = {
 	3DS: [135,122,12],
 	PC: [135,203,0],
 	PSX: [142,129,16],
-	PSXDOUBLE: []
+	PSXDOUBLE: [],
+	PSP: [110,180,14]
 }*/

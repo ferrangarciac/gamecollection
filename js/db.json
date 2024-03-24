@@ -429,12 +429,12 @@
     "gameId": "ffdissidia012",
     "crown": "silver",
     "platformId": "psp",
-    "code": "",
-    "year": "",
-    "developer": "",
-    "genre": "",
+    "code": "ULES-01505",
+    "year": "2011",
+    "developer": "Square-Enix",
+    "genre": "Lucha",
     "region": "palesp",
-    "edition": "standart",
+    "edition": "legacy",
     "box": true,
     "manual": true,
     "gameType": 1,
@@ -445,6 +445,7 @@
     "startGame": "",
     "endGame": "",
     "price": 0,
+	"boxSize": [105,175,20],
     "tags": [
       "Final Fantasy Franchise"
     ]
@@ -459,7 +460,7 @@
     "developer": "",
     "genre": "",
     "region": "palesp",
-    "edition": "standart",
+    "edition": "PSP Essentials",
     "box": true,
     "manual": true,
     "gameType": 1,
@@ -470,6 +471,7 @@
     "startGame": "",
     "endGame": "",
     "price": 0,
+	"boxSize": [110,180,14],
     "tags": []
   },
   {
