@@ -240,26 +240,26 @@ function generateBox(gameId){
 	right.style.height = GAMES[gameId].boxSize[1] + "px";
 	right.style.transform = "translateZ(" + (GAMES[gameId].boxSize[0])/2 + "px) translateX(" + (GAMES[gameId].boxSize[0])/2 + "px)";
 	
-	if(GAMES[gameId].edition != "standart" || GAMES[gameId].platformId == "nes" || GAMES[gameId].platformId == "psone"){
-		right.style.backgroundImage = "url(./img/box-images/" + GAMES[gameId].gameId + "-" + GAMES[gameId].platformId + "-" + GAMES[gameId].edition + "-right.png)"; 
-	}else{
+	if(GAMES[gameId].edition[3]){
 		right.style.backgroundImage = "url(./img/box-images/" + GAMES[gameId].platformId + "-standart-right.png)"; 
+	}else{
+		right.style.backgroundImage = "url(./img/box-images/" + GAMES[gameId].gameId + "-" + GAMES[gameId].platformId + "-" + GAMES[gameId].edition[0] + "-right.png)"; 
 	}
 	
 	left.style.width = GAMES[gameId].boxSize[2] + "px";
 	left.style.height = GAMES[gameId].boxSize[1] + "px";
 	left.style.transform = "translateZ(" + ((GAMES[gameId].boxSize[0])/2)*(-1) + "px) translateX(" + (GAMES[gameId].boxSize[0])/2 + "px)";
-	left.style.backgroundImage = "url(./img/box-images/" + GAMES[gameId].gameId + "-" + GAMES[gameId].platformId + "-" + GAMES[gameId].edition + "-left.png)"; 
+	left.style.backgroundImage = "url(./img/box-images/" + GAMES[gameId].gameId + "-" + GAMES[gameId].platformId + "-" + GAMES[gameId].edition[0] + "-left.png)"; 
 	
 	
 	front.style.width = GAMES[gameId].boxSize[0] + "px";
 	front.style.height = GAMES[gameId].boxSize[1] + "px";
-	front.style.backgroundImage = "url(./img/box-images/" + GAMES[gameId].gameId + "-" + GAMES[gameId].platformId + "-" + GAMES[gameId].edition + "-front.png)"; 
+	front.style.backgroundImage = "url(./img/box-images/" + GAMES[gameId].gameId + "-" + GAMES[gameId].platformId + "-" + GAMES[gameId].edition[0] + "-front.png)"; 
 	
 	back.style.width = GAMES[gameId].boxSize[0] + "px";
 	back.style.height = GAMES[gameId].boxSize[1] + "px";
 	back.style.transform = "translateX(" + GAMES[gameId].boxSize[2] + "px) rotateY(90deg)";
-	back.style.backgroundImage = "url(./img/box-images/" + GAMES[gameId].gameId + "-" + GAMES[gameId].platformId + "-" + GAMES[gameId].edition + "-back.png)"; 
+	back.style.backgroundImage = "url(./img/box-images/" + GAMES[gameId].gameId + "-" + GAMES[gameId].platformId + "-" + GAMES[gameId].edition[0] + "-back.png)"; 
 	
 }
 

@@ -9,7 +9,7 @@
     "developer": "Game Freak",
     "genre": "JRPG",
     "region": "palesp",
-    "edition": "standart",
+    "edition": ["standart","Estándar"],
     "box": true,
     "manual": true,
     "gameType": 1,
@@ -20,7 +20,7 @@
     "startGame": "",
     "endGame": "",
     "price": 0,
-	"boxSize": [105,170,12],
+	"boxSize": [105,170,12,true],
     "tags": [
       "Pokémon Franchise"
     ]
@@ -35,7 +35,7 @@
     "developer": "Sega",
     "genre": "Rítmico",
     "region": "pal",
-    "edition": "standart",
+    "edition": ["standart","Estándar"],
     "box": true,
     "manual": true,
     "gameType": 1,
@@ -46,7 +46,7 @@
     "startGame": "",
     "endGame": "",
     "price": 32,
-	"boxSize": [135,122,12],
+	"boxSize": [135,122,12,true],
     "tags": [
       "Project Diva Franchise"
     ]
@@ -58,10 +58,10 @@
     "platformId": "pc",
     "code": "312750",
     "year": "2014",
-    "developer": "Square-Enix",
+    "developer": "Square Enix",
     "genre": "JRPG",
     "region": "palesp",
-    "edition": "standart",
+    "edition": ["digital","Digital"],
     "box": false,
     "manual": false,
     "gameType": 2,
@@ -87,7 +87,7 @@
     "developer": "Level 5",
     "genre": "JRPG",
     "region": "palesp",
-    "edition": "standart",
+    "edition": ["standart","Estándar"],
     "box": true,
     "manual": true,
     "gameType": 1,
@@ -98,7 +98,7 @@
     "startGame": "",
     "endGame": "",
     "price": 0,
-	"boxSize": [135,122,12],
+	"boxSize": [135,122,12,true],
     "tags": []
   },
   {
@@ -111,7 +111,7 @@
     "developer": "Level 5",
     "genre": "JRPG",
     "region": "palesp",
-    "edition": "standart",
+    "edition": ["standart","Estándar"],
     "box": true,
     "manual": true,
     "gameType": 1,
@@ -122,7 +122,7 @@
     "startGame": "",
     "endGame": "",
     "price": 0,
-	"boxSize": [135,122,12],
+	"boxSize": [135,122,12,true],
     "tags": []
   },
   {
@@ -135,7 +135,7 @@
     "developer": "Level 5",
     "genre": "JRPG",
     "region": "palesp",
-    "edition": "standart",
+    "edition": ["standart","Estándar"],
     "box": true,
     "manual": true,
     "gameType": 1,
@@ -146,7 +146,7 @@
     "startGame": "",
     "endGame": "",
     "price": 32.29,
-	"boxSize": [135,122,12],
+	"boxSize": [135,122,12,true],
     "tags": []
   },
   {
@@ -159,7 +159,7 @@
     "developer": "",
     "genre": "",
     "region": "pal",
-    "edition": "standart",
+    "edition": ["digital","Digital"],
     "box": false,
     "manual": false,
     "gameType": 0,
@@ -170,7 +170,6 @@
     "startGame": "",
     "endGame": "",
     "price": 0,
-	"boxSize": [135,122,12],
     "tags": []
   },
   {
@@ -183,7 +182,7 @@
     "developer": "Level 5",
     "genre": "Puzle",
     "region": "palesp",
-    "edition": "standart",
+    "edition": ["standart","Estándar"],
     "box": true,
     "manual": true,
     "gameType": 1,
@@ -194,7 +193,7 @@
     "startGame": "",
     "endGame": "",
     "price": 0,
-	"boxSize": [135,122,12],
+	"boxSize": [135,122,12,true],
     "tags": []
   },
   {
@@ -207,7 +206,7 @@
     "developer": "Ganbarion",
     "genre": "JRPG",
     "region": "palesp",
-    "edition": "standart",
+    "edition": ["standart","Estándar"],
     "box": true,
     "manual": true,
     "gameType": 1,
@@ -218,7 +217,7 @@
     "startGame": "",
     "endGame": "",
     "price": 0,
-	"boxSize": [135,122,12],
+	"boxSize": [135,122,12,true],
     "tags": ["Anime"]
   },
   {
@@ -231,7 +230,7 @@
     "developer": "Monolith Soft",
     "genre": "Táctico",
     "region": "palesp",
-    "edition": "standart",
+    "edition": ["standart","Estándar"],
     "box": true,
     "manual": true,
     "gameType": 1,
@@ -242,7 +241,7 @@
     "startGame": "",
     "endGame": "",
     "price": 0,
-	"boxSize": [135,122,12],
+	"boxSize": [135,122,12,true],
     "tags": [
       "Resident Evil Franchise",
 	  "Tekken Franchise"
@@ -258,7 +257,7 @@
     "developer": "Capcom",
     "genre": "Shooter",
     "region": "palesp",
-    "edition": "standart",
+    "edition": ["standart","Estándar"],
     "box": true,
     "manual": true,
     "gameType": 1,
@@ -269,7 +268,7 @@
     "startGame": "",
     "endGame": "",
     "price": 0,
-	"boxSize": [135,122,12],
+	"boxSize": [135,122,12,true],
     "tags": [
       "Resident Evil Franchise"
     ]
@@ -284,7 +283,7 @@
     "developer": "Capcom",
     "genre": "Shooter",
     "region": "palesp",
-    "edition": "standart",
+    "edition": ["standart","Estándar"],
     "box": true,
     "manual": true,
     "gameType": 1,
@@ -295,7 +294,7 @@
     "startGame": "",
     "endGame": "",
     "price": 0,
-	"boxSize": [135,122,12],
+	"boxSize": [135,122,12,true],
     "tags": [
       "Resident Evil Franchise"
     ]
@@ -310,7 +309,7 @@
     "developer": "indieszero",
     "genre": "Rítmico",
     "region": "pal",
-    "edition": "Coleccionista",
+    "edition": ["coleccionista","Edición Coleccionista"],
     "box": true,
     "manual": true,
     "gameType": 1,
@@ -321,7 +320,7 @@
     "startGame": "",
     "endGame": "",
     "price": 0,
-	"boxSize": [191,263,40],
+	"boxSize": [191,263,40,false],
     "tags": [
       "Final Fantasy Franchise"
     ]
@@ -336,7 +335,7 @@
     "developer": "",
     "genre": "",
     "region": "palesp",
-    "edition": "standart",
+    "edition": ["digital","Digital"],
     "box": false,
     "manual": false,
     "gameType": 0,
@@ -359,7 +358,7 @@
     "developer": "",
     "genre": "",
     "region": "usa",
-    "edition": "standart",
+    "edition": ["digital","Digital"],
     "box": false,
     "manual": false,
     "gameType": 0,
@@ -382,7 +381,7 @@
     "developer": "Namco",
     "genre": "Lucha",
     "region": "palesp",
-    "edition": "standart",
+    "edition": ["standart","Estándar"],
     "box": true,
     "manual": true,
     "gameType": 1,
@@ -393,7 +392,7 @@
     "startGame": "",
     "endGame": "",
     "price": 0,
-	"boxSize": [142,129,16],
+	"boxSize": [142,129,16,false],
     "tags": [
       "Tekken Franchise"
     ]
@@ -405,10 +404,10 @@
     "platformId": "psp",
     "code": "ULES-01270",
     "year": "2009",
-    "developer": "Square-Enix",
+    "developer": "Square Enix",
     "genre": "Lucha",
     "region": "palesp",
-    "edition": "coleccionista",
+    "edition": ["coleccionista","Edición Coleccionista"],
     "box": true,
     "manual": true,
     "gameType": 1,
@@ -419,7 +418,7 @@
     "startGame": "",
     "endGame": "",
     "price": 0,
-	"boxSize": [115,185,35],
+	"boxSize": [115,185,35,false],
     "tags": [
       "Final Fantasy Franchise"
     ]
@@ -431,10 +430,10 @@
     "platformId": "psp",
     "code": "ULES-01505",
     "year": "2011",
-    "developer": "Square-Enix",
+    "developer": "Square Enix",
     "genre": "Lucha",
     "region": "palesp",
-    "edition": "legacy",
+    "edition": ["legacy","Legacy Edition"],
     "box": true,
     "manual": true,
     "gameType": 1,
@@ -445,7 +444,7 @@
     "startGame": "",
     "endGame": "",
     "price": 0,
-	"boxSize": [105,175,20],
+	"boxSize": [105,175,20,false],
     "tags": [
       "Final Fantasy Franchise"
     ]
@@ -455,23 +454,23 @@
     "gameId": "shinbudokai",
     "crown": "gold",
     "platformId": "psp",
-    "code": "",
-    "year": "",
-    "developer": "",
-    "genre": "",
+    "code": "ULES-00309/E",
+    "year": "2007",
+    "developer": "Dimps Corporation",
+    "genre": "Lucha",
     "region": "palesp",
-    "edition": "PSP Essentials",
+    "edition": ["pspessentials","PSP Essentials"],
     "box": true,
     "manual": true,
     "gameType": 1,
     "save": true,
     "commentHTML": "",
     "gameName": "Dragon Ball Z: Shin Budokai",
-    "buyDate": "",
+    "buyDate": "09/20/2021",
     "startGame": "",
     "endGame": "",
-    "price": 0,
-	"boxSize": [110,180,14],
+    "price": 4.95,
+	"boxSize": [110,180,14,true],
     "tags": []
   },
   {
