@@ -194,11 +194,13 @@ function fillGameDetails(evt){
 	var gameBox = document.getElementById("game-gamebox");
 	var gameManual = document.getElementById("game-manual");
 	var gameSaveFile = document.getElementById("game-save");
+	var gameSaveInfo = document.getElementById("game-save-info");
 	
 	gameDisk.className = "skip";
 	gameBox.className = "skip";
 	gameManual.className = "skip";
 	gameSaveFile.className = "skip";
+	gameSaveInfo.innerHTML = GAMES[this.id].commentHTML;
 	
 	gameRegion.setAttribute("src", "./img/icons/icon_" + GAMES[this.id].region + ".png");
 	
