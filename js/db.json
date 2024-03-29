@@ -771,7 +771,7 @@
     "developer": "",
     "genre": "",
     "region": "palesp",
-    "edition": "standart",
+    "edition": ["standart","Estándar"],
     "box": true,
     "manual": true,
     "gameType": 1,
@@ -782,6 +782,7 @@
     "startGame": "",
     "endGame": "",
     "price": 0,
+	"boxSize": [130,184,14,true],
     "tags": []
   },
   {
@@ -794,7 +795,7 @@
     "developer": "",
     "genre": "",
     "region": "palesp",
-    "edition": "standart",
+    "edition": ["standart","Estándar"],
     "box": true,
     "manual": true,
     "gameType": 1,
@@ -805,6 +806,7 @@
     "startGame": "",
     "endGame": "",
     "price": 0,
+	"boxSize": [130,184,14,true],
     "tags": []
   },
   {
@@ -817,7 +819,7 @@
     "developer": "",
     "genre": "",
     "region": "palesp",
-    "edition": "standart",
+    "edition": ["standart","Estándar"],
     "box": true,
     "manual": true,
     "gameType": 1,
@@ -828,6 +830,7 @@
     "startGame": "",
     "endGame": "",
     "price": 0,
+	"boxSize": [130,184,14,true],
     "tags": []
   },
   {
@@ -11786,7 +11789,7 @@
     "startGame": "03/05/2024",
     "endGame": "",
     "price": 44,
-	"boxSize": [135,170,15],
+	"boxSize": [135,170,15,true],
     "tags": [
       "Final Fantasy Franchise"
     ]
@@ -11812,7 +11815,7 @@
     "startGame": "",
     "endGame": "",
     "price": 30,
-	"boxSize": [126,177,23],
+	"boxSize": [126,177,23,false],
     "tags": []
   }
 ]
