@@ -259,9 +259,8 @@ function generateBox(gameId){
 	right.style.height = GAMES[gameId].boxSize[1] + "px";
 	right.style.transform = "translateZ(" + (GAMES[gameId].boxSize[0])/2 + "px) translateX(" + (GAMES[gameId].boxSize[0])/2 + "px)";
 	
-	if(GAMES[gameId].boxSize[3] = true){
+	if(GAMES[gameId].boxSize[3]){
 		console.log(true);
-		console.log(GAMES[gameId].boxSize[3]);
 		right.style.backgroundImage = "url(./img/box-images/" + GAMES[gameId].platformId + "-standart-right.png)"; 
 	}else{
 		console.log(false);
@@ -270,7 +269,7 @@ function generateBox(gameId){
 	
 	left.style.width = GAMES[gameId].boxSize[2] + "px";
 	left.style.height = GAMES[gameId].boxSize[1] + "px";
-	left.style.transform = "translateZ(" + ((GAMES[gameId].boxSize[0])/2)*(-1) + "px) translateX(" + (GAMES[gameId].boxSize[0])/2 + "px)";
+	left.style.transform = "translateZ(" + ((GAMES[gameId].boxSize[0])/2)*(-1) + "px) translateX(" + (GAMES[gameId].boxSize[0])/2 + "px) rotateX(180deg) rotateZ(180deg)";
 	left.style.backgroundImage = "url(./img/box-images/" + GAMES[gameId].gameId + "-" + GAMES[gameId].platformId + "-" + GAMES[gameId].edition[0] + "-left.png)"; 
 	
 	
