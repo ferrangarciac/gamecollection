@@ -98,24 +98,29 @@
     border-radius: 5px;
 }
 
-#game-save .tooltiptext {
-    visibility: hidden;
-    width: 120px;
-    background-color: #555;
-    color: #fff;
-    text-align: center;
-    border-radius: 6px;
-    padding: 5px 0;
-    position: absolute;
-    z-index: 1;
-    bottom: 125%;
-    left: 50%;
-    margin-left: -60px;
-    opacity: 0;
-    transition: opacity 0.3s;
+.game-save-container{
+    display: inline;
 }
 
-#game-save:hover .tooltiptext {
+.game-save-container .tooltiptext {
+    visibility: hidden;
+    width: 475px;
+    background-color: #555;
+    color: #fff;
+    text-align: left;
+    border-radius: 6px;
+    padding: 20px;
+    margin: 10px;
+    position: absolute;
+    left:0;
+    top: 330px;
+    z-index: 2;
+    
+    opacity: 0;
+    transition: opacity 0.3s;*/
+}
+
+.game-save-container:hover .tooltiptext {
     visibility: visible;
     opacity: 1;
 }
