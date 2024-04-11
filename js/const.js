@@ -68,5 +68,7 @@ const platforms = {
 	PSXDOUBLE: [],
 	PSP: [110,180,14],
 	DVD: [130,184,14],
-	CASSETE: [70,107,17]
+	CASSETE: [70,107,17],
+	SNES: [105,192,30],
+	FMDISC: [87,95,7]
 }*/

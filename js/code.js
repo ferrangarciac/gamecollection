@@ -250,11 +250,21 @@ function skipGameInfo(){
 }
 
 function generateBox(gameId){
+	var gameBox = document.getElementById("game-box");
+	var coverBack = document.getElementById("game-box-back-image");
+	var box = document.getElementById("box");
+		
 	var front = document.getElementById("front");
 	var back = document.getElementById("back");
 	var right = document.getElementById("right");
 	var left = document.getElementById("left");
 	
+	
+	box.style.width = GAMES[gameId].boxSize[0] + "px";
+	box.style.height = GAMES[gameId].boxSize[1] + "px";
+	coverBack.innerHTML="";
+	coverBack.setAttribute("src", "./img/basiccover/" + GAMES[gameId].platformId + "/cover_" + GAMES[gameId].gameId + ".jpg");
+		
 	right.style.width = GAMES[gameId].boxSize[2] + "px";
 	right.style.height = GAMES[gameId].boxSize[1] + "px";
 	right.style.transform = "translateZ(" + (GAMES[gameId].boxSize[0])/2 + "px) translateX(" + (GAMES[gameId].boxSize[0])/2 + "px)";
