@@ -1374,9 +1374,9 @@
     "genre": "",
     "region": "palesp",
     "edition": "standart",
-    "box": true,
-    "manual": true,
-    "gameType": 1,
+    "box": false,
+    "manual": false,
+    "gameType": 0,
     "save": true,
     "commentHTML": "",
     "gameName": "Super Street Fighter IV: Arcade Edition",
@@ -1453,6 +1453,7 @@
     "startGame": "",
     "endGame": "",
     "price": 0,
+	"boxSize": [130,184,14,true],
     "tags": [
       "Tekken Franchise"
     ]

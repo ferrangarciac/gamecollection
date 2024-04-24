@@ -20,8 +20,10 @@ window.addEventListener('load', function() {
 	//Rellena el menú de consolas
 	fillPlatformList();
 	
-	//Mostrar los últimos juegos
-	selectByDate();
+	//Crea el Listener de Estadísticas
+	var stats = document.getElementById("nav-stats");
+	stats.addEventListener('click', fillStats, false);
+
 }, false);
 
 function fillPlatformList(){
@@ -40,6 +42,69 @@ function fillPlatformList(){
 		
 		platformMenu.appendChild(newPlatformItem);
 	}	
+}
+
+function fillStats(evt){
+	var content = document.getElementById("content");
+	content.innerHTML = "";
+	
+	//TITULO SECCION - JUEGOS X CONSOLA
+	var titleContainer = document.createElement("div");
+	titleContainer.className = "stats-title-container";
+	content.appendChild(titleContainer);
+	
+	var title = document.createElement("h1");
+	title.className = "stats-title";
+	title.innerHTML = "Juegos por plataforma";
+	titleContainer.appendChild(title);
+	
+	var saltoLinea = document.createElement("br");
+	content.appendChild(saltoLinea);
+	
+	//LISTA CONSOLAS
+	for(i=0;i<platforms.NAME.length;i++){
+		
+		var newPlatformContainer = document.createElement("div");
+		newPlatformContainer.className = "stats-platform-cont container-game-cont";
+		
+		//newPlatformContainer.id = platforms.NAME[i].id;
+
+		newPlatformContainer.platform = platforms.NAME[i].replace(/\s+/g, '').toLowerCase();
+		newPlatformContainer.addEventListener('click', function(evt) {
+			selectByPlatform(evt);
+		}, false);
+		
+		var newPlatformName = document.createElement("span");
+		newPlatformName.className = "stats-platforms-text container-game-name";
+		newPlatformName.innerHTML = platforms.NAMECOMPLETE[i];
+		
+		var newPlatformIcon = document.createElement("img");
+		newPlatformIcon.className = "stats-platform-icon container-game-cover";
+		newPlatformIcon.setAttribute("src", "./img/platforms/" + newPlatformContainer.platform + ".png");
+		
+		var newPlatformCount = document.createElement("span");
+		newPlatformCount.className = "stats-platforms-text container-game-name";
+		newPlatformCount.innerHTML = "Juegos Totales: " + countGames(newPlatformContainer.platform);
+		
+		newPlatformContainer.appendChild(newPlatformName);
+		newPlatformContainer.appendChild(newPlatformIcon);
+		newPlatformContainer.appendChild(newPlatformCount);
+		
+		content.appendChild(newPlatformContainer);		
+	}
+}
+
+function countGames(platformTarget){
+	var counter = 0;
+	
+	for(let i=0;i<GAMES.length;i++){
+		if(GAMES[i].gameType == 1){
+			if(GAMES[i].platformId == platformTarget){
+				counter++;
+			}
+		}		
+	}	
+	return counter;
 }
 
 function selectByDev(evt){
