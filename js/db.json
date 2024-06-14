@@ -12143,29 +12143,5 @@
     "price": 0,
 	"boxSize": [130,130,1,false],
     "tags": []
-  },
-  {
-    "id": 509,
-    "gameId": "talesofphantasia",
-    "crown": "none",
-    "platformId": "gba",
-    "code": "	AGB-AN8P-EUR",
-    "year": "2006",
-    "developer": "Namco",
-    "genre": "JRPG",
-    "region": "palesp",
-    "edition": ["standart","Estándar"],
-    "box": true,
-    "manual": true,
-    "gameType": 1,
-    "save": false,
-    "commentHTML": "",
-    "gameName": "Tales of Phantasia",
-    "buyDate": "06/14/2024",
-    "startGame": "",
-    "endGame": "",
-    "price": 54,
-	"boxSize": [125,125,25,false],
-    "tags": []
   }
 ]
