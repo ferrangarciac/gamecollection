@@ -12190,7 +12190,7 @@
     "startGame": "",
     "endGame": "",
     "price": 19.90,
-    "boxSize": [135,170,15,false],
+    "boxSize": [135,170,15,true],
     "tags": []
   }
 ]
