@@ -3619,7 +3619,7 @@
     "developer": "ChunSoft",
     "genre": "JRPG",
     "region": "jap",
-    "edition": "standart",
+    "edition": ["standart","Estándar"],
     "box": true,
     "manual": true,
     "gameType": 1,
