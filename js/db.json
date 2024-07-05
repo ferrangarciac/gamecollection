@@ -3631,7 +3631,7 @@
     "endGame": "",
     "price": 18,
     "boxSize": [105,192,30,false],
-    "tags": []
+    "tags": ["Dragon Quest Franchise"]
   },
   {
     "id": 152,
@@ -5301,7 +5301,7 @@
     "startGame": "",
     "endGame": "",
     "price": 0,
-    "tags": []
+    "tags": ["Dragon Quest Franchise"]
   },
   {
     "id": 222,
@@ -5815,7 +5815,7 @@
     "startGame": "",
     "endGame": "",
     "price": 0,
-    "tags": []
+    "tags": ["Dragon Quest Franchise"]
   },
   {
     "id": 244,
@@ -6510,7 +6510,7 @@
     "startGame": "",
     "endGame": "",
     "price": 0,
-    "tags": []
+    "tags": ["Dragon Quest Franchise"]
   },
   {
     "id": 274,
@@ -6533,7 +6533,7 @@
     "startGame": "",
     "endGame": "",
     "price": 0,
-    "tags": []
+    "tags": ["Dragon Quest Franchise"]
   },
   {
     "id": 275,
@@ -7065,7 +7065,7 @@
     "startGame": "",
     "endGame": "",
     "price": 0,
-    "tags": []
+    "tags": ["Dragon Quest Franchise"]
   },
   {
     "id": 297,
@@ -7157,7 +7157,7 @@
     "startGame": "",
     "endGame": "",
     "price": 0,
-    "tags": []
+    "tags": ["Dragon Quest Franchise"]
   },
   {
     "id": 301,
@@ -7180,7 +7180,7 @@
     "startGame": "",
     "endGame": "",
     "price": 0,
-    "tags": []
+    "tags": ["Dragon Quest Franchise"]
   },
   {
     "id": 302,
@@ -7437,7 +7437,7 @@
     "startGame": "",
     "endGame": "",
     "price": 0,
-    "tags": []
+    "tags": ["Dragon Quest Franchise"]
   },
   {
     "id": 313,
@@ -10652,7 +10652,8 @@
     "endGame": "",
     "price": 0,
     "tags": [
-      "Final Fantasy Franchise"
+      "Final Fantasy Franchise",
+	"Dragon Quest Franchise"
     ]
   },
   {
