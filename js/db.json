@@ -12282,5 +12282,29 @@
     "price": 0,
     "boxSize": [125,125,25,false],
     "tags": []
+  },
+  {
+    "id": 514,
+    "gameId": "chuchurocket",
+    "crown": "none",
+    "platformId": "dc",
+    "code": "MK-51049-50",
+    "year": "2000",
+    "developer": "Sonic Team",
+    "genre": "Puzzle",
+    "region": "palesp",
+    "edition": ["standart","Estándar"],
+    "box": false,
+    "manual": false,
+    "gameType": 1,
+    "save": false,
+    "commentHTML": "",
+    "gameName": "ChuChu Rocket!",
+    "buyDate": "",
+    "startGame": "",
+    "endGame": "",
+    "price": 0,
+    "boxSize": [140,120,20,true],
+    "tags": []
   }
 ]
