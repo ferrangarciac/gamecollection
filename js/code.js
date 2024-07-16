@@ -87,7 +87,7 @@ function fillStats(evt){
 		
 		var newPlatformCount = document.createElement("span");
 		newPlatformCount.className = "stats-platforms-text container-game-name";
-		newPlatformCount.innerHTML = "Juegos Totales: " + countGames(newPlatformContainer.platform);
+		newPlatformCount.innerHTML = "Juegos Totales: " + countGames(GAMES, newPlatformContainer.platform);
 		
 		newPlatformContainer.appendChild(newPlatformName);
 		newPlatformContainer.appendChild(newPlatformIcon);
@@ -130,7 +130,108 @@ function fillStats(evt){
 	title.innerHTML = "Estadísticas Generales";
 	titleContainer.appendChild(title);
 	
+	//PIE CHART (PLATFOMRS)
+	var subcontent2 = document.createElement('div');
+	subcontent2.className = "subcontent";
+	
+	var pieChart = document.createElement("div");
+	pieChart.className = "pie";
+	
+	var arrayTemp = getYearArray(2024);
+	
+	var percentGames = new Array();
+	
+	var count = 0;
+	
+	for(i=0;i<platforms.NAME.length;i++){
+		console.log(countGames(arrayTemp, platforms.NAME[i]));
+		var currentPlatform = platforms.NAME[i].replace(/\s+/g, '').toLowerCase()
+		
+		if(countGames(arrayTemp, currentPlatform) > 0){
+			percentGames[count] = new Array(platforms.NAME[i], countGames(arrayTemp, currentPlatform),0);
+			count++;
+		}
+	}
+	
+	const maxShown = 10;
+	
+	percentGames.sort((a, b) => b[1] - a[1]);
+	
+	var total = percentGames.reduce((sum, platform) => sum + platform[1], 0);
+	
+	for(i=0;i<percentGames.length;i++){
+				
+		if(i>=maxShown && percentGames.length > maxShown){
+			var startIndex = maxShown;
+			var slicedPlatforms = percentGames.slice(startIndex);
+			
+			console.log(slicedPlatforms);
+			
+			var totalRest = slicedPlatforms.reduce((sum, platform) => sum + platform[1], 0);
+			percentGames[i][2] = totalRest / total * 100;
+			percentGames[i][1] = totalRest;
+			percentGames[i][0] = "Otros";
+			percentGames.splice(maxShown+1);
+			break;
+		}
+		
+		percentGames[i][2] = percentGames[i][1] / total * 100;
+	}
+	
+	console.log(percentGames);
+	
+	var colors = new Array("Crimson","Teal","SlateBlue","GoldenRod","MediumSeaGreen","Tomato","DodgerBlue","Orchid","IndianRed","DarkSlateGray");
+	
+	var colorString = 'conic-gradient(';
+	
+	colorString = colorString + colors[0] + " 0% " + percentGames[0][2] + "%,";
+	
+	var sliceCount = percentGames[0][2];
+	
+	for(i=1;i<percentGames.length;i++){
+		colorString = colorString + colors[i] + " " + sliceCount + "% ";
+		sliceCount = sliceCount + percentGames[i][2];
+		colorString = colorString + sliceCount + "%, ";
+	}
+	
+	colorString = colorString.slice(0, -2);
+	colorString = colorString + ")";
+	
+	console.log(colorString);
+	
+	
+	pieChart.style.backgroundImage = colorString;
+	
+	
+	//console.log(percentGames);
+	//console.log(countGames(arrayTemp, "nes"));
+	
+	
+	subcontent2.appendChild(pieChart);
+	
+	content.appendChild(subcontent2);
+	
 }
+
+function getYearArray(yearTarget){
+	var arrayTemp = new Array();
+	var count = 0;
+	var dateTemp;
+	
+	for(i=0;i<GAMES.length;i++){
+		dateTemp = new Date(GAMES[i].buyDate);
+		
+		if(dateTemp.getFullYear().toString() == yearTarget.toString()){
+			
+			arrayTemp[count] = GAMES[i];
+			count++;
+		}
+	}
+	
+	return arrayTemp;
+}
+
+
 
 function countGamesTotal(){
 	var counter = 0;
@@ -143,12 +244,12 @@ function countGamesTotal(){
 	return counter;
 }
 
-function countGames(platformTarget){
+function countGames(array, platformTarget){
 	var counter = 0;
 	
-	for(let i=0;i<GAMES.length;i++){
-		if(GAMES[i].gameType == 1){
-			if(GAMES[i].platformId == platformTarget){
+	for(let i=0;i<array.length;i++){
+		if(array[i].gameType == 1){
+			if(array[i].platformId == platformTarget){
 				counter++;
 			}
 		}		
@@ -215,7 +316,9 @@ function selectByPlatform(evt){
 	
 	for(var i = 0; i < GAMES.length; i++){
 		if(GAMES[i].platformId === platform){
-			resultArray[cont] = GAMES[i];
+			if(GAMES[i].gameType < 2){
+				resultArray[cont] = GAMES[i];
+			}
 			cont++;
 		}
 	}
