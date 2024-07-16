@@ -263,8 +263,10 @@ function selectByDev(evt){
 	
 	for(i=0;i<GAMES.length;i++){
 		if(GAMES[i].developer === this.developer){
-			resultArray[cont] = GAMES[i];
-			cont++;
+			if(GAMES[i].gameType != 0){
+				resultArray[cont] = GAMES[i];
+				cont++;
+			}
 		}
 	}	
 	skipGameInfo();
@@ -277,8 +279,10 @@ function selectByGenre(evt){
 	
 	for(i=0;i<GAMES.length;i++){
 		if(GAMES[i].genre === this.genre){
-			resultArray[cont] = GAMES[i];
-			cont++;
+			if(GAMES[i].gameType != 0){
+				resultArray[cont] = GAMES[i];
+				cont++;
+			}
 		}
 	}	
 	skipGameInfo();
@@ -292,8 +296,10 @@ function selectByTag(evt){
 	for(i=0;i<GAMES.length;i++){
 		for(x=0;x<GAMES[i].tags.length;x++){
 			if(GAMES[i].tags[x] === this.tag){
-				resultArray[cont] = GAMES[i];
-				cont++;
+				if(GAMES[i].gameType != 0){
+					resultArray[cont] = GAMES[i];
+					cont++;
+				}
 			}
 		}
 	}
@@ -316,10 +322,11 @@ function selectByPlatform(evt){
 	
 	for(var i = 0; i < GAMES.length; i++){
 		if(GAMES[i].platformId === platform){
-			if(GAMES[i].gameType < 2){
+			if(GAMES[i].gameType != 0){
 				resultArray[cont] = GAMES[i];
+				cont++;
 			}
-			cont++;
+			
 		}
 	}
 	
@@ -337,13 +344,28 @@ function selectByDate(dateIn){
 	
 	for(i=0;i<GAMES.length;i++){
 		if(Date.parse(GAMES[i].buyDate) > currentDate.valueOf()){
-			//console.log(GAMES[i].buyDate + " - " + currentDate);
-			resultArray[cont] = GAMES[i];
-			cont++;
+			if(GAMES[i].gameType != 0){
+				resultArray[cont] = GAMES[i];
+				cont++;
+			}
 		}
 	}
 	
 	fillGameList(resultArray, "Último mes");
+}
+
+function selectWSaves(evt){
+	var resultArray = new Array();
+	var cont = 0;
+	
+	for(i=0;i<GAMES.length;i++){
+		if(GAMES[i].save){
+				resultArray[cont] = GAMES[i];
+				cont++;
+		}
+	}
+
+	fillGameList(resultArray, this.tag);
 }
 
 
