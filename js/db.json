@@ -1970,10 +1970,10 @@
     "gameId": "ffv_pc",
     "crown": "gold",
     "platformId": "pc",
-    "code": "",
-    "year": "",
-    "developer": "",
-    "genre": "",
+    "code": "382890",
+    "year": "2015",
+    "developer": "Matrix Software",
+    "genre": "JRPG",
     "region": "palesp",
     "edition": ["digital","Digital"],
     "box": false,
@@ -1986,6 +1986,7 @@
     "startGame": "",
     "endGame": "",
     "price": 0,
+	"boxSize": [135,203,1,true],
     "tags": [
       "Final Fantasy Franchise"
     ]
@@ -1995,10 +1996,10 @@
     "gameId": "ff7_pc",
     "crown": "gold",
     "platformId": "pc",
-    "code": "",
-    "year": "",
-    "developer": "",
-    "genre": "",
+    "code": "39140",
+    "year": "2012",
+    "developer": "SquareSoft",
+    "genre": "JRPG",
     "region": "palesp",
     "edition": ["digital","Digital"],
     "box": false,
@@ -2011,6 +2012,7 @@
     "startGame": "",
     "endGame": "",
     "price": 0,
+	"boxSize": [135,203,1,true],
     "tags": [
       "Final Fantasy Franchise"
     ]
@@ -12434,7 +12436,7 @@
     "save": true,
     "commentHTML": "",
     "gameName": "Final Fantasy III Pixel Remaster (Steam)",
-    "buyDate": "07/31/2014",
+    "buyDate": "07/31/2024",
     "startGame": "07/31/2014",
     "endGame": "",
     "price": 14.99,
