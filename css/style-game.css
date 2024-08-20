@@ -27,7 +27,7 @@
 .game-box{
     background: rgb(224,223,224);
 background: linear-gradient(180deg, rgba(224,223,224,1) 0%, rgba(50,50,50,1) 100%);
-    position: relative; /* Establece posición relativa para .game-box */
+    position: relative; /* Establece posiciÃ³n relativa para .game-box */
     width: 240px; /* Ancho deseado para .game-box */
     height: 250px; /* Altura deseada para .game-box */
     border: 1px solid #a0a0a0;
@@ -179,7 +179,7 @@ background: linear-gradient(180deg, rgba(224,223,224,1) 0%, rgba(50,50,50,1) 100
     transform-style: preserve-3d;
     transform: rotateY(185deg) rotateX(150deg) rotateZ(0);
     animation: rotate 5s linear infinite;
-    position: absolute; /* Establece posición absoluta para .box dentro de .game-box */
+    position: absolute; /* Establece posiciÃ³n absoluta para .box dentro de .game-box */
     transform: translate(-50%, -50%);
 }
  
