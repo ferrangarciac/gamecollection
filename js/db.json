@@ -12412,6 +12412,7 @@
     "startGame": "",
     "endGame": "",
     "price": 0,
+	"boxSize": [125,125,25,false],
     "tags": [
       "Pokémon Franchise"
     ]
