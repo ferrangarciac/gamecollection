@@ -72,7 +72,7 @@
     "startGame": "",
     "endGame": "",
     "price": 0,
-	"boxSize": [135,203,1],
+	"boxSize": [135,203,1,true],
     "tags": [
       "Final Fantasy Franchise"
     ]
@@ -12415,6 +12415,32 @@
 	"boxSize": [125,125,25,false],
     "tags": [
       "Pokémon Franchise"
+    ]
+  },
+  {
+    "id": 518,
+    "gameId": "ff3_pixelremaster_pc",
+    "crown": "gold",
+    "platformId": "pc",
+    "code": "1173790",
+    "year": "2024",
+    "developer": "TOSE",
+    "genre": "JRPG",
+    "region": "palesp",
+    "edition": ["digital","Digital"],
+    "box": false,
+    "manual": false,
+    "gameType": 2,
+    "save": true,
+    "commentHTML": "",
+    "gameName": "Final Fantasy III Pixel Remaster (Steam)",
+    "buyDate": "07/31/2014",
+    "startGame": "07/31/2014",
+    "endGame": "",
+    "price": 14.99,
+	"boxSize": [135,203,1,true],
+    "tags": [
+      "Final Fantasy Franchise"
     ]
   }
 ]
