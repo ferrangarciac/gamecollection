@@ -3360,6 +3360,7 @@
     "startGame": "",
     "endGame": "",
     "price": 0,
+	"boxSize": [125,125,25,false],
     "tags": [
       "Pokémon Franchise"
     ]
@@ -3385,6 +3386,7 @@
     "startGame": "",
     "endGame": "",
     "price": 0,
+	"boxSize": [125,125,25,false],
     "tags": [
       "Final Fantasy Franchise"
     ]
@@ -3410,6 +3412,7 @@
     "startGame": "",
     "endGame": "",
     "price": 0,
+	"boxSize": [125,125,25,false],
     "tags": ["Pokémon Franchise"]
   },
   {
@@ -3483,6 +3486,7 @@
     "startGame": "",
     "endGame": "",
     "price": 0,
+	"boxSize": [130,184,14,true],
     "tags": []
   },
   {
@@ -3506,6 +3510,7 @@
     "startGame": "",
     "endGame": "",
     "price": 0,
+	"boxSize": [130,184,14,true],
     "tags": []
   },
   {
