@@ -9400,12 +9400,12 @@
     "gameId": "pkmcristal",
     "crown": "none",
     "platformId": "gb",
-    "code": "",
-    "year": "",
-    "developer": "",
-    "genre": "",
+    "code": "CGB-BYTP-EUR",
+    "year": "2001",
+    "developer": "Game Freak",
+    "genre": "JRPG",
     "region": "palesp",
-    "edition": "standart",
+    "edition": ["standart","Estándar"],
     "box": true,
     "manual": true,
     "gameType": 1,
@@ -9416,6 +9416,7 @@
     "startGame": "",
     "endGame": "",
     "price": 0,
+	"boxSize": [125,125,25,false],
     "tags": [
       "Pokémon Franchise"
     ]
