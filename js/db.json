@@ -9426,12 +9426,12 @@
     "gameId": "pkmesmeralda",
     "crown": "none",
     "platformId": "gba",
-    "code": "",
-    "year": "",
-    "developer": "",
-    "genre": "",
+    "code": "AGB-BPEP-EUR",
+    "year": "2005",
+    "developer": "Game Freak",
+    "genre": "JRPG",
     "region": "palesp",
-    "edition": "standart",
+    "edition": ["standart","Estándar"],
     "box": true,
     "manual": true,
     "gameType": 1,
@@ -9442,6 +9442,7 @@
     "startGame": "",
     "endGame": "",
     "price": 0,
+	"boxSize": [125,125,25,false],
     "tags": [
       "Pokémon Franchise"
     ]
