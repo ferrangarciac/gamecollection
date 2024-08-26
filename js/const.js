@@ -74,5 +74,5 @@ const platforms = {
 	GBA: [125,125,25],
 	GBJAP1: [90,105,20],
 	PS3: [135,170,15],
-	MEGADRIVE: [129,178,23]
+	MEGADRIVE: [129,201,23] //178 + 23 de la patilla
 }*/
