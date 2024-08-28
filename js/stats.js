@@ -11,9 +11,18 @@ function fillStats(evt){
 	statSectionCountGames.id = 'statSectionCountGames';
 	
 	//CHKBOX CRIBA
+	var headerContainer = document.createElement('div');
+	headerContainer.className = 'stats-header-container';
+	content.appendChild(headerContainer);
+	
+	var chkContainer = document.createElement('div');
+	chkContainer.className = 'stats-checkbox-container-global';
+	headerContainer.appendChild(chkContainer);
+	
+	
 	var chkDivDigital = document.createElement('div');
 	chkDivDigital.className = 'stats-checkbox-container';
-	content.appendChild(chkDivDigital);
+	chkContainer.appendChild(chkDivDigital);
 	
 	var chkDigital = document.createElement('input');
 	chkDigital.type = 'checkbox';
@@ -33,7 +42,7 @@ function fillStats(evt){
 	
 	var chkDivRepro = document.createElement('div');
 	chkDivRepro.className = 'stats-checkbox-container';
-	content.appendChild(chkDivRepro);
+	chkContainer.appendChild(chkDivRepro);
 	
 	var chkRepro = document.createElement('input');
 	chkRepro.type = 'checkbox';
@@ -53,7 +62,7 @@ function fillStats(evt){
 	
 	var chkDivDemo = document.createElement('div');
 	chkDivDemo.className = 'stats-checkbox-container';
-	content.appendChild(chkDivDemo);
+	chkContainer.appendChild(chkDivDemo);
 	
 	var chkDemo = document.createElement('input');
 	chkDemo.type = 'checkbox';
@@ -70,6 +79,9 @@ function fillStats(evt){
 	labelDemo.htmlFor = 'chkDemo';
 	labelDemo.textContent = "Omitir demostraciones";
 	chkDivDemo.appendChild(labelDemo);
+	
+	//TOTALES
+	printTotals(headerContainer);
 	
 	
 	//TITULO SECCION - JUEGOS X CONSOLA
@@ -107,29 +119,35 @@ function fillStats(evt){
 	statSectionCountGames.appendChild(subSectionAnual);
 	
 	//SELECT CON LOS AÑOS
+
+	// Crear y configurar el label
 	var labelYear = document.createElement('label');
 	labelYear.setAttribute('for', 'selectYear');  // Asociar el label con el select
 	labelYear.textContent = 'Elige un año para visualizar sus datos:';  // Texto del label
-	
+
+	// Crear y configurar el select
 	var selectYear = document.createElement('select');
 	selectYear.className = 'stats-select-year';
 	selectYear.id = 'selectYear';
-	
+
 	var allYears = listYears(gamesFiltered);
-	
+
+	// Crear las opciones para el select
 	for (let i = 0; i < allYears.length; i++) {
 		let option = document.createElement('option');
 		option.value = allYears[i];
 		option.textContent = allYears[i];
-		
-		// Capturamos el valor actual de la iteración en la función del event listener
-		option.addEventListener('click', function() {
-			anualGotGames(option.value,subSectionAnual,gamesFiltered); // Ahora el valor es el correcto
-			anualGenreGames(option.value,subSectionAnual,gamesFiltered);
-		}, false);
 
 		selectYear.appendChild(option);
 	}
+
+	// Añadir un event listener al select para capturar la selección
+	selectYear.addEventListener('change', function() {
+		let selectedYear = selectYear.value;
+		console.log('in');
+		anualGotGames(selectedYear, subSectionAnual, gamesFiltered);
+		anualGenreGames(selectedYear, subSectionAnual, gamesFiltered);
+	}, false);
 	
 	statSectionCountGames.appendChild(labelYear);
 	statSectionCountGames.appendChild(selectYear);
@@ -145,10 +163,10 @@ function fillStats(evt){
 }
 
 function getCustomGameArray(){
-	var arrayTemp = GAMES;
+	var arrayTemp = GAMES.filter(game => game.gameType !== 0);
 	
 	if(!digital){
-		arrayTemp = GAMES.filter(game => game.gameType !== 2);
+		arrayTemp = arrayTemp.filter(game => game.gameType !== 2);
 	}
 	
 	if(!repro){
@@ -531,4 +549,77 @@ function countGamesTotal(){
 		}		
 	}	
 	return counter;
+}
+
+function printTotals(targetDiv){
+	var totalsContainerGlobal = document.createElement('div');
+	totalsContainerGlobal.className = 'stats-totals-container-global';
+	targetDiv.appendChild(totalsContainerGlobal);
+	
+	var gamesLegit = GAMES.filter(game => game.save !== 0);
+	
+	//PHYSICAL GAMES
+	var arrayTemp = gamesLegit.filter(game => game.gameType == 1);	
+	
+	var totalsContainerPhysical = document.createElement('div');
+	totalsContainerPhysical.className = 'stats-totals-container';
+	totalsContainerGlobal.appendChild(totalsContainerPhysical);
+	
+	var totalsTextPhysical = document.createElement('span');
+	totalsTextPhysical.className = 'stats-totals-text';
+	totalsTextPhysical.innerHTML = "Juegos Físicos Totales: " + arrayTemp.length;
+	totalsContainerPhysical.appendChild(totalsTextPhysical);
+	
+	//DIGITAL GAMES
+	arrayTemp = gamesLegit.filter(game => game.gameType == 2);
+	
+	var totalsContainerDigital = document.createElement('div');
+	totalsContainerDigital.className = 'stats-totals-container';
+	totalsContainerGlobal.appendChild(totalsContainerDigital);
+	
+	var totalsTextDigital = document.createElement('span');
+	totalsTextDigital.className = 'stats-totals-text';
+	totalsTextDigital.innerHTML = "Juegos Digitales Totales: " + arrayTemp.length;
+	totalsContainerDigital.appendChild(totalsTextDigital);
+	
+	//REPRO GAMES
+	arrayTemp = gamesLegit.filter(game => game.gameType == 3);
+	
+	var totalsContainerRepro = document.createElement('div');
+	totalsContainerRepro.className = 'stats-totals-container';
+	totalsContainerGlobal.appendChild(totalsContainerRepro);
+	
+	var totalsTextRepro = document.createElement('span');
+	totalsTextRepro.className = 'stats-totals-text';
+	totalsTextRepro.innerHTML = "Juegos Repro Totales:" + arrayTemp.length;
+	totalsContainerRepro.appendChild(totalsTextRepro);
+	
+	//DEMO GAMES
+	arrayTemp = gamesLegit.filter(game => game.gameType == 4);
+	
+	var totalsContainerDemo = document.createElement('div');
+	totalsContainerDemo.className = 'stats-totals-container';
+	totalsContainerGlobal.appendChild(totalsContainerDemo);
+	
+	var totalsTextDemo = document.createElement('span');
+	totalsTextDemo.className = 'stats-totals-text';
+	totalsTextDemo.innerHTML = "Juegos Demo Totales: " + arrayTemp.length;
+	totalsContainerDemo.appendChild(totalsTextDemo);
+	
+	//TOTAL GAMES
+	arrayTemp = getCustomGameArray();
+	
+	var totalsContainerTotal = document.createElement('div');
+	totalsContainerTotal.className = 'stats-totals-container';
+	totalsContainerGlobal.appendChild(totalsContainerTotal);
+	
+	var totalsTextTotal = document.createElement('span');
+	totalsTextTotal.className = 'stats-totals-text';
+	totalsTextTotal.innerHTML = "Juegos Totales Totales*: " + arrayTemp.length;
+	totalsContainerTotal.appendChild(totalsTextTotal);
+	
+	var totalsTextTotalNote = document.createElement('span');
+	totalsTextTotalNote.className = 'stats-totals-text-note';
+	totalsTextTotalNote.innerHTML = "*Este valor tiene en cuenta las opciones de omisión marcadas.";
+	totalsContainerTotal.appendChild(totalsTextTotalNote);
 }

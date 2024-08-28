@@ -90,38 +90,48 @@ function savefiles(evt){
 	colDlHeader.appendChild(textDlHeader);
 	
 	//LISTADO
-	for(i=0;i<6;i++){
+	
+	
+	
+	var gamesFiltered = GAMES.filter(game => game.save == true);
+	
+	for(i=0;i<gamesFiltered.length;i++){
+		
 		var listItem = document.createElement('div');
-	listItem.className = 'savefiles-list-item';
-	container.appendChild(listItem);
-	
-	var colNameItem = document.createElement('div');
-	colNameItem.className = 'savefiles-list-col-item savefiles-col-name';
-	listItem.appendChild(colNameItem);
-	
-	var textNameItem = document.createElement('span');
-	textNameItem.className = 'savefile-list-item-text';
-	textNameItem.innerHTML = 'JUEGO';
-	colNameItem.appendChild(textNameItem);
-	
-	var colRegionItem = document.createElement('div');
-	colRegionItem.className = 'savefiles-list-col-item savefiles-col-region';
-	listItem.appendChild(colRegionItem);
-	
-	var textRegionItem = document.createElement('span');
-	textRegionItem.className = 'savefile-list-item-text';
-	textRegionItem.innerHTML = 'REGIÓN';
-	colRegionItem.appendChild(textRegionItem);
-	
-	var colDlItem = document.createElement('div');
-	colDlItem.className = 'savefiles-list-col-item savefiles-col-dl';
-	listItem.appendChild(colDlItem);
-	
-	var textDlItem = document.createElement('span');
-	textDlItem.className = 'savefile-list-header-text';
-	textDlItem.innerHTML = 'DL';
-	colDlItem.appendChild(textDlItem);
+		listItem.className = 'savefiles-list-item';
+		container.appendChild(listItem);
+		
+		var colNameItem = document.createElement('div');
+		colNameItem.className = 'savefiles-list-col-item savefiles-col-name';
+		listItem.appendChild(colNameItem);
+		
+		var textNameItem = document.createElement('span');
+		textNameItem.className = 'savefile-list-item-text';
+		textNameItem.innerHTML = gamesFiltered[i].gameName;
+		colNameItem.appendChild(textNameItem);
+		
+		var colRegionItem = document.createElement('div');
+		colRegionItem.className = 'savefiles-list-col-item savefiles-col-region';
+		listItem.appendChild(colRegionItem);
+		
+		var imgRegionItem = document.createElement('img');
+		imgRegionItem.className = 'savefile-list-item-region';
+		imgRegionItem.setAttribute("src", "./img/icons/icon_" + gamesFiltered[i].region + ".png");
+		colRegionItem.appendChild(imgRegionItem);
+		
+		var colDlItem = document.createElement('div');
+		colDlItem.className = 'savefiles-list-col-item savefiles-col-dl';
+		listItem.appendChild(colDlItem);
+		
+		var textDlItem = document.createElement('span');
+		textDlItem.className = 'savefile-list-header-text';
+		textDlItem.innerHTML = 'DL';
+		colDlItem.appendChild(textDlItem);
+		
 	}
+	
+	
+	
 	
 	
 }
