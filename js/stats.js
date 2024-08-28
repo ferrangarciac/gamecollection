@@ -1,6 +1,6 @@
-const digital = false;
-const repro = false;
-const demo = false;
+const digital = true;
+const repro = true;
+const demo = true;
 
 function fillStats(evt){
 	var content = document.getElementById("content");
@@ -38,7 +38,7 @@ function fillStats(evt){
 	
 	var labelRepro = document.createElement('label');
 	labelRepro.htmlFor = 'chkRepro';
-	labelRepro.textContent = "Omitir juegos digitales";
+	labelRepro.textContent = "Omitir reproducciones";
 	chkDivRepro.appendChild(labelRepro);
 	
 	var chkDivDemo = document.createElement('div');
@@ -53,7 +53,7 @@ function fillStats(evt){
 	
 	var labelDemo = document.createElement('label');
 	labelDemo.htmlFor = 'chkDemo';
-	labelDemo.textContent = "Omitir juegos digitales";
+	labelDemo.textContent = "Omitir demostraciones";
 	chkDivDemo.appendChild(labelDemo);
 	
 	
@@ -124,6 +124,23 @@ function fillStats(evt){
 	
 	
 	content.appendChild(statSectionCountGames);
+	
+}
+
+function getCustomGameArray(){
+	if(!digital){
+		var arrayTemp = GAMES.filter(game => game.gameType !== 2);
+	}
+	
+	/*if(!repro){
+		arrayTemp = arrayTemp.filter(arrayTemp => arrayTemp.gameType !== 3);
+	}
+	
+	if(!demo){
+		arrayTemp = arrayTemp.filter(arrayTemp => arrayTemp.gameType !== 4);
+	}*/
+	
+	return arrayTemp;
 	
 }
 
