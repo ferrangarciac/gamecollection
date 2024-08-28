@@ -1,6 +1,6 @@
-const digital = true;
-const repro = true;
-const demo = true;
+var digital = true;
+var repro = true;
+var demo = true;
 
 function fillStats(evt){
 	var content = document.getElementById("content");
@@ -19,6 +19,11 @@ function fillStats(evt){
 	chkDigital.type = 'checkbox';
     chkDigital.id = 'chkDigital';
     chkDigital.className = 'stats-checkbox';
+	chkDigital.checked = !digital;
+	chkDigital.addEventListener('change', function() {
+			digital = !digital;
+			fillStats();
+	}, false);
 	chkDivDigital.appendChild(chkDigital);
 	
 	var labelDigital = document.createElement('label');
@@ -34,6 +39,11 @@ function fillStats(evt){
 	chkRepro.type = 'checkbox';
     chkRepro.id = 'chkRepro';
     chkRepro.className = 'stats-checkbox';
+	chkRepro.checked = !repro;
+	chkRepro.addEventListener('change', function() {
+			repro = !repro;
+			fillStats();
+	}, false);
 	chkDivRepro.appendChild(chkRepro);
 	
 	var labelRepro = document.createElement('label');
@@ -49,6 +59,11 @@ function fillStats(evt){
 	chkDemo.type = 'checkbox';
     chkDemo.id = 'chkDemo';
     chkDemo.className = 'stats-checkbox';
+	chkDemo.checked = !demo;
+	chkDemo.addEventListener('change', function() {
+			demo = !demo;
+			fillStats();
+	}, false);
 	chkDivDemo.appendChild(chkDemo);
 	
 	var labelDemo = document.createElement('label');
@@ -71,9 +86,11 @@ function fillStats(evt){
 	subSectionGlobal.className = 'stats-sub-section';
 	statSectionCountGames.appendChild(subSectionGlobal);
 	
-	statsGamesPerPlatform(subSectionGlobal);
+	var gamesFiltered = getCustomGameArray();
 	
-	statsGamesPerGenre(subSectionGlobal);
+	statsGamesPerPlatform(subSectionGlobal,gamesFiltered);
+	
+	statsGamesPerGenre(subSectionGlobal,gamesFiltered);
 	
 	//DATOS ANUALES
 	var titleContainerAnual = document.createElement("div");
@@ -98,7 +115,7 @@ function fillStats(evt){
 	selectYear.className = 'stats-select-year';
 	selectYear.id = 'selectYear';
 	
-	var allYears = listYears();
+	var allYears = listYears(gamesFiltered);
 	
 	for (let i = 0; i < allYears.length; i++) {
 		let option = document.createElement('option');
@@ -107,8 +124,8 @@ function fillStats(evt){
 		
 		// Capturamos el valor actual de la iteración en la función del event listener
 		option.addEventListener('click', function() {
-			anualGotGames(option.value,subSectionAnual); // Ahora el valor es el correcto
-			anualGenreGames(option.value,subSectionAnual);
+			anualGotGames(option.value,subSectionAnual,gamesFiltered); // Ahora el valor es el correcto
+			anualGenreGames(option.value,subSectionAnual,gamesFiltered);
 		}, false);
 
 		selectYear.appendChild(option);
@@ -128,30 +145,32 @@ function fillStats(evt){
 }
 
 function getCustomGameArray(){
+	var arrayTemp = GAMES;
+	
 	if(!digital){
-		var arrayTemp = GAMES.filter(game => game.gameType !== 2);
+		arrayTemp = GAMES.filter(game => game.gameType !== 2);
 	}
 	
-	/*if(!repro){
+	if(!repro){
 		arrayTemp = arrayTemp.filter(arrayTemp => arrayTemp.gameType !== 3);
 	}
 	
 	if(!demo){
 		arrayTemp = arrayTemp.filter(arrayTemp => arrayTemp.gameType !== 4);
-	}*/
+	}
 	
 	return arrayTemp;
 	
 }
 
-function statsGamesPerPlatform(div){
+function statsGamesPerPlatform(div,targetArray){
 	//var content = document.getElementById("content");
 	
 	//GET INFO
 	var platformGameQty = new Array();
 	
 	for(i=0;i<platforms.NAME.length;i++){
-		platformGameQty[i] = countGames(GAMES, platforms.NAME[i].replace(/\s+/g, '').toLowerCase());
+		platformGameQty[i] = countGames(targetArray, platforms.NAME[i].replace(/\s+/g, '').toLowerCase());
 	}
 	
 	//PRINT CHART
@@ -202,7 +221,7 @@ function statsGamesPerPlatform(div){
 	
 }
 
-function statsGamesPerGenre(div){
+function statsGamesPerGenre(div,targetArray){
 	//var content = document.getElementById("content");
 	
 	//GET INFO
@@ -210,9 +229,9 @@ function statsGamesPerGenre(div){
 	var genreTemp = new Array();
 	var count=0;
 	
-	for(i=0;i<GAMES.length;i++){
-		if(GAMES[i].genre !== ""){
-			genreTemp[count] = GAMES[i].genre;
+	for(i=0;i<targetArray.length;i++){
+		if(targetArray[i].genre !== ""){
+			genreTemp[count] = targetArray[i].genre;
 			count++;
 		}
 	}
@@ -461,12 +480,12 @@ function getYearArray(yearTarget){
 	return arrayTemp;
 }
 
-function listYears(){
+function listYears(targetArray){
 	var dateTemp = new Array();
 	var count=0;
 	
-	for(i=0;i<GAMES.length;i++){
-		if(GAMES[i].buyDate !== ""){
+	for(i=0;i<targetArray.length;i++){
+		if(targetArray[i].buyDate !== ""){
 			dateTemp[count] = GAMES[i].buyDate;
 			count++;
 		}
@@ -496,10 +515,8 @@ function countGames(array, platformTarget){
 	var counter = 0;
 	
 	for(let i=0;i<array.length;i++){
-		if(array[i].gameType == 1){
-			if(array[i].platformId == platformTarget){
+		if(array[i].platformId == platformTarget){
 				counter++;
-			}
 		}		
 	}	
 	return counter;
