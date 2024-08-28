@@ -229,5 +229,8 @@ body{
 	text-align: center;
 }
 
+	.stats-sub-section{
+  display: block;
+}
 	
 }
