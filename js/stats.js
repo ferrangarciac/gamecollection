@@ -1,3 +1,132 @@
+const digital = false;
+const repro = false;
+const demo = false;
+
+function fillStats(evt){
+	var content = document.getElementById("content");
+	content.innerHTML = "";
+	
+	var statSectionCountGames = document.createElement('div');
+	statSectionCountGames.className = "stats-section";
+	statSectionCountGames.id = 'statSectionCountGames';
+	
+	//CHKBOX CRIBA
+	var chkDivDigital = document.createElement('div');
+	chkDivDigital.className = 'stats-checkbox-container';
+	content.appendChild(chkDivDigital);
+	
+	var chkDigital = document.createElement('input');
+	chkDigital.type = 'checkbox';
+    chkDigital.id = 'chkDigital';
+    chkDigital.className = 'stats-checkbox';
+	chkDivDigital.appendChild(chkDigital);
+	
+	var labelDigital = document.createElement('label');
+	labelDigital.htmlFor = 'chkDigital';
+	labelDigital.textContent = "Omitir juegos digitales";
+	chkDivDigital.appendChild(labelDigital);
+	
+	var chkDivRepro = document.createElement('div');
+	chkDivRepro.className = 'stats-checkbox-container';
+	content.appendChild(chkDivRepro);
+	
+	var chkRepro = document.createElement('input');
+	chkRepro.type = 'checkbox';
+    chkRepro.id = 'chkRepro';
+    chkRepro.className = 'stats-checkbox';
+	chkDivRepro.appendChild(chkRepro);
+	
+	var labelRepro = document.createElement('label');
+	labelRepro.htmlFor = 'chkRepro';
+	labelRepro.textContent = "Omitir juegos digitales";
+	chkDivRepro.appendChild(labelRepro);
+	
+	var chkDivDemo = document.createElement('div');
+	chkDivDemo.className = 'stats-checkbox-container';
+	content.appendChild(chkDivDemo);
+	
+	var chkDemo = document.createElement('input');
+	chkDemo.type = 'checkbox';
+    chkDemo.id = 'chkDemo';
+    chkDemo.className = 'stats-checkbox';
+	chkDivDemo.appendChild(chkDemo);
+	
+	var labelDemo = document.createElement('label');
+	labelDemo.htmlFor = 'chkDemo';
+	labelDemo.textContent = "Omitir juegos digitales";
+	chkDivDemo.appendChild(labelDemo);
+	
+	
+	//TITULO SECCION - JUEGOS X CONSOLA
+	var titleContainer = document.createElement("div");
+	titleContainer.className = "title-container";
+	statSectionCountGames.appendChild(titleContainer);
+	
+	var title = document.createElement("h1");
+	title.className = "title-section";
+	title.innerHTML = "Datos Globales";
+	titleContainer.appendChild(title);
+	
+	var subSectionGlobal = document.createElement('div');
+	subSectionGlobal.className = 'stats-sub-section';
+	statSectionCountGames.appendChild(subSectionGlobal);
+	
+	statsGamesPerPlatform(subSectionGlobal);
+	
+	statsGamesPerGenre(subSectionGlobal);
+	
+	//DATOS ANUALES
+	var titleContainerAnual = document.createElement("div");
+	titleContainerAnual.className = "title-container";
+	statSectionCountGames.appendChild(titleContainerAnual);
+	
+	var titleAnual = document.createElement("h1");
+	titleAnual.className = "title-section";
+	titleAnual.innerHTML = "Datos Anuales";
+	titleContainerAnual.appendChild(titleAnual);
+	
+	var subSectionAnual = document.createElement('div');
+	subSectionAnual.className = 'stats-sub-section';
+	statSectionCountGames.appendChild(subSectionAnual);
+	
+	//SELECT CON LOS AÑOS
+	var labelYear = document.createElement('label');
+	labelYear.setAttribute('for', 'selectYear');  // Asociar el label con el select
+	labelYear.textContent = 'Elige un año para visualizar sus datos:';  // Texto del label
+	
+	var selectYear = document.createElement('select');
+	selectYear.className = 'stats-select-year';
+	selectYear.id = 'selectYear';
+	
+	var allYears = listYears();
+	
+	for (let i = 0; i < allYears.length; i++) {
+		let option = document.createElement('option');
+		option.value = allYears[i];
+		option.textContent = allYears[i];
+		
+		// Capturamos el valor actual de la iteración en la función del event listener
+		option.addEventListener('click', function() {
+			anualGotGames(option.value,subSectionAnual); // Ahora el valor es el correcto
+			anualGenreGames(option.value,subSectionAnual);
+		}, false);
+
+		selectYear.appendChild(option);
+	}
+	
+	statSectionCountGames.appendChild(labelYear);
+	statSectionCountGames.appendChild(selectYear);
+	
+	anualGotGames(new Date().getFullYear(),subSectionAnual);
+	
+	anualGenreGames(new Date().getFullYear(),subSectionAnual);
+	
+	
+	
+	content.appendChild(statSectionCountGames);
+	
+}
+
 function statsGamesPerPlatform(div){
 	//var content = document.getElementById("content");
 	
