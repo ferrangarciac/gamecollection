@@ -23,6 +23,10 @@ window.addEventListener('load', function() {
 	//Crea el Listener de Estadísticas
 	var stats = document.getElementById("nav-stats");
 	stats.addEventListener('click', fillStats, false);
+	
+	//Crea el Listener de SaveFiles
+	var saves = document.getElementById("nav-savefiles");
+	saves.addEventListener('click', savefiles, false);
 
 }, false);
 
@@ -49,10 +53,83 @@ function fillStats(evt){
 	var content = document.getElementById("content");
 	content.innerHTML = "";
 	
-	var subcontent = document.createElement('div');
-	subcontent.className = "subcontent";
+	var statSectionCountGames = document.createElement('div');
+	statSectionCountGames.className = "stats-section";
+	statSectionCountGames.id = 'statSectionCountGames';
 	
 	//TITULO SECCION - JUEGOS X CONSOLA
+	var titleContainer = document.createElement("div");
+	titleContainer.className = "title-container";
+	statSectionCountGames.appendChild(titleContainer);
+	
+	var title = document.createElement("h1");
+	title.className = "title-section";
+	title.innerHTML = "Datos Globales";
+	titleContainer.appendChild(title);
+	
+	var subSectionGlobal = document.createElement('div');
+	subSectionGlobal.className = 'stats-sub-section';
+	statSectionCountGames.appendChild(subSectionGlobal);
+	
+	statsGamesPerPlatform(subSectionGlobal);
+	
+	statsGamesPerGenre(subSectionGlobal);
+	
+	//DATOS ANUALES
+	var titleContainerAnual = document.createElement("div");
+	titleContainerAnual.className = "title-container";
+	statSectionCountGames.appendChild(titleContainerAnual);
+	
+	var titleAnual = document.createElement("h1");
+	titleAnual.className = "title-section";
+	titleAnual.innerHTML = "Datos Anuales";
+	titleContainerAnual.appendChild(titleAnual);
+	
+	var subSectionAnual = document.createElement('div');
+	subSectionAnual.className = 'stats-sub-section';
+	statSectionCountGames.appendChild(subSectionAnual);
+	
+	//SELECT CON LOS AÑOS
+	var labelYear = document.createElement('label');
+	labelYear.setAttribute('for', 'selectYear');  // Asociar el label con el select
+	labelYear.textContent = 'Elige un año para visualizar sus datos:';  // Texto del label
+	
+	var selectYear = document.createElement('select');
+	selectYear.className = 'stats-select-year';
+	selectYear.id = 'selectYear';
+	
+	var allYears = listYears();
+	
+	for (let i = 0; i < allYears.length; i++) {
+		let option = document.createElement('option');
+		option.value = allYears[i];
+		option.textContent = allYears[i];
+		
+		// Capturamos el valor actual de la iteración en la función del event listener
+		option.addEventListener('click', function() {
+			anualGotGames(option.value,subSectionAnual); // Ahora el valor es el correcto
+			anualGenreGames(option.value,subSectionAnual);
+		}, false);
+
+		selectYear.appendChild(option);
+	}
+	
+	statSectionCountGames.appendChild(labelYear);
+	statSectionCountGames.appendChild(selectYear);
+	
+	//var divChartBought = document.createElement('div');
+	//subSectionAnual.appendChild(divChartBought);
+	
+	anualGotGames(new Date().getFullYear(),subSectionAnual);
+	
+	anualGenreGames(new Date().getFullYear(),subSectionAnual);
+	
+	
+	
+	content.appendChild(statSectionCountGames);
+	
+	
+	/*//TITULO SECCION - JUEGOS X CONSOLA
 	var titleContainer = document.createElement("div");
 	titleContainer.className = "title-container";
 	content.appendChild(titleContainer);
@@ -120,141 +197,112 @@ function fillStats(evt){
 	
 	content.appendChild(subcontent);
 	
-	//STATS
-	var titleContainer = document.createElement("div");
-	titleContainer.className = "title-container";
-	content.appendChild(titleContainer);
+	var selectYear = document.createElement('select');
+	selectYear.className = 'stats-select-year';
 	
-	var title = document.createElement("h1");
-	title.className = "title-section";
-	title.innerHTML = "Estadísticas Generales";
-	titleContainer.appendChild(title);
+	var allYears = listYears();
 	
-	//PIE CHART (PLATFOMRS)
-	var subcontent2 = document.createElement('div');
-	subcontent2.className = "subcontent";
-	
-	var pieChart = document.createElement("div");
-	pieChart.className = "pie";
-	
-	var arrayTemp = getYearArray(2024);
-	
-	var percentGames = new Array();
-	
-	var count = 0;
-	
-	for(i=0;i<platforms.NAME.length;i++){
-		console.log(countGames(arrayTemp, platforms.NAME[i]));
-		var currentPlatform = platforms.NAME[i].replace(/\s+/g, '').toLowerCase()
+	for (let i = 0; i < allYears.length; i++) {
+		let option = document.createElement('option');
+		option.value = allYears[i];
+		option.textContent = allYears[i];
 		
-		if(countGames(arrayTemp, currentPlatform) > 0){
-			percentGames[count] = new Array(platforms.NAME[i], countGames(arrayTemp, currentPlatform),0);
-			count++;
-		}
-	}
-	
-	const maxShown = 10;
-	
-	percentGames.sort((a, b) => b[1] - a[1]);
-	
-	var total = percentGames.reduce((sum, platform) => sum + platform[1], 0);
-	
-	for(i=0;i<percentGames.length;i++){
-				
-		if(i>=maxShown && percentGames.length > maxShown){
-			var startIndex = maxShown;
-			var slicedPlatforms = percentGames.slice(startIndex);
-			
-			console.log(slicedPlatforms);
-			
-			var totalRest = slicedPlatforms.reduce((sum, platform) => sum + platform[1], 0);
-			percentGames[i][2] = totalRest / total * 100;
-			percentGames[i][1] = totalRest;
-			percentGames[i][0] = "Otros";
-			percentGames.splice(maxShown+1);
-			break;
-		}
-		
-		percentGames[i][2] = percentGames[i][1] / total * 100;
-	}
-	
-	console.log(percentGames);
-	
-	var colors = new Array("Crimson","Teal","SlateBlue","GoldenRod","MediumSeaGreen","Tomato","DodgerBlue","Orchid","IndianRed","DarkSlateGray");
-	
-	var colorString = 'conic-gradient(';
-	
-	colorString = colorString + colors[0] + " 0% " + percentGames[0][2] + "%,";
-	
-	var sliceCount = percentGames[0][2];
-	
-	for(i=1;i<percentGames.length;i++){
-		colorString = colorString + colors[i] + " " + sliceCount + "% ";
-		sliceCount = sliceCount + percentGames[i][2];
-		colorString = colorString + sliceCount + "%, ";
-	}
-	
-	colorString = colorString.slice(0, -2);
-	colorString = colorString + ")";
-	
-	console.log(colorString);
-	
-	
-	pieChart.style.backgroundImage = colorString;
-	
-	
-	//console.log(percentGames);
-	//console.log(countGames(arrayTemp, "nes"));
-	
-	
-	subcontent2.appendChild(pieChart);
-	
-	content.appendChild(subcontent2);
-	
-}
+		// Capturamos el valor actual de la iteración en la función del event listener
+		option.addEventListener('click', function() {
+			stats(option.value); // Ahora el valor es el correcto
+		}, false);
 
-function getYearArray(yearTarget){
-	var arrayTemp = new Array();
-	var count = 0;
-	var dateTemp;
-	
-	for(i=0;i<GAMES.length;i++){
-		dateTemp = new Date(GAMES[i].buyDate);
-		
-		if(dateTemp.getFullYear().toString() == yearTarget.toString()){
-			
-			arrayTemp[count] = GAMES[i];
-			count++;
-		}
+		selectYear.appendChild(option);
 	}
 	
-	return arrayTemp;
+	subcontent.appendChild(selectYear);
+	
+	var statsPerYearDiv = document.createElement('div');
+	statsPerYearDiv.id = 'statsPerYear';
+	
+	content.appendChild(statsPerYearDiv);
+	
+	stats(2024);
+*/	
 }
 
 
 
-function countGamesTotal(){
-	var counter = 0;
+function savefiles(evt){
+	var content = document.getElementById("content");
+	content.innerHTML = "";
 	
-	for(let i=0;i<GAMES.length;i++){
-		if(GAMES[i].gameType == 1){
-			counter++;
-		}		
-	}	
-	return counter;
-}
-
-function countGames(array, platformTarget){
-	var counter = 0;
+	var container = document.createElement('div');
+	container.className = 'savefiles-container';
+	content.appendChild(container);
 	
-	for(let i=0;i<array.length;i++){
-		if(array[i].gameType == 1){
-			if(array[i].platformId == platformTarget){
-				counter++;
-			}
-		}		
-	}	
-	return counter;
+	//HEADER
+	var listHeader = document.createElement('div');
+	listHeader.className = 'savefiles-list-header';
+	container.appendChild(listHeader);
+	
+	var colNameHeader = document.createElement('div');
+	colNameHeader.className = 'savefiles-list-col-header savefiles-col-name';
+	listHeader.appendChild(colNameHeader);
+	
+	var textNameHeader = document.createElement('span');
+	textNameHeader.className = 'savefile-list-header-text';
+	textNameHeader.innerHTML = 'JUEGO';
+	colNameHeader.appendChild(textNameHeader);
+	
+	var colRegionHeader = document.createElement('div');
+	colRegionHeader.className = 'savefiles-list-col-header savefiles-col-region';
+	listHeader.appendChild(colRegionHeader);
+	
+	var textRegionHeader = document.createElement('span');
+	textRegionHeader.className = 'savefile-list-header-text';
+	textRegionHeader.innerHTML = 'REGIÓN';
+	colRegionHeader.appendChild(textRegionHeader);
+	
+	var colDlHeader = document.createElement('div');
+	colDlHeader.className = 'savefiles-list-col-header savefiles-col-dl';
+	listHeader.appendChild(colDlHeader);
+	
+	var textDlHeader = document.createElement('span');
+	textDlHeader.className = 'savefile-list-header-text';
+	textDlHeader.innerHTML = 'DL';
+	colDlHeader.appendChild(textDlHeader);
+	
+	//LISTADO
+	for(i=0;i<6;i++){
+		var listItem = document.createElement('div');
+	listItem.className = 'savefiles-list-item';
+	container.appendChild(listItem);
+	
+	var colNameItem = document.createElement('div');
+	colNameItem.className = 'savefiles-list-col-item savefiles-col-name';
+	listItem.appendChild(colNameItem);
+	
+	var textNameItem = document.createElement('span');
+	textNameItem.className = 'savefile-list-item-text';
+	textNameItem.innerHTML = 'JUEGO';
+	colNameItem.appendChild(textNameItem);
+	
+	var colRegionItem = document.createElement('div');
+	colRegionItem.className = 'savefiles-list-col-item savefiles-col-region';
+	listItem.appendChild(colRegionItem);
+	
+	var textRegionItem = document.createElement('span');
+	textRegionItem.className = 'savefile-list-item-text';
+	textRegionItem.innerHTML = 'REGIÓN';
+	colRegionItem.appendChild(textRegionItem);
+	
+	var colDlItem = document.createElement('div');
+	colDlItem.className = 'savefiles-list-col-item savefiles-col-dl';
+	listItem.appendChild(colDlItem);
+	
+	var textDlItem = document.createElement('span');
+	textDlItem.className = 'savefile-list-header-text';
+	textDlItem.innerHTML = 'DL';
+	colDlItem.appendChild(textDlItem);
+	}
+	
+	
 }
 
 function selectByDev(evt){
@@ -559,17 +607,3 @@ function getPlatformId(platformNameSmall){
 	}
 }
 
-/*function caca(){
-	var pene;
-	for(i=0;i<GAMES.length;i++){
-		//console.log("{'id': " + i + ", 'gameId': '" + GAMES[i].gameId + "','crown': '" + GAMES[i].crown + "','platformId': '" + GAMES[i].platformId + "','code': '" + GAMES[i].code + "','year': '" + GAMES[i].year + "','developer': '" + GAMES[i].developer + "','genre': '" + GAMES[i].genre + "','region': '" + GAMES[i].region + "','box': " + GAMES[i].box + ",'manual': " + GAMES[i].manual + ",'gameType': " + GAMES[i].gameType + ",'save': " + GAMES[i].save + ",'commentHTML': '" + GAMES[i].commentHTML + "','gameName': '" + GAMES[i].gameName + "','tags': ['" + GAMES[i].tags[0] + "'],   }");
-		pene = pene + "{'id': " + i + ", 'gameId': '" + GAMES[i].gameId + "','crown': '" + GAMES[i].crown + "','platformId': '" + GAMES[i].platformId + "','code': '','year': '','developer': '','genre': '','region': '" + GAMES[i].region + "', 'edition': 'standart', 'box': " + GAMES[i].box + ",'manual': " + GAMES[i].manual + ",'gameType': " + GAMES[i].gameType + ",'save': " + GAMES[i].save + ",'commentHTML': '" + GAMES[i].commentHTML + "','gameName': '" + GAMES[i].gameName + "', 'buyDate': '', 'startGame': '', 'endGame': '', 'price': 0, 'tags': ["
-		//'],   },";
-		for(x=0;x<GAMES[i].tags.length;x++){
-			pene = pene + "'" + GAMES[i].tags[x] + "'"
-		}
-	pene = pene + "] },";
-	}
-	
-	console.log(pene);
-}*/
