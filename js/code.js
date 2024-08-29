@@ -57,76 +57,102 @@ function savefiles(evt){
 	container.className = 'savefiles-container';
 	content.appendChild(container);
 	
-	//HEADER
-	var listHeader = document.createElement('div');
-	listHeader.className = 'savefiles-list-header';
-	container.appendChild(listHeader);
-	
-	var colNameHeader = document.createElement('div');
-	colNameHeader.className = 'savefiles-list-col-header savefiles-col-name';
-	listHeader.appendChild(colNameHeader);
-	
-	var textNameHeader = document.createElement('span');
-	textNameHeader.className = 'savefile-list-header-text';
-	textNameHeader.innerHTML = 'JUEGO';
-	colNameHeader.appendChild(textNameHeader);
-	
-	var colRegionHeader = document.createElement('div');
-	colRegionHeader.className = 'savefiles-list-col-header savefiles-col-region';
-	listHeader.appendChild(colRegionHeader);
-	
-	var textRegionHeader = document.createElement('span');
-	textRegionHeader.className = 'savefile-list-header-text';
-	textRegionHeader.innerHTML = 'REGIÓN';
-	colRegionHeader.appendChild(textRegionHeader);
-	
-	var colDlHeader = document.createElement('div');
-	colDlHeader.className = 'savefiles-list-col-header savefiles-col-dl';
-	listHeader.appendChild(colDlHeader);
-	
-	var textDlHeader = document.createElement('span');
-	textDlHeader.className = 'savefile-list-header-text';
-	textDlHeader.innerHTML = 'DL';
-	colDlHeader.appendChild(textDlHeader);
-	
-	//LISTADO
-	
-	
+	//LISTADO	
 	
 	var gamesFiltered = GAMES.filter(game => game.save == true);
 	
-	for(i=0;i<gamesFiltered.length;i++){
+	var arrayTemp = new Array();
+	
+	for(i=0;i<platforms.NAME.length;i++){
+	
+		arrayTemp = gamesFiltered.filter(game => game.platformId == platforms.NAME[i].replace(/\s+/g, '').toLowerCase());
 		
-		var listItem = document.createElement('div');
-		listItem.className = 'savefiles-list-item';
-		container.appendChild(listItem);
-		
-		var colNameItem = document.createElement('div');
-		colNameItem.className = 'savefiles-list-col-item savefiles-col-name';
-		listItem.appendChild(colNameItem);
-		
-		var textNameItem = document.createElement('span');
-		textNameItem.className = 'savefile-list-item-text';
-		textNameItem.innerHTML = gamesFiltered[i].gameName;
-		colNameItem.appendChild(textNameItem);
-		
-		var colRegionItem = document.createElement('div');
-		colRegionItem.className = 'savefiles-list-col-item savefiles-col-region';
-		listItem.appendChild(colRegionItem);
-		
-		var imgRegionItem = document.createElement('img');
-		imgRegionItem.className = 'savefile-list-item-region';
-		imgRegionItem.setAttribute("src", "./img/icons/icon_" + gamesFiltered[i].region + ".png");
-		colRegionItem.appendChild(imgRegionItem);
-		
-		var colDlItem = document.createElement('div');
-		colDlItem.className = 'savefiles-list-col-item savefiles-col-dl';
-		listItem.appendChild(colDlItem);
-		
-		var textDlItem = document.createElement('span');
-		textDlItem.className = 'savefile-list-header-text';
-		textDlItem.innerHTML = 'DL';
-		colDlItem.appendChild(textDlItem);
+		if(arrayTemp.length > 0){
+			
+			//PLATFORM
+			var titleContainer = document.createElement("div");
+			titleContainer.className = "savefiles-title-container";
+			container.appendChild(titleContainer);
+			
+			var title = document.createElement("h2");
+			title.className = "savefiles-title-section";
+			title.innerHTML = platforms.NAMECOMPLETE[i];
+			titleContainer.appendChild(title);
+			
+			//HEADER
+			var listHeader = document.createElement('div');
+			listHeader.className = 'savefiles-list-header';
+			container.appendChild(listHeader);
+			
+			var colNameHeader = document.createElement('div');
+			colNameHeader.className = 'savefiles-list-col-header savefiles-col-name';
+			listHeader.appendChild(colNameHeader);
+			
+			var textNameHeader = document.createElement('span');
+			textNameHeader.className = 'savefile-list-header-text';
+			textNameHeader.innerHTML = 'JUEGO';
+			colNameHeader.appendChild(textNameHeader);
+			
+			var colRegionHeader = document.createElement('div');
+			colRegionHeader.className = 'savefiles-list-col-header savefiles-col-region';
+			listHeader.appendChild(colRegionHeader);
+			
+			var textRegionHeader = document.createElement('span');
+			textRegionHeader.className = 'savefile-list-header-text';
+			textRegionHeader.innerHTML = 'REGIÓN';
+			colRegionHeader.appendChild(textRegionHeader);
+			
+			var colDlHeader = document.createElement('div');
+			colDlHeader.className = 'savefiles-list-col-header savefiles-col-dl';
+			listHeader.appendChild(colDlHeader);
+			
+			var textDlHeader = document.createElement('span');
+			textDlHeader.className = 'savefile-list-header-text';
+			textDlHeader.innerHTML = 'DL';
+			colDlHeader.appendChild(textDlHeader);
+
+			for(x=0;x<arrayTemp.length;x++){
+			
+				var listItem = document.createElement('div');
+				listItem.className = 'savefiles-list-item';
+				container.appendChild(listItem);
+				
+				var colNameItem = document.createElement('div');
+				colNameItem.className = 'savefiles-list-col-item savefiles-col-name';
+				listItem.appendChild(colNameItem);
+				
+				var textNameItem = document.createElement('span');
+				textNameItem.className = 'savefile-list-item-text';
+				textNameItem.innerHTML = arrayTemp[x].gameName;
+				colNameItem.appendChild(textNameItem);
+				
+				var colRegionItem = document.createElement('div');
+				colRegionItem.className = 'savefiles-list-col-item savefiles-col-region';
+				listItem.appendChild(colRegionItem);
+				
+				var imgRegionItem = document.createElement('img');
+				imgRegionItem.className = 'savefile-list-item-region';
+				imgRegionItem.setAttribute("src", "./img/icons/icon_" + arrayTemp[x].region + ".png");
+				colRegionItem.appendChild(imgRegionItem);
+				
+				var colDlItem = document.createElement('div');
+				colDlItem.className = 'savefiles-list-col-item savefiles-col-dl';
+				listItem.appendChild(colDlItem);
+				
+				var linkDlItem = document.createElement('a');
+				linkDlItem.href = arrayTemp[x].saveLink; // Especifica aquí la URL destino
+				linkDlItem.className = 'savefile-list-header-link'; // Clase CSS para el enlace
+
+				var svgDlItem = document.createElement('img');
+				svgDlItem.className = 'savefile-list-header-icon'; // Clase CSS para estilos
+				svgDlItem.src = './assets/download.svg'; // Ruta al archivo SVG
+				svgDlItem.alt = 'Download'; // Texto alternativo para accesibilidad
+
+				linkDlItem.appendChild(svgDlItem); // Inserta el SVG dentro del enlace
+				colDlItem.appendChild(linkDlItem); // Inserta el enlace en el contenedor
+				
+			}
+		}				
 		
 	}
 	
@@ -134,6 +160,12 @@ function savefiles(evt){
 	
 	
 	
+}
+
+function selectByPlatformRetArray(platform,arrayOrigin){
+	var gamesFiltered = GAMES.filter(game => game.platformId == platform);
+	
+	return gamesFiltered;
 }
 
 function selectByDev(evt){
@@ -335,7 +367,7 @@ function fillGameDetails(evt){
 	gameBox.className = "skip";
 	gameManual.className = "skip";
 	gameSaveFile.className = "skip";
-	gameSaveInfo.innerHTML = GAMES[this.id].commentHTML;
+	//gameSaveInfo.innerHTML = GAMES[this.id].commentHTML;
 	
 	gameRegion.setAttribute("src", "./img/icons/icon_" + GAMES[this.id].region + ".png");
 	

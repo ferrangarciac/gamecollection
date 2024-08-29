@@ -208,29 +208,48 @@ appearance: none;
 	margin-top:5px;
 }
 
-}
-
 /*SAVEFILES*/
-.savefiles-container{
-	width: 500px;
+.savefiles-container {
+  width: 500px; /* O el ancho que necesites */
+  margin: 0 auto; /* Centrado horizontal */
 }
 
-.savefiles-list-col-header, .savefiles-list-col-item{
-	display: inline-block;
-	padding: 5px;
+.savefiles-title-container{
+	margin-top: 20px;
+	margin-bottom: 10px;
 }
 
 .savefiles-list-header{
-	background: red;
+	background: #A0A0A0;
+	font-weight: 600;
+}
+
+.savefiles-list-item, .savefiles-list-header{
+	display: grid;
+	grid-template-columns: 380px 1fr 1fr; /* Primera columna fija en 300px, las demás se reparten */
+	gap: 10px; /* Espacio entre columnas, si lo deseas */
+	width: 500px;
+	padding: 3px;
 }
 
 .savefiles-list-item:nth-child(odd){
-	background: grey;
+	background: LightGray;
 }
 
-.savefiles-col-name{
-	width: 300px;
+.savefiles-col-region, .savefiles-col-dl{
+	text-align: center;
 }
+
+.savefiles-col-region img{
+	width: 20px;
+	border: 1px solid black;
+	border-radius: 2px;
+}
+
+.savefiles-col-dl img{
+	width: 20px;
+}
+
 
 @media (max-width: 700px){
 	.nav-label{
