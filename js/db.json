@@ -12498,7 +12498,7 @@
 	"publisher": "Sega",
     "genre": "Plataformas",
     "region": "pal",
-    "edition": "standart",
+    "edition": ["standart","Estándar"],
     "box": true,
     "manual": true,
     "gameType": 1,
