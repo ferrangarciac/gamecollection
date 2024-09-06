@@ -70,6 +70,7 @@ const platforms = {
 	DVD: [130,184,14],
 	CASSETE: [70,107,17],
 	SFAMICOM: [105,192,30],
+	SNES: [180,130,30],
 	FMDISC: [87,95,7],
 	GBA: [125,125,25],
 	GBJAP1: [90,105,20],
