@@ -4356,7 +4356,7 @@
     "startGame": "",
     "endGame": "",
     "price": 0,
-	"boxSize": [130,177,28,false],
+	"boxSize": [129,201,23,true],
     "tags": [
       "Sonic Franchise"
     ]
@@ -4383,7 +4383,7 @@
     "startGame": "",
     "endGame": "",
     "price": 0,
-	"boxSize": [130,177,28,false],
+	"boxSize": [129,201,23,true],
     "tags": [
       "Sonic Franchise"
     ]
@@ -4410,7 +4410,7 @@
     "startGame": "",
     "endGame": "",
     "price": 0,
-	"boxSize": [130,177,28,false],
+	"boxSize": [129,201,23,true],
     "tags": [
       "Sonic Franchise"
     ]
@@ -4437,7 +4437,7 @@
     "startGame": "",
     "endGame": "",
     "price": 0,
-	"boxSize": [130,177,28,false],
+	"boxSize": [129,201,23,true],
     "tags": [
       "Sonic Franchise"
     ]
@@ -4464,7 +4464,7 @@
     "startGame": "",
     "endGame": "",
     "price": 0,
-	"boxSize": [130,177,28,false],
+	"boxSize": [129,201,23,true],
     "tags": [
       "Sonic Franchise"
     ]
@@ -4491,7 +4491,7 @@
     "startGame": "",
     "endGame": "",
     "price": 0,
-	"boxSize": [111,179,25,false],
+	"boxSize": [111,179,25,true],
     "tags": [
       "Sonic Franchise"
     ]
