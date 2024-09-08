@@ -12556,7 +12556,7 @@
     "genre": "Deportes",
     "region": "pal",
     "edition": ["beta","Beta"],
-    "box": true,
+    "box": false,
     "manual": false,
     "gameType": 1,
     "save": false,
