@@ -4491,7 +4491,7 @@
     "startGame": "",
     "endGame": "",
     "price": 0,
-	"boxSize": [111,179,25,true],
+	"boxSize": [111,179,25,false],
     "tags": [
       "Sonic Franchise"
     ]
