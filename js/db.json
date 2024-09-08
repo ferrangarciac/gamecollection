@@ -12543,5 +12543,30 @@
     "tags": [
       "Sonic Franchise"
     ]
+  },
+  {
+    "id": 520,
+    "gameId": "everybodygolf4_beta",
+    "crown": "none",
+    "platformId": "ps2",
+    "code": "TCES-52582",
+    "year": "2005",
+    "developer": "Clap Hanz",
+	"publisher": "SCEE",
+    "genre": "Deportes",
+    "region": "pal",
+    "edition": ["beta","Beta"],
+    "box": true,
+    "manual": false,
+    "gameType": 1,
+    "save": false,
+    "saveLink": "",
+    "gameName": "Everybody's Golf 4 V0.01",
+    "buyDate": "",
+    "startGame": "",
+    "endGame": "",
+    "price": 0,
+	"boxSize": [124,124,1,false],
+    "tags": []
   }
 ]
