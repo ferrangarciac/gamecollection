@@ -4258,7 +4258,7 @@
     "gameId": "sonic1knuckles",
     "crown": "none",
     "platformId": "megadrive",
-    "code": "REPRO-SONIC1KNUCKLES-MEGADRIVE",
+    "code": "SONIC1KNUCKLES-REPRO-MEGADRIVE",
     "year": "2005",
     "developer": "Stealth",
 	"publisher": "Sonic Retro",
@@ -12600,7 +12600,7 @@
     "endGame": "",
     "price": 0,
 	"boxSize": [338,204,54,false],
-    "tags": []
+    "tags": ["Final Fantasy Franchise"]
   } ,
   {
     "id": 521,
@@ -12625,6 +12625,33 @@
     "endGame": "",
     "price": 0,
 	"boxSize": [338,204,54,false],
-    "tags": []
+    "tags": ["Final Fantasy Franchise"]
+  },
+  {
+    "id": 522,
+    "gameId": "soniccrackers",
+    "crown": "none",
+    "platformId": "megadrive",
+    "code": "SONICCRACKERS-REPRO-MEGADRIVE",
+    "year": "1994",
+    "developer": "Sega",
+	"publisher": "Sega",
+    "genre": "Plataformas",
+    "region": "pal",
+    "edition": ["repro","Reproducción"],
+    "box": true,
+    "manual": false,
+    "gameType": 1,
+    "save": false,
+    "saveLink": "",
+    "gameName": "Sonic Crackers",
+    "buyDate": "",
+    "startGame": "",
+    "endGame": "",
+    "price": 0,
+	"boxSize": [129,201,23,true],
+    "tags": [
+      "Sonic Franchise"
+    ]
   }
 ]
