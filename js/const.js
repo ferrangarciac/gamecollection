@@ -73,6 +73,7 @@ const platforms = {
 	SNES: [180,130,30],
 	SFAMICOMHOR: [192,105,30],
 	FMDISC: [87,95,7],
+	FAMICOM: [140,98,22],
 	GBA: [125,125,25],
 	GBJAP1: [90,105,20],
 	PS3: [135,170,15],
