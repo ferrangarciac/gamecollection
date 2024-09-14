@@ -4875,7 +4875,7 @@
     "startGame": "",
     "endGame": "",
     "price": 0,
-	"boxSize": [126,177,23,true],
+	"boxSize": [126,177,23,false],
     "tags": []
   },
   {
@@ -4888,7 +4888,7 @@
     "developer": "Konami",    "publisher": "Konami",
     "edition": ["standart","Estándar"],
     "region": "pal",
-    "edition": "standart",
+    "edition": ["standart","Estándar"],
     "box": false,
     "manual": false,
     "gameType": 1,
@@ -4899,7 +4899,7 @@
     "startGame": "",
     "endGame": "",
     "price": 0,
-	"boxSize": [126,177,23,true],
+	"boxSize": [126,177,23,false],
     "tags": []
   },
   {
@@ -4923,7 +4923,7 @@
     "startGame": "",
     "endGame": "",
     "price": 0,
-	"boxSize": [126,177,23,true],
+	"boxSize": [126,177,23,false],
     "tags": []
   },
   {
@@ -4947,7 +4947,7 @@
     "startGame": "",
     "endGame": "",
     "price": 0,
-	"boxSize": [140,98,22,true],
+	"boxSize": [140,98,22,false],
     "tags": [
       "Final Fantasy Franchise"
     ]
@@ -4957,12 +4957,13 @@
     "gameId": "ff2nes",
     "crown": "none",
     "platformId": "nes",
-    "code": "",
-    "year": "",
-    "developer": "",    "publisher": "",
-    "genre": "",
+    "code": "SQF-FY",
+    "year": "1988",
+    "developer": "SquareSoft",
+    "publisher": "SquareSoft",
+    "genre": "JRPG",
     "region": "jap",
-    "edition": "standart",
+    "edition": ["standart","Estándar"],
     "box": true,
     "manual": true,
     "gameType": 1,
@@ -4973,6 +4974,7 @@
     "startGame": "",
     "endGame": "",
     "price": 0,
+	"boxSize": [140,98,22,false],
     "tags": [
       "Final Fantasy Franchise"
     ]
@@ -4982,12 +4984,13 @@
     "gameId": "ff3nes",
     "crown": "none",
     "platformId": "nes",
-    "code": "",
-    "year": "",
-    "developer": "",    "publisher": "",
-    "genre": "",
+    "code": "SQF-FC",
+    "year": "1990",
+    "developer": "SquareSoft",
+    "publisher": "SquareSoft",
+    "genre": "JRPG",
     "region": "jap",
-    "edition": "standart",
+    "edition": ["standart","Estándar"],
     "box": true,
     "manual": true,
     "gameType": 1,
@@ -4998,6 +5001,7 @@
     "startGame": "",
     "endGame": "",
     "price": 0,
+	"boxSize": [140,98,22,false],
     "tags": [
       "Final Fantasy Franchise"
     ]
@@ -5007,12 +5011,13 @@
     "gameId": "ff1-2nes",
     "crown": "none",
     "platformId": "nes",
-    "code": "",
-    "year": "",
-    "developer": "",    "publisher": "",
-    "genre": "",
+    "code": "SQF-FO",
+    "year": "1994",
+    "developer": "SquareSoft",
+    "publisher": "SquareSoft",
+    "genre": "JRPG",
     "region": "jap",
-    "edition": "standart",
+    "edition": ["standart","Estándar"],
     "box": true,
     "manual": true,
     "gameType": 1,
@@ -5023,6 +5028,7 @@
     "startGame": "",
     "endGame": "",
     "price": 0,
+	"boxSize": [183,133,33,false],
     "tags": [
       "Final Fantasy Franchise"
     ]
@@ -5032,12 +5038,12 @@
     "gameId": "zeldacollector",
     "crown": "none",
     "platformId": "ngc",
-    "code": "",
-    "year": "",
-    "developer": "",    "publisher": "",
-    "genre": "",
+    "code": "DOL-PZLP-EUR",
+    "year": "2003",
+    "developer": "Nintendo",    "publisher": "Nintendo",
+    "genre": "Recopilación",
     "region": "pal",
-    "edition": "standart",
+    "edition": ["bundle","Bundle"],
     "box": true,
     "manual": true,
     "gameType": 1,
@@ -5048,6 +5054,7 @@
     "startGame": "",
     "endGame": "",
     "price": 0,
+	"boxSize": [130,184,14,true],
     "tags": []
   },
   {
