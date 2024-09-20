@@ -102,6 +102,15 @@ function savefiles(evt){
 			textRegionHeader.innerHTML = 'REGIÓN';
 			colRegionHeader.appendChild(textRegionHeader);
 			
+			var colProgressHeader = document.createElement('div');
+			colProgressHeader.className = 'savefiles-list-col-header savefiles-col-region';
+			listHeader.appendChild(colProgressHeader);
+			
+			var textProgessHeader = document.createElement('span');
+			textProgessHeader.className = 'savefile-list-header-text';
+			textProgessHeader.innerHTML = 'PROGRESO';
+			colProgressHeader.appendChild(textProgessHeader);
+			
 			var colDlHeader = document.createElement('div');
 			colDlHeader.className = 'savefiles-list-col-header savefiles-col-dl';
 			listHeader.appendChild(colDlHeader);
@@ -134,6 +143,30 @@ function savefiles(evt){
 				imgRegionItem.className = 'savefile-list-item-region';
 				imgRegionItem.setAttribute("src", "./img/icons/icon_" + arrayTemp[x].region + ".png");
 				colRegionItem.appendChild(imgRegionItem);
+				
+				var colProgressItem = document.createElement('div');
+				colProgressItem.className = 'savefiles-list-col-item savefiles-col-progress';
+				listItem.appendChild(colProgressItem);
+				
+				var iconProgressItem = document.createElement('img');
+				iconProgressItem.className = 'savefile-list-item-progress';
+				
+				switch(arrayTemp[x].crown){
+					case "cooper":
+						iconProgressItem.setAttribute("src", "./assets/stars1.png");
+						iconProgressItem.title = "Juego sin completar";
+						break;
+					case "silver":
+						iconProgressItem.setAttribute("src", "./assets/stars2.png");
+						iconProgressItem.title = "Juego completado";
+						break;
+					case "gold":
+						iconProgressItem.setAttribute("src", "./assets/stars3.png");
+						iconProgressItem.title = "Juego al 100%";
+						break;
+				}
+				
+				colProgressItem.appendChild(iconProgressItem); // Inserta el enlace en el contenedor
 				
 				var colDlItem = document.createElement('div');
 				colDlItem.className = 'savefiles-list-col-item savefiles-col-dl';
