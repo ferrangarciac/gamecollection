@@ -4886,7 +4886,7 @@
     "code": "UNKNOWN-TOPGUN-NES",
     "year": "1988",
     "developer": "Konami",    "publisher": "Konami",
-    "edition": ["standart","Estándar"],
+    "genre": "Simulador",
     "region": "pal",
     "edition": ["standart","Estándar"],
     "box": false,
@@ -5229,7 +5229,7 @@
     "saveLink": "",
     "gameName": "Pokémon Colosseum",
     "buyDate": "07/28/2011",
-    "startGame": "",
+    "startGame": "09/14/2024",
     "endGame": "",
     "price": 6,
 	"boxSize": [130,184,14,true],
@@ -12284,7 +12284,7 @@
     "code": "SCED-01824",
     "year": "",
     "developer": "Sony",
-    "genre": "Varios",
+    "genre": "Recopilación",
     "region": "palesp",
     "edition": ["demo","Demostración"],
     "box": true,
@@ -12674,5 +12674,30 @@
     "tags": [
       "Sonic Franchise"
     ]
+  },
+  {
+    "id": 524,
+    "gameId": "brothers",
+    "crown": "none",
+    "platformId": "pc",
+    "code": "225080",
+    "year": "1994",
+    "developer": "",
+	"publisher": "",
+    "genre": "",
+    "region": "",
+    "edition": ["digital","Digital"],
+    "box": false,
+    "manual": false,
+    "gameType": 2,
+    "save": false,
+    "saveLink": "",
+    "gameName": "Brothers: A Tale of Two Sons",
+    "buyDate": "09/15/2024",
+    "startGame": "09/15/2024",
+    "endGame": "",
+    "price": 1.13,
+	"boxSize": [],
+    "tags": []
   }
 ]
