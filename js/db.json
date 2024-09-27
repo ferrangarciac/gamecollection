@@ -12826,5 +12826,32 @@
     "tags": [
       "Sonic Franchise"
     ]
+  },
+  {
+    "id": 530,
+    "gameId": "sonicspinball_gg",
+    "crown": "none",
+    "platformId": "gg",
+    "code": "2526",
+    "year": "1994",
+    "developer": "Sega interActive",
+	"publisher": "Sega",
+    "genre": "Pinball",
+    "region": "pal",
+    "edition": ["standart","Estándar"],
+    "box": false,
+    "manual": false,
+    "gameType": 1,
+    "save": false,
+    "saveLink": "",
+    "gameName": "Sonic the Hedgehog Spinball",
+    "buyDate": "09/24/2024",
+    "startGame": "",
+    "endGame": "",
+    "price": 10,
+	"boxSize": [111,179,25,false],
+    "tags": [
+      "Sonic Franchise"
+    ]
   }
 ]
