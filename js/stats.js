@@ -502,12 +502,19 @@ function listYears(targetArray){
 	var dateTemp = new Array();
 	var count=0;
 	
+	targetArray = targetArray.filter(game => game.buyDate !== "");
+	
+	
+	
 	for(i=0;i<targetArray.length;i++){
-		if(targetArray[i].buyDate !== ""){
-			dateTemp[count] = GAMES[i].buyDate;
+			console.log(targetArray[i].gameName + " " + targetArray[i].buyDate);
+			dateTemp[count] = targetArray[i].buyDate;
 			count++;
-		}
 	}
+	
+	console.log(dateTemp);
+	
+	
 	
 	// Crear un Set para almacenar los años únicos
 	var anosUnicos = new Set();
