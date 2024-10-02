@@ -73,6 +73,8 @@ body{
 		position: fixed;
 		top: 60px;
 		width: auto;
+	z-index:101;
+	cursor: pointer;
 	clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
 	transition: clip-path .5s ease-in-out;
 }
@@ -94,21 +96,54 @@ body{
 	display: block;
 }
 
-.container-game-cont{
-	padding: 5px;
-	width: 140px;
-	border-radius: 5px;
-	align-items: center;
-	text-align: center;
-	background: #f0f0f0;
-	text-transform: uppercase;
-	cursor: pointer;
-	transition: background 0.5s;
+.container-game-cont {
+    position: relative; /* Aseguramos que los elementos dentro del contenedor puedan posicionarse */
+    padding: 5px;
+    width: 140px;
+    border-radius: 5px;
+    align-items: center;
+    text-align: center;
+    background: #f0f0f0;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background 0.5s;
 }
 
-.container-game-cont:hover{
-	background: #fff;
+.container-game-cont:hover {
+    background: #fff;
 }
+
+.container-game-cover {
+    width: 120px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+/* Ocultar el triángulo por defecto */
+.container-game-cont::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 0;   
+	border-radius: 5px;
+    border-top: 25px solid transparent;
+    display: none; /* Oculto por defecto */
+}
+
+/* Mostrar el triángulo cuando se aplique la clase */
+.container-game-cont.show-triangle-blue::before {
+    display: block;
+	border-left: 25px solid rgb(109 109 241 / 70%); /* Azul con 70% de opacidad */
+}
+
+/* Mostrar el triángulo cuando se aplique la clase */
+.container-game-cont.show-triangle-gold::before {
+    display: block;
+	border-left: 25px solid rgba(255, 186, 0, 0.7);
+}
+
 .container-game-cover{
 	width: 120px;
 	border: 1px solid black;

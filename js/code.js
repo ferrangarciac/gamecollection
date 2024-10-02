@@ -334,28 +334,36 @@ function fillGameList(arrayTemp, titleSection){
 	
 	
 	
-	for(i=0;i<arrayTemp.length;i++){
+	for (let i = 0; i < arrayTemp.length; i++) {
 		var newGameContainer = document.createElement("div");
 		newGameContainer.className = "container-game-cont";
-		
 		newGameContainer.id = arrayTemp[i].id;
 
 		newGameContainer.addEventListener('click', fillGameDetails, false);
-		
+
 		var newGameCover = document.createElement("img");
 		newGameCover.className = "container-game-cover";
 		newGameCover.setAttribute("src", "./img/basiccover/" + arrayTemp[i].platformId + "/cover_" + arrayTemp[i].gameId + ".jpg");
-		
+
 		var newGameName = document.createElement("span");
 		newGameName.className = "container-game-name";
 		newGameName.innerHTML = arrayTemp[i].gameName;
-		
+
+		// Añadimos el contenido al contenedor
 		newGameContainer.appendChild(newGameCover);
 		newGameContainer.appendChild(newGameName);
-		
+
+		// Añadimos el contenedor al DOM
 		subcontent.appendChild(newGameContainer);
+
+		// En lugar de setProperty, agregamos la clase CSS
+		if (arrayTemp[i].sealed) {
+			newGameContainer.classList.add('show-triangle-blue');
+		}else if (arrayTemp[i].box && arrayTemp[i].manual) {
+			newGameContainer.classList.add('show-triangle-gold');
+		}
 	}
-	
+
 	content.appendChild(subcontent);
 }
 
@@ -393,13 +401,15 @@ function fillGameDetails(evt){
 	var gameDisk = document.getElementById("game-owned");
 	var gameBox = document.getElementById("game-gamebox");
 	var gameManual = document.getElementById("game-manual");
-	var gameSaveFile = document.getElementById("game-save");
+	var gameSealed = document.getElementById("game-sealed");
+	//var gameSaveFile = document.getElementById("game-save");
 	var gameSaveInfo = document.getElementById("game-save-info");
 	
 	gameDisk.className = "skip";
 	gameBox.className = "skip";
 	gameManual.className = "skip";
-	gameSaveFile.className = "skip";
+	gameSealed.className = "skip";
+	//gameSaveFile.className = "skip";
 	//gameSaveInfo.innerHTML = GAMES[this.id].commentHTML;
 	
 	gameRegion.setAttribute("src", "./img/icons/icon_" + GAMES[this.id].region + ".png");
@@ -416,9 +426,13 @@ function fillGameDetails(evt){
 		gameManual.className = "game-icon";
 	}
 	
-	if(GAMES[this.id].save){
-		gameSaveFile.className = "game-icon";
+	if(GAMES[this.id].sealed){
+		gameSealed.className = "game-icon";
 	}
+	
+	/*if(GAMES[this.id].save){
+		gameSaveFile.className = "game-icon";
+	}*/
 	
 	var tags = document.getElementById("game-tags");
 	
