@@ -20,6 +20,10 @@ window.addEventListener('load', function() {
 	//Rellena el menú de consolas
 	fillPlatformList();
 	
+	//Rellena el menú de colecciones
+	var stats = document.getElementById("collections");
+	stats.addEventListener('click', fillCollectionList, false);
+		
 	//Crea el Listener de Estadísticas
 	var stats = document.getElementById("nav-stats");
 	stats.addEventListener('click', fillStats, false);
@@ -32,7 +36,7 @@ window.addEventListener('load', function() {
 
 function fillPlatformList(){
 	var platformMenu = document.getElementById("nav-platform-menu");
-	
+		
 	for(i=0;i<platforms.NAMECOMPLETE.length; i++){
 		
 		var newPlatformItem = document.createElement("a");
@@ -47,6 +51,30 @@ function fillPlatformList(){
 		
 		platformMenu.appendChild(newPlatformItem);
 	}	
+}
+
+function fillCollectionList(){
+	var collectionMenu = document.getElementById("nav-collection-menu");
+	
+	collectionMenu.innerHTML = "";
+	
+	// Obtener todos los tags y eliminar duplicados
+	const uniqueTags = [...new Set(GAMES.flatMap(game => game.tags))];
+
+	// Mostrar los tags únicos
+	//console.log(uniqueTags);
+	
+	for(i=0;i<uniqueTags.length; i++){
+		var newCollectionItem = document.createElement("a");
+		newCollectionItem.innerHTML = uniqueTags[i];
+		newCollectionItem.className = "collection-item";
+		
+		newCollectionItem.tag = uniqueTags[i];
+		newCollectionItem.addEventListener('click', selectByTag, false);
+		
+		collectionMenu.appendChild(newCollectionItem);
+	}
+
 }
 
 function savefiles(evt){
@@ -236,6 +264,12 @@ function selectByGenre(evt){
 function selectByTag(evt){
 	var resultArray = new Array();
 	var cont = 0;
+	
+	var menuChk = document.getElementById("menu");
+	var platformChk = document.getElementById("collection-list");
+	
+	menuChk.checked = false;
+	platformChk.checked = false;
 	
 	for(i=0;i<GAMES.length;i++){
 		for(x=0;x<GAMES[i].tags.length;x++){
