@@ -248,7 +248,7 @@ background: linear-gradient(180deg, rgba(224,223,224,1) 0%, rgba(50,50,50,1) 100
     
     .game-box{
         width: 100%;
-        display: block;
+        
     }
     
     .skip-game-box{

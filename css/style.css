@@ -58,9 +58,11 @@ body{
 	--clippy: polygon(0 0, 100% 1%, 100% 100%, 0 100%);
 }
 
-.nav-label, .nav-input, .nav-platform-input, .nav-platform-menu{
+.nav-label, .nav-input, .nav-platform-input, .nav-platform-menu, .nav-collection-input, .nav-collection-menu{
 	display: none;
 }
+
+/* PLATFORMS MENU */
 
 .nav-platform-menu{
 	background: #A0A0A0;
@@ -86,6 +88,38 @@ body{
 	}
 
 .platform-item{
+	padding-top: 20px;
+	color: #fff;
+	text-decoration: none;
+	
+}
+
+/* COLLECTION MENU */
+
+.nav-collection-menu{
+	background: #A0A0A0;
+	display: grid;
+	grid-template-columns: 2fr 2fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+	left: 60%;
+	padding: 15px;
+	align-items: left;
+	position: fixed;
+	top: 60px;
+	width: auto;
+	z-index:101;
+	cursor: pointer;
+	clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+	transition: clip-path .5s ease-in-out;
+}
+
+.nav-collection-input:checked + .nav-collection-menu{
+		
+		clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+	
+	}
+
+.collection-item{
 	padding-top: 20px;
 	color: #fff;
 	text-decoration: none;
@@ -333,6 +367,25 @@ appearance: none;
 	}
 	
 	.nav-platform-input:checked + .nav-platform-menu{		
+		clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);		
+	}
+
+	.nav-collection-menu{
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		top: 0px;
+		bottom: 0;
+		width: 100%;
+		height: 400px;
+		left: 0;
+		align-items: center;
+		overflow-y: scroll;
+		clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+		transition: clip-path .5s ease-in-out;
+	}
+	
+	.nav-collection-input:checked + .nav-collection-menu{		
 		clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);		
 	}
 	
