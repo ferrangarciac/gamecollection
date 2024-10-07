@@ -12,7 +12,7 @@
     "edition": ["standart","Estándar"],
     "box": true,
     "manual": true,
-    "sealed": false,"gameType": 1,
+    "sealed": false,	"gameType": 1,
     "save": true,
     "saveLink": "<ul><li>Juego Base:<ul><li>Pokédex de Galar completa.<li>Todas las formas alternativas.<li>Todas las recompensas de la Torre Batalla conseguidas.<li>Todos los objetos del juego base conseguidos.<li>Todos los Pokémon especiales (Promoted) del Área Salvaje conseguidos.<li>Todas las tarjetas de jugador del juego base conseguidas.<li>Toda la ropa del juego base conseguida.</ul><li>V.1.0<ul><li>Todo lo anterior.<li>Slowpoke de Galar cazado.</ul></ul>",
     "gameName": "Pokémon Edición Espada",
@@ -12853,7 +12853,7 @@
     "edition": ["standart","Estándar"],
     "box": false,
     "manual": false,
-    "sealed": false,"gameType": 1,
+    "sealed": false,	"gameType": 1,
     "save": false,
     "saveLink": "",
     "gameName": "Sonic the Hedgehog Spinball",
@@ -12864,6 +12864,34 @@
 	"boxSize": [111,179,25,false],
     "tags": [
       "Sonic Franchise"
+    ]
+  },
+  {
+    "id": 0,
+    "gameId": "ffpixelremaster_switch",
+    "crown": "cooper",
+    "platformId": "switch",
+    "code": "UNKNOWN-FFPIXELREMASTER_SWITCH-SWITCH",
+    "year": "2023",
+    "developer": "Square Enix",
+	"publisher": "Square Enix",
+    "genre": "Recopilación",
+    "region": "palesp",
+    "edition": ["standart","Estándar"],
+    "box": true,
+    "manual": true,
+    "sealed": true,
+	"gameType": 1,
+    "save": true,
+    "saveLink": "",
+    "gameName": "Pokémon Edición Espada",
+    "buyDate": "10/07/2024",
+    "startGame": "",
+    "endGame": "",
+    "price": 55,
+	"boxSize": [105,170,12,true],
+    "tags": [
+      "Final Fantasy Franchise"
     ]
   }
 ]
