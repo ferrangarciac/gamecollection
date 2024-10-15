@@ -224,7 +224,7 @@
     "endGame": "",
     "price": 0,
 	"boxSize": [135,122,12,true],
-    "tags": ["Anime"]
+    "tags": ["Anime","Dragon Ball Franchise"]
   },
   {
     "id": 9,
@@ -477,7 +477,7 @@
     "endGame": "",
     "price": 4.95,
 	"boxSize": [110,180,14,true],
-    "tags": []
+    "tags": ["Anime","Dragon Ball Franchise"]
   },
   {
     "id": 19,
@@ -501,7 +501,7 @@
     "endGame": "",
     "price": 4.95,
 	"boxSize": [110,180,14,true],
-    "tags": []
+    "tags": ["Anime","Dragon Ball Franchise"]
   },
   {
     "id": 20,
@@ -885,7 +885,7 @@
     "endGame": "",
     "price": 22.95,
 	"boxSize": [130,184,14,true],
-    "tags": ["Anime"]
+    "tags": ["Anime","Dragon Ball Franchise"]
   },
   {
     "id": 36,
@@ -909,7 +909,7 @@
     "endGame": "",
     "price": 0,
 	"boxSize": [130,184,14,true],
-    "tags": ["Anime"]
+    "tags": ["Anime","Dragon Ball Franchise"]
   },
   {
     "id": 37,
@@ -2495,7 +2495,7 @@
     "startGame": "",
     "endGame": "",
     "price": 0,
-    "tags": ["Anime"]
+    "tags": ["Anime","Dragon Ball Franchise"]
   },
   {
     "id": 103,
@@ -2518,7 +2518,7 @@
     "startGame": "",
     "endGame": "",
     "price": 0,
-    "tags": []
+    "tags": ["Anime","Dragon Ball Franchise"]
   },
   {
     "id": 104,
@@ -2541,7 +2541,7 @@
     "startGame": "",
     "endGame": "",
     "price": 0,
-    "tags": ["Anime"]
+    "tags": ["Anime","Dragon Ball Franchise"]
   },
   {
     "id": 105,
@@ -2564,7 +2564,7 @@
     "startGame": "",
     "endGame": "",
     "price": 0,
-    "tags": ["Anime"]
+    "tags": ["Anime","Dragon Ball Franchise"]
   },
   {
     "id": 106,
@@ -2587,7 +2587,7 @@
     "startGame": "",
     "endGame": "",
     "price": 0,
-    "tags": ["Anime"]
+    "tags": ["Anime","Dragon Ball Franchise"]
   },
   {
     "id": 107,
@@ -5628,7 +5628,7 @@
     "startGame": "",
     "endGame": "",
     "price": 0,
-    "tags": []
+    "tags": ["Anime","Dragon Ball Franchise"]
   },
   {
     "id": 229,
@@ -11904,7 +11904,7 @@
     "startGame": "",
     "endGame": "",
     "price": 4.95,
-    "tags": ["Anime"]
+    "tags": ["Anime","Dragon Ball Franchise"]
   },
   {
     "id": 492,
@@ -12842,7 +12842,7 @@
     "endGame": "",
     "price": 52,
 	"boxSize": [135,203,1,true],
-    "tags": ["Anime","Dragon Ball"]
+    "tags": ["Anime","Dragon Ball Franchise"]
   },
   {
     "id": 530,
