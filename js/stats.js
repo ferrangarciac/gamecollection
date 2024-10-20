@@ -144,8 +144,9 @@ function fillStats(evt){
 	// Añadir un event listener al select para capturar la selección
 	selectYear.addEventListener('change', function() {
 		let selectedYear = selectYear.value;
-		console.log('in');
+		//console.log('in');
 		anualGotGames(selectedYear, subSectionAnual, gamesFiltered);
+		statsPrintYearMiscInfo(selectedYear);
 		anualGenreGames(selectedYear, subSectionAnual, gamesFiltered);
 	}, false);
 	
@@ -155,6 +156,8 @@ function fillStats(evt){
 	anualGotGames(new Date().getFullYear(),subSectionAnual);
 	
 	anualGenreGames(new Date().getFullYear(),subSectionAnual);
+	
+	statsPrintYearMiscInfo(new Date().getFullYear(),subSectionAnual);
 	
 	
 	
@@ -322,6 +325,17 @@ function statsGamesPerGenre(div,targetArray){
 	divChart.appendChild(ctx);
 	div.appendChild(divChart);
 	
+}
+
+function statsPrintYearMiscInfo(targetYear,div){
+	var arrayTemp = getYearArray(targetYear);
+	
+	var spent = 0;
+	for(i=0;i<arrayTemp.length;i++){	
+		spent += arrayTemp[i].price;
+	}
+	
+	console.log(spent);
 }
 
 function anualGotGames(targetYear,div){
@@ -507,12 +521,12 @@ function listYears(targetArray){
 	
 	
 	for(i=0;i<targetArray.length;i++){
-			console.log(targetArray[i].gameName + " " + targetArray[i].buyDate);
+			//console.log(targetArray[i].gameName + " " + targetArray[i].buyDate);
 			dateTemp[count] = targetArray[i].buyDate;
 			count++;
 	}
 	
-	console.log(dateTemp);
+	//console.log(dateTemp);
 	
 	
 	
