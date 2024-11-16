@@ -12929,7 +12929,7 @@
   {
     "id": 532,
     "gameId": "ff5pixelremaster",
-    "crown": "none",
+    "crown": "gold",
     "platformId": "pc",
     "code": "1173810",
     "year": "2021",
@@ -13190,6 +13190,32 @@
     "endGame": "",
     "price": 15,
 	"boxSize": [129,201,23,true],
+    "tags": []
+  },
+  {
+    "id": 541,
+    "gameId": "undertaleswitch",
+    "crown": "none",
+    "platformId": "switch",
+    "code": "HAC-APWSA-USA",
+    "year": "2018",
+    "developer": "8-4",
+	"publisher": "Fangamer",
+    "genre": "JRPG",
+    "region": "usa",
+    "edition": ["collector","Collector's Edition"],
+    "box": true,
+    "manual": true,
+    "sealed": false,
+	"gameType": 1,
+    "save": false,
+    "saveLink": "",
+    "gameName": "Undertale",
+    "buyDate": "11/15/2024",
+    "startGame": "",
+    "endGame": "",
+    "price": 110,
+	"boxSize": [145,180,62,false],
     "tags": []
   }  
 ]
