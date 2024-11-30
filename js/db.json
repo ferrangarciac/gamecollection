@@ -468,7 +468,7 @@
     "edition": ["pspessentials","PSP Essentials"],
     "box": true,
     "manual": true,
-    "sealed": false,"gameType": 1,
+    "sealed": false,	"gameType": 1,
     "save": true,
     "saveLink": "",
     "gameName": "Dragon Ball Z: Shin Budokai",
@@ -13062,7 +13062,7 @@
     "gameName": "Silent Hill 2",
     "buyDate": "10/26/2024",
     "startGame": "11/15/2024",
-    "endGame": "",
+    "endGame": "11/28/2024",
     "price": 0,
 	"boxSize": [135,170,15,true],
     "tags": []
@@ -13222,5 +13222,31 @@
     "price": 110,
 	"boxSize": [145,180,62,false],
     "tags": []
-  }  
+  },
+  {
+    "id": 543,
+    "gameId": "tekken6psp",
+    "crown": "none",
+    "platformId": "psp",
+    "code": "ULES-01376/E",
+    "year": "2012",
+    "developer": "Namco Bandai Games",
+	"publisher": "Namco Bandai Games",
+    "genre": "Lucha",
+    "region": "palesp",
+    "edition": ["pspessentials","PSP Essentials"],
+    "box": true,
+    "manual": true,
+    "sealed": false,
+	"gameType": 1,
+    "save": true,
+    "saveLink": "",
+    "gameName": "Tekken 6",
+    "buyDate": "11/29/2024",
+    "startGame": "",
+    "endGame": "",
+    "price": 6,
+	"boxSize": [110,180,14,true],
+    "tags": ["Tekken Franchise"]
+  }
 ]
