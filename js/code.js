@@ -363,7 +363,7 @@ function fillGameList(arrayTemp, titleSection){
 	
 	var title = document.createElement("h1");
 	title.className = "title-section";
-	title.innerHTML = titleSection;
+	title.innerHTML = titleSection + " (" + arrayTemp.length + ")";
 	titleContainer.appendChild(title);
 	
 	
