@@ -13395,7 +13395,7 @@
     "edition": ["deluxe","Deluxe Edition"],
     "box": true,
     "manual": true,
-    "sealed": true,
+    "sealed": false,
 	"gameType": 1,
     "save": false,
     "saveLink": "",
