@@ -13430,7 +13430,7 @@
     "startGame": "",
     "endGame": "",
     "price": 77.89,
-	"boxSize": [135,170,15,true],
+	"boxSize": [128,175,26,false],
     "tags": []
   }
 ]
