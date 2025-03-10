@@ -13484,5 +13484,31 @@
     "price": 29,
 	"boxSize": [115,75,20,false],
     "tags": []
+  },
+  {
+    "id": 553,
+    "gameId": "suikodenremaster",
+    "crown": "none",
+    "platformId": "switch",
+    "code": "UNKNOWN-SUIKODENREMASTER-SWITCH",
+    "year": "2025",
+    "developer": "Konami",
+	"publisher": "Konami",
+    "genre": "Recopilación",
+    "region": "palesp",
+    "edition": ["dayoneedition","Edición Día Uno"],
+    "box": true,
+    "manual": true,
+    "sealed": true,
+	"gameType": 1,
+    "save": true,
+    "saveLink": "",
+    "gameName": "Suikoden I & II HD Remaster: Gate Rune and Dunan Unification Wars",
+    "buyDate": "03/09/2024",
+    "startGame": "",
+    "endGame": "",
+    "price": 37.62,
+	"boxSize": [105,170,12,true],
+    "tags": []
   }
 ]
