@@ -13510,5 +13510,31 @@
     "price": 37.62,
 	"boxSize": [105,170,12,true],
     "tags": []
+  },
+  {
+    "id": 554,
+    "gameId": "mariorpgremake",
+    "crown": "none",
+    "platformId": "switch",
+    "code": "UNKNOWN-MARIORPGREMAKE-SWITCH",
+    "year": "2025",
+    "developer": "ArtePiazza",
+	"publisher": "Nintendo",
+    "genre": "JRPG",
+    "region": "palesp",
+    "edition": ["standart","Estándar"],
+    "box": true,
+    "manual": true,
+    "sealed": true,
+	"gameType": 1,
+    "save": true,
+    "saveLink": "",
+    "gameName": "Super Mario RPG: Legend of the Seven Stars",
+    "buyDate": "03/11/2025",
+    "startGame": "",
+    "endGame": "",
+    "price": 29.99,
+	"boxSize": [105,170,12,true],
+    "tags": []
   }
 ]
