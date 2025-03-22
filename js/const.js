@@ -26,6 +26,7 @@ const platforms = {
 		"PSVITA",     //23
 		"Xbox360",    //24
 		"PC",         //25
+		"SATURN",		//26
 	],
 	NAMECOMPLETE: [
 		"Amstrad CPC",					//00
@@ -54,6 +55,7 @@ const platforms = {
 		"Playstation Vita",             //23
 		"Xbox 360",                     //24
 		"PC",                           //25
+		"Sega Saturn",					//26
 	]
 }
 
