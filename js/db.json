@@ -13560,7 +13560,7 @@
     "startGame": "",
     "endGame": "",
     "price": 23.25,
-	"boxSize": [200,130,15,true],
+	"boxSize": [130,200,15,true],
     "tags": []
   },
   {
@@ -13586,7 +13586,7 @@
     "startGame": "",
     "endGame": "",
     "price": 23.25,
-	"boxSize": [200,130,15,true],
+	"boxSize": [130,200,15,true],
     "tags": []
   },
   {
@@ -13612,7 +13612,7 @@
     "startGame": "",
     "endGame": "",
     "price": 23.25,
-	"boxSize": [200,130,15,true],
+	"boxSize": [130,200,15,true],
     "tags": []
   },
   {
@@ -13638,7 +13638,7 @@
     "startGame": "",
     "endGame": "",
     "price": 23.25,
-	"boxSize": [200,130,15,true],
+	"boxSize": [130,200,15,true],
     "tags": []
   }
 ]
