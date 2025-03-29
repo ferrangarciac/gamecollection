@@ -13640,5 +13640,31 @@
     "price": 23.25,
 	"boxSize": [130,200,15,true],
     "tags": []
+  },
+  {
+    "id": 559,
+    "gameId": "dq1nes",
+    "crown": "none",
+    "platformId": "nes",
+    "code": "EFC-DQ",
+    "year": "1986",
+    "developer": "ChunSoft",
+	"publisher": "Enix Corporation",
+    "genre": "JRPG",
+    "region": "jap",
+    "edition": ["standart","Estándar"],
+    "box": true,
+    "manual": true,
+    "sealed": false,
+	"gameType": 1,
+    "save": false,
+    "saveLink": "",
+    "gameName": "Dragon Quest",
+    "buyDate": "03/27/2025",
+    "startGame": "",
+    "endGame": "",
+    "price": 48,
+	"boxSize": [138,98,20,false],
+    "tags": ["Dragon Quest Franchise"]
   }
 ]
