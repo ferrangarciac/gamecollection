@@ -6479,7 +6479,7 @@
     "startGame": "",
     "endGame": "",
     "price": 0,
-	"boxSize": [70,107,17,true],
+	"boxSize": [70,107,14,true],
     "tags": []
   },
   {
