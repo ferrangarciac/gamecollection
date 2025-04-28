@@ -14009,5 +14009,31 @@
     "price": 21.89,
 	"boxSize": [146,124,10,false],
     "tags": ["Anime"]
+  },
+  {
+    "id": 573,
+    "gameId": "sor_sms",
+    "crown": "none",
+    "platformId": "sms",
+    "code": "9019",
+    "year": "1993",
+    "developer": "Sega",
+	"publisher": "Sega",
+    "genre": "Beat-'Em-Up",
+    "region": "palesp",
+    "edition": ["standart","Estándar"],
+    "box": true,
+    "manual": true,
+    "sealed": false,
+	"gameType": 1,
+    "save": false,
+    "saveLink": "",
+    "gameName": "Streets of Rage",
+    "buyDate": "04/23/2025",
+    "startGame": "",
+    "endGame": "",
+    "price": 40,
+	"boxSize": [129,201,23,true],
+    "tags": []
   }
 ]
