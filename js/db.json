@@ -13355,8 +13355,8 @@
     "saveLink": "",
     "gameName": "FANTASIAN Neo Dimension",
     "buyDate": "12/24/2024",
-    "startGame": "",
-    "endGame": "",
+    "startGame": "01/29/2025",
+    "endGame": "04/29/2025",
     "price": 0,
 	"boxSize": [105,170,12,true],
     "tags": []
@@ -14060,8 +14060,32 @@
     "endGame": "",
     "price": 40,
 	"boxSize": [135,170,15,true],
-    "tags": [
-      "Final Fantasy Franchise"
-    ]
+    "tags": []
+  },
+  {
+    "id": 575,
+    "gameId": "slayersroyal2",
+    "crown": "none",
+    "platformId": "saturn",
+    "code": "T-27907G",
+    "year": "1998",
+    "developer": "Kadokawa",
+	"publisher": "ESP Software",
+    "genre": "RPG Táctico",
+    "region": "jap",
+    "edition": ["standart","Estándar"],
+    "box": true,
+    "manual": true,
+    "sealed": false,
+	"gameType": 1,
+    "save": false,
+    "saveLink": "",
+    "gameName": "Slayers Royal 2",
+    "buyDate": "05/01/2025",
+    "startGame": "",
+    "endGame": "",
+    "price": 20,
+	"boxSize": [146,124,10,false],
+    "tags": ["Anime"]
   }
 ]
