@@ -14035,5 +14035,33 @@
     "price": 40,
 	"boxSize": [129,201,23,true],
     "tags": []
+  },
+  {
+    "id": 574,
+    "gameId": "expedition33",
+    "crown": "none",
+    "platformId": "ps5",
+    "code": "PPSA-17599",
+    "year": "2025",
+    "developer": "Sandfall Interactive",
+	"publisher": "Kepler Interactive",
+    "genre": "JRPG",
+    "region": "palesp",
+    "edition": ["standart","Estándar"],
+    "box": true,
+    "manual": true,
+    "sealed": false,
+	"gameType": 1,
+    "save": false,
+    "saveLink": "",
+    "gameName": "Clair Obscur: Expedition 33",
+    "buyDate": "04/28/2025",
+    "startGame": "04/30/2025",
+    "endGame": "",
+    "price": 40,
+	"boxSize": [135,170,15,true],
+    "tags": [
+      "Final Fantasy Franchise"
+    ]
   }
 ]
