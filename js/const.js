@@ -27,6 +27,7 @@ const platforms = {
 		"Xbox360",    //24
 		"PC",         //25
 		"SATURN",		//26
+		"PICO",			//27
 	],
 	NAMECOMPLETE: [
 		"Amstrad CPC",					//00
@@ -56,6 +57,7 @@ const platforms = {
 		"Xbox 360",                     //24
 		"PC",                           //25
 		"Sega Saturn",					//26
+		"Sega Pico",					//27
 	]
 }
 
@@ -81,4 +83,5 @@ const platforms = {
 	PS3: [135,170,15],
 	MEGADRIVE: [129,201,23], //178 + 23 de la patilla
 	SMS: [129,201,23], //178 + 23 de la patilla
+	PICO: [200,240,30]
 }*/
